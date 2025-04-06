@@ -1,0 +1,28 @@
+
+const separateParenGroups = (paren_string) => {
+  var result = [];
+  var current_string = [];
+  var current_depth = 0;
+
+  for (const c of paren_string) {
+    if (c == '(') {
+      current_depth += 1;
+      current_string.push(c);
+    } else if (c == ')') {
+      current_depth -= 1;
+      current_string.push(c);
+      if (current_depth == 0) {
+        result.push(current_string.join(''));
+        current_string = [];
+      }
+    }
+  }
+
+  return result;
+}
+
+// Get the command-line arguments
+const args = process.argv.slice(2);
+// Call the function and print the result
+const result = separateParenGroups(...args);
+console.log(result);
