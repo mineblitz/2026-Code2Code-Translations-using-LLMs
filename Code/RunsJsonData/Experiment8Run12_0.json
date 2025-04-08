@@ -1,0 +1,14 @@
+{
+    "currentProjectDir": "Projects/HumanEvalX/142",
+    "WithTestsFlag": true,
+    "numberOfRuns": 2,
+    "HaskellAddImportsFlag": true,
+    "PascallAddCompileOptionFlag": true,
+    "JavascriptNodeJS": true,
+    "removeAfterBackTicks": true,
+    "addLibarys": true,
+    "WithExplanation": false,
+    "buildProgramManuly": true,
+    "SystemRoleFunctionTranslate": "You will be provided with a piece of function, and your task is to translate it into a given programming language so that it is syntactic and semantically correct.",
+    "MessageFunctionTranslate": "Translate the following function from {TEXT_SOURCE_LANG} code to {TEXT_TARGET_LANG}.\nDo not add any constructs that are not part of the function.\nDo not include any extra function calls or print statements beyond what is required to correctly implement the code in {TEXT_TARGET_LANG}.\nKeep the names of functions, classes, and variables the same after the translation.\nFor context, you are also given the complete {TEXT_SOURCE_LANG} code, just take it as a reference and do not translate anything from there.\nDo not print the source code, just print the function code.\nPrint only the {TEXT_TARGET_LANG} function.\n\nFunction:\n{FUNCTION}\n\ncomplete source code:\n{SOURCE_CODE}"
+}

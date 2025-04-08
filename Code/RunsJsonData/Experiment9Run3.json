@@ -1,0 +1,20 @@
+{
+    "currentProjectDir": "Projects/HumanEvalX/142",
+    "WithTestsFlag": true,
+    "numberOfRuns": 5,
+    "HaskellAddImportsFlag": true,
+    "PascallAddCompileOptionFlag": true,
+    "JavascriptNodeJS": true,
+    "removeAfterBackTicks": true,
+    "addLibarys": true,
+    "WithExplanation": true,
+    "WithExplanationFunctions": false,
+    "Message": "{FUNCTIONS}\nTranslate the above function from {TEXT_SOURCE_LANG} code to {TEXT_TARGET_LANG}.\nAdhere to this explanation:\n{EXPLANATION}\n\nProvide the complete translation of the function and make sure that it is syntactic and semantically correct. \nDo not add any other code that is not part of the given {TEXT_SOURCE_LANG} code. \nAll the function calls mentioned exist and therefore do not have to be included.\nBe aware of the properties of the data types in {TEXT_SOURCE_LANG} and accurately translate the functionality into {TEXT_TARGET_LANG}.\nDo not include any extra function calls or print statements beyond what is required to correctly implement the code in {TEXT_TARGET_LANG}.\nEnsure that variables are defined before use and methods are defined before being invoked.\nAvoid naming conflicts by ensuring unique names for variables and methods.\nPrint only the {TEXT_TARGET_LANG} code function.",
+    "SystemRole": "You will be provided with multiple functions of a program, and your task is to combine them into a single program so that it is compilable.",
+    "SystemRoleFunctionTranslate": "You will be provided with a piece of function, and your task is to translate it into a given programming language so that it is syntactic and semantically correct.",
+    "MessageFunctionTranslate": "{FUNCTION}\nTranslate the above function from {TEXT_SOURCE_LANG} code to {TEXT_TARGET_LANG}.\nProvide the complete translation of the function and make sure that it is syntactic and semantically correct. \nDo not add any other code that is not part of the given {TEXT_SOURCE_LANG} code. \nAll the function calls mentioned exist and therefore do not have to be included.\nBe aware of the properties of the data types in {TEXT_SOURCE_LANG} and accurately translate the functionality into {TEXT_TARGET_LANG}.\nDo not include any extra function calls or print statements beyond what is required to correctly implement the code in {TEXT_TARGET_LANG}.\nEnsure that variables are defined before use and methods are defined before being invoked.\nAvoid naming conflicts by ensuring unique names for variables and methods.\nPrint only the {TEXT_TARGET_LANG} code function.",
+    "MessageFunctionExplanation": "{FUNCTION}\nWrite a detailed explanation for this {TEXT_SOURCE_LANG} function.\nIt should help someone else translate the {TEXT_SOURCE_LANG} function to the {TEXT_TARGET_LANG} function.\nFocus only on the function, not on calls that are made inside the function.\nPoint out all the difficulties, and any special features, that come up when translating from {TEXT_SOURCE_LANG} code to {TEXT_TARGET_LANG}. Print only the explanation and do not add code examples for the {TEXT_TARGET_LANG} translation.",
+    "SystemRoleFunctionExplanation": "You are an expert {TEXT_SOURCE_LANG} programmer who will get code for that, he needs to write a detailed description.",
+    "MessageExplanation": "{SOURCE_CODE}\nWrite a detailed explanation for this {TEXT_SOURCE_LANG} code.\nIt should help someone else to translate the {TEXT_SOURCE_LANG} code to {TEXT_TARGET_LANG}.\nPoint out all the difficulties and any special features, that come up when translating from {TEXT_SOURCE_LANG} code to {TEXT_TARGET_LANG}. Print only the explanation and do not add code examples for the {TEXT_TARGET_LANG} translation.",
+    "SystemRoleExplanation": "You are an expert {TEXT_SOURCE_LANG} programmer who will get code for that, he needs to write a detailed description."
+}

@@ -1,0 +1,9 @@
+{
+    "currentProjectDir": "Projects/HumanEvalX/23",
+    "WithTestsFlag": true,
+    "numberOfRuns": 5,
+    "HaskellAddImportsFlag": true,
+    "PascallAddCompileOptionFlag": true,
+    "Message": "{SOURCE_CODE}\nTranslate the above\n{SOURCE_LANG} code to\n{TARGET_LANG}. Provide the complete program including any necessary class definition and main method or equivalent.\nBe aware of the properties of the data types in {SOURCE_LANG} and translate the functionality into {TARGET_LANG}.\nThe code should pass the following test values:\n{test_cases_string}\nMake sure the code is compilable and syntactically correct. Do not add new functionality to the {SOURCE_CODE} code. \nEnsure that variables are defined before they are used, and methods are defined before they are invoked.\nPrint only the {TARGET_LANG} code.\n",
+    "SystemRole": "You will be provided with a piece of code, and your task is to translate it into a given programming language so that it is compilable."
+}

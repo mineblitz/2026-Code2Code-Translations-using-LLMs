@@ -1,0 +1,15 @@
+{
+    "currentProjectDir": "Projects/HumanEvalX/142",
+    "WithTestsFlag": true,
+    "numberOfRuns": 5,
+    "HaskellAddImportsFlag": true,
+    "PascallAddCompileOptionFlag": true,
+    "JavascriptNodeJS": true,
+    "removeAfterBackTicks": true,
+    "addLibarys": true,
+    "WithExplanation": false,
+    "Message": "{FUNCTIONS}\n\nCombine the above functions into a compilable {TEXT_TARGET_LANG} program.\nInclude any necessary class definitions and/or main method or equivalent, ensuring that it works correctly with the provided input arguments.\nThe combined code must be able to handle the following test values as command-line arguments and print exactly the expected output:\n{test_cases_string}\nEnsure that the code is compilable and syntactically correct.\nInput values should be passed directly from the function arguments, not hard-coded.\nPrint only the combined {TEXT_TARGET_LANG} code.",
+    "SystemRole": "You will be provided with multiple functions of a program, and your task is to combine them into a single program so that it is compilable.",
+    "SystemRoleFunctionTranslate": "You will be provided with a piece of function, and your task is to translate it into a given programming language so that it is syntactic and semantically correct.",
+    "MessageFunctionTranslate": "{FUNCTION}\nTranslate the above function from {TEXT_SOURCE_LANG} code to {TEXT_TARGET_LANG}.\nProvide the complete translation of the function and make sure that it is syntactic and semantically correct. \nDo not add any other code that is not part of the given {TEXT_SOURCE_LANG} code. \nAll the function calls mentioned exist and therefore do not have to be included.\nBe aware of the properties of the data types in {TEXT_SOURCE_LANG} and accurately translate the functionality into {TEXT_TARGET_LANG}.\nDo not include any extra function calls or print statements beyond what is required to correctly implement the code in {TEXT_TARGET_LANG}.\nEnsure that variables are defined before use and methods are defined before being invoked.\nAvoid naming conflicts by ensuring unique names for variables and methods.\nPrint only the {TEXT_TARGET_LANG} code function."
+}

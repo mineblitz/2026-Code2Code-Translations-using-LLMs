@@ -1,0 +1,15 @@
+{
+    "currentProjectDir": "Projects/HumanEvalX/142",
+    "WithTestsFlag": true,
+    "numberOfRuns": 5,
+    "HaskellAddImportsFlag": true,
+    "PascallAddCompileOptionFlag": true,
+    "JavascriptNodeJS": true,
+    "removeAfterBackTicks": true,
+    "addLibarys": true,
+    "WithExplanation": false,
+    "Message": "Combine the following functions into a compilable {TEXT_TARGET_LANG} program.\n\n {FUNCTIONS}",
+    "SystemRole": "You will be provided with multiple functions of a program, and your task is to combine them into a single program so that it is compilable.",
+    "SystemRoleFunctionTranslate": "You will be provided with a piece of function, and your task is to translate it into a given programming language.",
+    "MessageFunctionTranslate": "Translate the following {TEXT_SOURCE_LANG} function to {TEXT_TARGET_LANG}:\n\n{FUNCTION}"
+}

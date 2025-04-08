@@ -1,0 +1,14 @@
+{
+    "currentProjectDir": "Projects/HumanEvalX/142",
+    "WithTestsFlag": true,
+    "numberOfRuns": 5,
+    "HaskellAddImportsFlag": true,
+    "PascallAddCompileOptionFlag": true,
+    "JavascriptNodeJS": true,
+    "removeAfterBackTicks": true,
+    "WithExplanation": true,
+    "Message": "{SOURCE_CODE}\nTranslate the above {TEXT_SOURCE_LANG} code into {TEXT_TARGET_LANG}, strictly following the provided explanation:\n{EXPLANATION}\n\nProvide the complete program, including any necessary class definitions and main method or equivalent, ensuring that it works correctly with the provided input arguments.\nBe aware of the properties of the data types in {TEXT_SOURCE_LANG} and accurately translate the functionality into {TEXT_TARGET_LANG}.\nThe translated code must be able to handle the following test values without modification:\n{test_cases_string}\nEnsure that the code is compilable, syntactically correct, and does not use example or placeholder values in the main function or elsewhere.\nInput values should be passed directly from the function arguments, not hard-coded.\nDo not include any extra function calls or print statements beyond what is required to correctly implement the code in {TEXT_TARGET_LANG}.\nEnsure that variables are defined before use, and methods are defined before being invoked.\nAvoid naming conflicts by ensuring unique names for variables and methods.\nPrint only the {TEXT_TARGET_LANG} code.\n",
+    "SystemRole": "You will be provided with a piece of code, and your task is to translate it into a given programming language so that it is compilable.",
+    "MessageExplanation": "{SOURCE_CODE}\nProvide a thorough, step-by-step explanation of this {TEXT_SOURCE_LANG} code to aid in its translation to {TEXT_TARGET_LANG}. Your explanation should highlight key concepts, syntax differences, and potential challenges that may arise during translation. Discuss specific language features, such as data types, control structures, and standard library functions, that require special attention when translating. Ensure clarity by addressing any nuances or idiosyncrasies of {TEXT_SOURCE_LANG} that may not directly map to {TEXT_TARGET_LANG}. Do not include any example code or snippets in {TEXT_TARGET_LANG}; focus solely on the explanation.",
+    "SystemRoleExplanation": "You are an expert {TEXT_SOURCE_LANG} programmer who will get code for that, he needs to write a detailed description."
+}

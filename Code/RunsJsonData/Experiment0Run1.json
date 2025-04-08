@@ -1,0 +1,12 @@
+{
+    "currentProjectDir": "Projects/HelloWorld",
+    "WithTestsFlag": false,
+    "numberOfRuns": 5,
+    "HaskellAddImportsFlag": false,
+    "PascallAddCompileOptionFlag": false,
+    "notJavaClassNameChange": true,
+    "notRemoveBackTicks": true,
+    "NotCScharfAenderung": true,
+    "Message": "{SOURCE_CODE}\nTranslate the above\n{SOURCE_LANG} code to\n{TARGET_LANG}. Print only the\n{TARGET_LANG} code.",
+    "SystemRole": "You will be provided with a piece of code, and your task is to translate into a given Programming Language"
+}

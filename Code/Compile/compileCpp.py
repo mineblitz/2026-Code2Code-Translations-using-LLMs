@@ -1,0 +1,21 @@
+import os
+import subprocess
+from Compile.helper import addToDataFrame, logCompileError
+
+def compile_and_run_cpp_file(file_path, execution_status, logs):
+    try:
+        file_directory, file_name = os.path.split(file_path)
+        
+        # Compile the C++ file
+        compile_process = subprocess.run(
+            ["g++", file_path, "-o", os.path.join(file_directory, 'outputCPP')],
+            check=1,
+            capture_output=1,
+            timeout=30
+        )
+        addToDataFrame(execution_status.compilation_failed, file_name, 0)
+        return [os.path.join(file_directory, 'outputCPP')]
+    except subprocess.CalledProcessError as e:
+        addToDataFrame(execution_status.compilation_failed, file_name, 1)
+        logCompileError(e, file_path, file_name, "C++", logs)
+        return None

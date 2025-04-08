@@ -1,0 +1,11 @@
+{
+    "currentProjectDir": "Projects/HumanEvalX/142",
+    "WithTestsFlag": true,
+    "numberOfRuns": 5,
+    "HaskellAddImportsFlag": true,
+    "PascallAddCompileOptionFlag": true,
+    "JavascriptNodeJS": true,
+    "removeAfterBackTicks": true,
+    "Message": "Translate the given {TEXT_SOURCE_LANG} code to {TEXT_TARGET_LANG}. Ensure that the translated code:\n1. Includes the full program, with any necessary class definitions and main methods or their equivalent.\n2. Is aware of the properties of data types in {TEXT_SOURCE_LANG} and correctly adapts them to {TEXT_TARGET_LANG}.\n3. Passes the provided test values.\n4. Is compilable and syntactically correct.\n5. Does not introduce new functionality.\n6. Avoids naming conflicts with unique variable and method names.\n7. Does not call functions for testing or examples using the provided or self-generated test data.\n\nPrint only the translated {TEXT_TARGET_LANG} code.\n\n{TEXT_SOURCE_LANG} Code: \"\"\"\n{SOURCE_CODE}\n\"\"\"\n\nTest Cases: \"\"\"\n{test_cases_string}\n\"\"\"",
+    "SystemRole": "You are an expert in {TEXT_SOURCE_LANG} and {TEXT_TARGET_LANG}. You will be provided with a {TEXT_SOURCE_LANG} program, delimited by triple quotes, and test values in the form \"Input: [input_value], expected output: [expected_output].\" Your task is to translate the program into {TEXT_TARGET_LANG} so it is syntactically correct, compilable, and passes all provided test cases. Ensure that all variables and methods are properly defined before use, maintain unique names to avoid conflicts, and do not introduce any additional functionality."
+}
