@@ -1,0 +1,185 @@
+language,filename,DirPath,Returncode,Command,Output,Stdout,Stderr
+C++,JavascriptToC++.c++,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++ -o ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\outputCPP,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++: In function 'int main(int, char**)':
+./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++:31:26: error: no matching function for call to 'remove(std::__cxx11::basic_string<char>::iterator, std::__cxx11::basic_string<char>::iterator, char, std::__cxx11::basic_string<char>::iterator)'
+   31 |     arg.erase(std::remove(arg.begin(), arg.end(), '[', arg.end()), arg.end());
+      |               ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/MinGWCPP/include/c++/13.2.0/algorithm:61,
+                 from ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++:6:
+C:/MinGWCPP/include/c++/13.2.0/bits/stl_algo.h:836:5: note: candidate: 'template<class _FIter, class _Tp> _FIter std::remove(_FIter, _FIter, const _Tp&)'
+  836 |     remove(_ForwardIterator __first, _ForwardIterator __last,
+      |     ^~~~~~
+C:/MinGWCPP/include/c++/13.2.0/bits/stl_algo.h:836:5: note:   template argument deduction/substitution failed:
+./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++:31:26: note:   candidate expects 3 arguments, 4 provided
+   31 |     arg.erase(std::remove(arg.begin(), arg.end(), '[', arg.end()), arg.end());
+      |               ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/MinGWCPP/include/c++/13.2.0/algorithm:73:
+C:/MinGWCPP/include/c++/13.2.0/pstl/glue_algorithm_defs.h:224:1: note: candidate: 'template<class _ExecutionPolicy, class _ForwardIterator, class _Tp> __pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator> std::remove(_ExecutionPolicy&&, _ForwardIterator, _ForwardIterator, const _Tp&)'
+  224 | remove(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);
+      | ^~~~~~
+C:/MinGWCPP/include/c++/13.2.0/pstl/glue_algorithm_defs.h:224:1: note:   template argument deduction/substitution failed:
+./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++:31:26: note:   deduced conflicting types for parameter '_ForwardIterator' ('__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char> >' and 'char')
+   31 |     arg.erase(std::remove(arg.begin(), arg.end(), '[', arg.end()), arg.end());
+      |               ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/locale.h:12,
+                 from C:/MinGWCPP/include/c++/13.2.0/clocale:42,
+                 from C:/MinGWCPP/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:41,
+                 from C:/MinGWCPP/include/c++/13.2.0/bits/localefwd.h:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/ios:43,
+                 from C:/MinGWCPP/include/c++/13.2.0/ostream:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/iostream:41,
+                 from ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++:1:
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:15: note: candidate: 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |               ^~~~~~
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:15: note:   candidate expects 1 argument, 4 provided
+./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++:32:26: error: no matching function for call to 'remove(std::__cxx11::basic_string<char>::iterator, std::__cxx11::basic_string<char>::iterator, char, std::__cxx11::basic_string<char>::iterator)'
+   32 |     arg.erase(std::remove(arg.begin(), arg.end(), ']', arg.end()), arg.end());
+      |               ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/MinGWCPP/include/c++/13.2.0/bits/stl_algo.h:836:5: note: candidate: 'template<class _FIter, class _Tp> _FIter std::remove(_FIter, _FIter, const _Tp&)'
+  836 |     remove(_ForwardIterator __first, _ForwardIterator __last,
+      |     ^~~~~~
+C:/MinGWCPP/include/c++/13.2.0/bits/stl_algo.h:836:5: note:   template argument deduction/substitution failed:
+./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++:32:26: note:   candidate expects 3 arguments, 4 provided
+   32 |     arg.erase(std::remove(arg.begin(), arg.end(), ']', arg.end()), arg.end());
+      |               ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/MinGWCPP/include/c++/13.2.0/pstl/glue_algorithm_defs.h:224:1: note: candidate: 'template<class _ExecutionPolicy, class _ForwardIterator, class _Tp> __pstl::__internal::__enable_if_execution_policy<_ExecutionPolicy, _ForwardIterator> std::remove(_ExecutionPolicy&&, _ForwardIterator, _ForwardIterator, const _Tp&)'
+  224 | remove(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);
+      | ^~~~~~
+C:/MinGWCPP/include/c++/13.2.0/pstl/glue_algorithm_defs.h:224:1: note:   template argument deduction/substitution failed:
+./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC++.c++:32:26: note:   deduced conflicting types for parameter '_ForwardIterator' ('__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char> >' and 'char')
+   32 |     arg.erase(std::remove(arg.begin(), arg.end(), ']', arg.end()), arg.end());
+      |               ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:15: note: candidate: 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |               ^~~~~~
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:15: note:   candidate expects 1 argument, 4 provided
+",
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavaToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h50m36s\\JavaToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h50m36s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavaToHaskell.hs:23:28: error: [GHC-83865]
+    * Couldn't match type `Char' with `[Char]'
+      Expected: String -> [String]
+        Actual: String -> String
+    * In the first argument of `(.)', namely `strip'
+      In the first argument of `($)', namely `strip . splitOnComma'
+      In the second argument of `map', namely
+        `(strip . splitOnComma $ listString0)'
+   |
+23 |             then map read (strip . splitOnComma $ listString0)
+   |                            ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavaToHaskell.hs:23:36: error: [GHC-83865]
+    * Couldn't match type `[Char]' with `Char'
+      Expected: String -> String
+        Actual: String -> [String]
+    * In the second argument of `(.)', namely `splitOnComma'
+      In the first argument of `($)', namely `strip . splitOnComma'
+      In the second argument of `map', namely
+        `(strip . splitOnComma $ listString0)'
+   |
+23 |             then map read (strip . splitOnComma $ listString0)
+   |                                    ^^^^^^^^^^^^
+
+",
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavaToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h53m49s\\JavaToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h53m49s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavaToHaskell.hs:6:39: error: [GHC-83865]
+    * Couldn't match type: [Int]
+                     with: Maybe Int
+      Expected: Maybe Int -> (a1, Int) -> Maybe Int
+        Actual: [Int] -> (a1, Int) -> [Int]
+    * In the first argument of foldl', namely `sumReducer'
+      In the second argument of `($)', namely
+        `foldl' sumReducer [] (zip [0 .. ] lst)'
+      In the expression:
+        fromMaybe 0 $ foldl' sumReducer [] (zip [0 .. ] lst)
+  |
+6 | sumSquares lst = fromMaybe 0 $ foldl' sumReducer [] (zip [0..] lst)
+  |                                       ^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavaToHaskell.hs:6:50: error: [GHC-83865]
+    * Couldn't match expected type: Maybe Int
+                  with actual type: [a0]
+    * In the second argument of foldl', namely `[]'
+      In the second argument of `($)', namely
+        `foldl' sumReducer [] (zip [0 .. ] lst)'
+      In the expression:
+        fromMaybe 0 $ foldl' sumReducer [] (zip [0 .. ] lst)
+  |
+6 | sumSquares lst = fromMaybe 0 $ foldl' sumReducer [] (zip [0..] lst)
+  |                                                  ^^
+
+",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h40m59s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h40m59s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavascriptToHaskell.hs:4:1: error: [GHC-87110]
+    Could not load module `Data.ByteString.Lazy'.
+    It is a member of the hidden package `bytestring-0.12.1.0'.
+    Use -v to see a list of the files searched for.
+  |
+4 | import qualified Data.ByteString.Lazy as B
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h47m03s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h47m03s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToHaskell.hs:3:1: error: [GHC-87110]
+    Could not load module `Data.ByteString.Lazy'.
+    It is a member of the hidden package `bytestring-0.12.1.0'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import qualified Data.ByteString.Lazy as BSL
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToHaskell.hs:4:1: error: [GHC-87110]
+    Could not load module `Data.Text.Encoding'.
+    It is a member of the hidden package `text-2.1.1'.
+    Use -v to see a list of the files searched for.
+  |
+4 | import Data.Text.Encoding (decodeUtf8)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToHaskell.hs:5:1: error: [GHC-87110]
+    Could not load module `Data.Text'.
+    It is a member of the hidden package `text-2.1.1'.
+    Use -v to see a list of the files searched for.
+  |
+5 | import Data.Text (pack)
+  | ^^^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h50m36s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h50m36s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavascriptToHaskell.hs:5:1: error: [GHC-87110]
+    Could not load module `Data.ByteString.Lazy'.
+    It is a member of the hidden package `bytestring-0.12.1.0'.
+    Use -v to see a list of the files searched for.
+  |
+5 | import qualified Data.ByteString.Lazy as B
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h53m49s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h53m49s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavascriptToHaskell.hs:2:1: error: [GHC-87110]
+    Could not find module `Data.String.Utils'.
+    Use -v to see a list of the files searched for.
+  |
+2 | import Data.String.Utils (strip) -- For trimming spaces in strings
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavascriptToHaskell.hs:4:1: error: [GHC-87110]
+    Could not load module `Data.ByteString.Lazy.Char8'.
+    It is a member of the hidden package `bytestring-0.12.1.0'.
+    Use -v to see a list of the files searched for.
+  |
+4 | import Data.ByteString.Lazy.Char8 (pack)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h40m59s\\JavaToPascal.pas\r\nJavaToPascal.pas(32,13) Error: Duplicate identifier ""Solution""\r\nJavaToPascal.pas(32,23) Error: Error in type definition\r\nJavaToPascal.pas(40,26) Error: Illegal qualifier\r\nJavaToPascal.pas(58,28) Error: Illegal qualifier\r\nJavaToPascal.pas(61,18) Error: Illegal qualifier\r\nJavaToPascal.pas(64) Fatal: There were 5 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h44m03s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h44m03s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h44m03s\\JavaToPascal.pas\r\nJavaToPascal.pas(16,11) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(34,15) Error: Incompatible types: got ""LongInt"" expected ""{Dynamic} Array Of LongInt""\r\nJavaToPascal.pas(38,13) Error: Duplicate identifier ""Solution""\r\nJavaToPascal.pas(38,23) Error: Error in type definition\r\nJavaToPascal.pas(40,21) Error: Identifier not found ""TList$1""\r\nJavaToPascal.pas(40,22) Error: Illegal expression\r\nJavaToPascal.pas(46,26) Error: Illegal qualifier\r\nJavaToPascal.pas(51,31) Error: Identifier not found ""TList$1""\r\nJavaToPascal.pas(51,32) Error: Illegal expression\r\nJavaToPascal.pas(64,35) Error: Illegal qualifier\r\nJavaToPascal.pas(71,41) Error: Illegal qualifier\r\nJavaToPascal.pas(72,33) Error: Illegal qualifier\r\nJavaToPascal.pas(73,40) Error: Illegal qualifier\r\nJavaToPascal.pas(75,34) Error: Illegal qualifier\r\nJavaToPascal.pas(75,59) Error: Illegal qualifier\r\nJavaToPascal.pas(77,19) Error: Illegal qualifier\r\nJavaToPascal.pas(81,18) Error: Illegal qualifier\r\nJavaToPascal.pas(84) Fatal: There were 17 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h47m03s\\JavaToPascal.pas\r\nJavaToPascal.pas(16,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(39,13) Error: Incompatible types: got ""LongInt"" expected ""{Dynamic} Array Of LongInt""\r\nJavaToPascal.pas(43,11) Error: Duplicate identifier ""Solution""\r\nJavaToPascal.pas(43,21) Error: Error in type definition\r\nJavaToPascal.pas(46,15) Error: Identifier not found ""TStringDynArray""\r\nJavaToPascal.pas(46,30) Error: Error in type definition\r\nJavaToPascal.pas(49,24) Error: Illegal qualifier\r\nJavaToPascal.pas(58,23) Error: Identifier not found ""SplitString""\r\nJavaToPascal.pas(59,22) Error: Type mismatch\r\nJavaToPascal.pas(60,23) Error: Type mismatch\r\nJavaToPascal.pas(62,44) Error: Illegal qualifier\r\nJavaToPascal.pas(65,24) Error: Illegal qualifier\r\nJavaToPascal.pas(68,14) Error: Illegal qualifier\r\nJavaToPascal.pas(71) Fatal: There were 13 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h50m36s\\JavaToPascal.pas\r\nJavaToPascal.pas(15,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(34,13) Error: Incompatible types: got ""LongInt"" expected ""{Dynamic} Array Of LongInt""\r\nJavaToPascal.pas(73) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h53m49s\\JavaToPascal.pas\r\nJavaToPascal.pas(14,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(32,13) Error: Incompatible types: got ""LongInt"" expected ""{Dynamic} Array Of LongInt""\r\nJavaToPascal.pas(36,13) Error: Duplicate identifier ""Solution""\r\nJavaToPascal.pas(36,23) Error: Error in type definition\r\nJavaToPascal.pas(43,26) Error: Illegal qualifier\r\nJavaToPascal.pas(61,30) Error: Illegal qualifier\r\nJavaToPascal.pas(64,18) Error: Illegal qualifier\r\nJavaToPascal.pas(67) Fatal: There were 7 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h40m59s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(32,11) Error: Identifier not found ""ParamStrArray""\r\nJavascriptToPascal.pas(48) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h44m03s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h44m03s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h44m03s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(43,5) Error: Illegal expression\r\nJavascriptToPascal.pas(43,9) Fatal: Syntax error, "";"" expected but ""identifier INPUTSTRING"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h50m36s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(40,15) Error: Identifier not found ""TStringList""\r\nJavascriptToPascal.pas(40,26) Error: Error in type definition\r\nJavascriptToPascal.pas(54,19) Error: Identifier not found ""TStringList""\r\nJavascriptToPascal.pas(58,20) Error: Illegal qualifier\r\nJavascriptToPascal.pas(59,20) Error: Illegal qualifier\r\nJavascriptToPascal.pas(59,58) Error: Illegal qualifier\r\nJavascriptToPascal.pas(63,43) Warning: Variable ""numberDoubles"" of a managed type does not seem to be initialized\r\nJavascriptToPascal.pas(60,26) Error: Cannot find an enumerator for the type ""<erroneous type>""\r\nJavascriptToPascal.pas(69,49) Error: Incompatible type for arg no. 1: Got ""{Dynamic} Array Of Double"", expected ""{Open} Array Of LongInt""\r\nJavascriptToPascal.pas(72,18) Error: Illegal qualifier\r\nJavascriptToPascal.pas(76) Fatal: There were 9 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h40m59s\\PythonToPascal.pas\r\nPythonToPascal.pas(9,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(49,22) Error: Identifier not found ""WordCount""\r\nPythonToPascal.pas(51,28) Error: Identifier not found ""ExtractWord""\r\nPythonToPascal.pas(60) Fatal: There were 3 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h44m03s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h44m03s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h44m03s\\PythonToPascal.pas\r\nPythonToPascal.pas(9,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(52,31) Warning: Variable ""lst"" of a managed type does not seem to be initialized\r\nPythonToPascal.pas(71) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h47m03s\\PythonToPascal.pas\r\nPythonToPascal.pas(9,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(52,34) Warning: Variable ""inputArr"" of a managed type does not seem to be initialized\r\nPythonToPascal.pas(71) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h50m36s\\PythonToPascal.pas\r\nPythonToPascal.pas(9,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(26,30) Error: Operator is not overloaded: ""SumSquares({Open} Array Of LongInt):LongInt;"" + ""LongInt""\r\nPythonToPascal.pas(49,11) Error: Illegal assignment to for-loop variable ""i""\r\nPythonToPascal.pas(63) Fatal: There were 3 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h53m49s\\PythonToPascal.pas\r\nPythonToPascal.pas(8,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(43,14) Error: Identifier not found ""TStringList""\r\nPythonToPascal.pas(43,25) Error: Error in type definition\r\nPythonToPascal.pas(50,18) Error: Identifier not found ""TStringList""\r\nPythonToPascal.pas(55,19) Error: Illegal qualifier\r\nPythonToPascal.pas(56,34) Error: Illegal qualifier\r\nPythonToPascal.pas(57,33) Error: Illegal qualifier\r\nPythonToPascal.pas(59,40) Error: Illegal qualifier\r\nPythonToPascal.pas(66,17) Error: Illegal qualifier\r\nPythonToPascal.pas(70) Fatal: There were 9 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavascriptToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h40m59s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h40m59s\\JavascriptToC#.cs(35,29): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",,
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h44m03s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h44m03s\JavascriptToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h44m03s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h44m03s\\JavascriptToC#.cs(12,27): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",,
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h47m03s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h47m03s\\JavascriptToC#.cs(34,27): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",,
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavascriptToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h50m36s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h50m36s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",,
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavascriptToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run3_2\08-24-2024_19h53m49s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run3_2\\08-24-2024_19h53m49s\\JavascriptToC#.cs(12,30): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",,

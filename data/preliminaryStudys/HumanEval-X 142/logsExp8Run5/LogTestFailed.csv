@@ -1,0 +1,30 @@
+language,File Path,C++ToC#.cs,returncode,input,Expected,actualy
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h09m36s\JavascriptToC.c,JavascriptToC.c,0,"[[-16, -9, -2, 36, 36, 26, -20, 25, -40, 20, -4, 12, -26, 35, 37]]",-14196,-14952
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h02m57s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,5
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h02m57s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,5
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h09m36s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h16m37s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h16m37s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h22m46s\JavascriptToC.c,JavascriptToC.c,1,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h22m46s\JavaToC.c,JavaToC.c,0,"[[1, 2, 3]]",6,4
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h22m46s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h29m43s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h29m43s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C#,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h02m57s\C++ToC#.cs,C++ToC#.cs,0,"[[1, 2, 3]]",6,4
+C#,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h16m37s\C++ToC#.cs,C++ToC#.cs,0,"[[1, 2, 3]]",6,Usage: Provide an input string in brackets.
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h02m57s\PythonToC++.c++,PythonToC++.c++,0,"[[1, 2, 3]]",6,5
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h09m36s\PythonToC++.c++,PythonToC++.c++,0,"[[1, 2, 3]]",6,0
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h16m37s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h22m46s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h29m43s\JavascriptToC++.c++,JavascriptToC++.c++,3,"[[1, 2, 3]]",6,
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h02m57s\C++ToHaskell.hs,C++ToHaskell.hs,0,"[[1, 2, 3]]",6,1
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h09m36s\C++ToHaskell.hs,C++ToHaskell.hs,0,"[[1, 2, 3]]",6,12
+Java,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h29m43s\C++ToJava.java,C++ToJava.java,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h02m57s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h09m36s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,Please enter the input:
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h09m36s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h16m37s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,30
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h16m37s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h22m46s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h29m43s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run5\08-23-2024_20h29m43s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0

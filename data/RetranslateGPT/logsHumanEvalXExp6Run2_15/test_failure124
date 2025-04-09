@@ -1,0 +1,9 @@
+,C,C++,C#,Java,Javascript,Pascal,Python,Haskell
+C,0,0,0,0,0,0,0,0
+C++,0,0,1,1,0,0,0,0
+C#,0,0,0,0,0,0,0,0
+Java,0,0,1,0,0,1,0,0
+Javascript,1,0,1,1,0,0,0,1
+Pascal,0,0,0,0,0,0,0,0
+Python,0,0,1,0,0,1,0,0
+Haskell,0,0,0,0,0,0,0,0

@@ -1,0 +1,27 @@
+language,File Path,C++ToHaskell.hs,returncode,input,Expected,actualy
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h00m20s\C++ToHaskell.hs,C++ToHaskell.hs,0,"[[1, 2, 3]]",6,3
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h00m20s\JavascriptToC.c,JavascriptToC.c,3221225477,"[[1, 2, 3]]",6,
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h00m20s\JavaToJavascript.js,JavaToJavascript.js,0,"[[1, 2, 3]]",6,NaN
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h00m20s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h00m20s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h00m20s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h04m36s\C++ToHaskell.hs,C++ToHaskell.hs,0,"[[1, 2, 3]]",6,15129
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h04m36s\JavascriptToC++.c++,JavascriptToC++.c++,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h04m36s\JavascriptToC.c,JavascriptToC.c,3221225477,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h04m36s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h04m36s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,1
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h04m36s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h04m36s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h08m17s\JavaToJavascript.js,JavaToJavascript.js,0,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h08m17s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h08m17s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h08m17s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h12m10s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,30
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h12m10s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h12m10s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h12m10s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h12m10s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h15m42s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h15m42s\PythonToC.c,PythonToC.c,1,"[[1, 2, 3]]",6,
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h15m42s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1\08-23-2024_13h15m42s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0

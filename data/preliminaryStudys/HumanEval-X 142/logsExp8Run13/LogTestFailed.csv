@@ -1,0 +1,15 @@
+language,File Path,C++ToJavascript.js,returncode,input,Expected,actualy
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_15h48m06s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_15h56m34s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_16h00m47s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_16h04m56s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C#,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_15h52m24s\C++ToC#.cs,C++ToC#.cs,0,"[[1, 2, 3]]",6,Please provide input in the format [[...]]
+C#,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_16h00m47s\C++ToC#.cs,C++ToC#.cs,0,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_15h56m34s\JavascriptToC++.c++,JavascriptToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_16h04m56s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_16h04m56s\C++ToJavascript.js,C++ToJavascript.js,0,"[[-56, -99, 1, 0, -2]]",3030,3042
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_15h48m06s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_15h48m06s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_15h52m24s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,0
+Pascal,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_15h56m34s\C++ToPascal.pas,C++ToPascal.pas,0,"[[1, 2, 3]]",6,0
+Python,./Projects/HumanEvalX/142/ExecutionsExp8Run13\08-27-2024_15h52m24s\C++ToPython.py,C++ToPython.py,0,"[[-1, -1, -1, -1, -1, -1, -1, -1, -1]]",-3,9

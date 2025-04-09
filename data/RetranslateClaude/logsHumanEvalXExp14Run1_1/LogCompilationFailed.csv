@@ -1,0 +1,971 @@
+language,filename,DirPath,Returncode,Command,Output,Stdout,Stderr
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\0\ExecutionsExp14Run1\03-29-2025_13h07m09s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\0\ExecutionsExp14Run1\03-29-2025_13h07m09s\JavascriptToC#.exe ./Projects/HumanEvalX\0\ExecutionsExp14Run1\03-29-2025_13h07m09s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\0\\ExecutionsExp14Run1\\03-29-2025_13h07m09s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\0\ExecutionsExp14Run1\03-29-2025_13h07m09s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\0\ExecutionsExp14Run1\03-29-2025_13h07m09s\PythonToC#.exe ./Projects/HumanEvalX\0\ExecutionsExp14Run1\03-29-2025_13h07m09s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\0\\ExecutionsExp14Run1\\03-29-2025_13h07m09s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,C++ToC#.cs,./Projects/HumanEvalX\10\ExecutionsExp14Run1\03-29-2025_13h12m30s\C++ToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\10\ExecutionsExp14Run1\03-29-2025_13h12m30s\C++ToC#.exe ./Projects/HumanEvalX\10\ExecutionsExp14Run1\03-29-2025_13h12m30s\C++ToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\10\\ExecutionsExp14Run1\\03-29-2025_13h12m30s\\C++ToC#.cs(22,24): error CS0136: A local or parameter named 'charArray' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\104\ExecutionsExp14Run1\03-29-2025_13h26m19s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\104\ExecutionsExp14Run1\03-29-2025_13h26m19s\JavascriptToC#.exe ./Projects/HumanEvalX\104\ExecutionsExp14Run1\03-29-2025_13h26m19s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\104\\ExecutionsExp14Run1\\03-29-2025_13h26m19s\\JavascriptToC#.cs(56,27): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\104\ExecutionsExp14Run1\03-29-2025_13h26m19s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\104\ExecutionsExp14Run1\03-29-2025_13h26m19s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\104\\ExecutionsExp14Run1\\03-29-2025_13h26m19s\\PythonToPascal.pas\r\nPythonToPascal.pas(90,13) Error: Identifier not found ""RPos""\r\nPythonToPascal.pas(135,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Haskell,C++ToHaskell.hs,./Projects/HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\C++ToHaskell.hs,1,ghc ./Projects/HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\C++ToHaskell.hs -o ./Projects/HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\105\\ExecutionsExp14Run1\\03-29-2025_13h29m37s\\C++ToHaskell.hs, Projects\\HumanEvalX\\105\\ExecutionsExp14Run1\\03-29-2025_13h29m37s\\C++ToHaskell.o )\r\n'","Projects\HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\C++ToHaskell.hs:3:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import qualified Data.Map.Strict as Map
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\JavascriptToC#.exe ./Projects/HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\105\\ExecutionsExp14Run1\\03-29-2025_13h29m37s\\JavascriptToC#.cs(51,33): error CS0234: The type or namespace name 'JsonConvert' does not exist in the namespace 'Newtonsoft.Json' (are you missing an assembly reference?)\r\n""",
+Java,JavascriptToJava.java,./Projects/HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\Main.java,b'',".\Projects\HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\Main.java:4: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+.\Projects\HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\Main.java:43: error: cannot find symbol
+                Gson gson = new Gson();
+                ^
+  symbol:   class Gson
+  location: class Main
+.\Projects\HumanEvalX\105\ExecutionsExp14Run1\03-29-2025_13h29m37s\Main.java:43: error: cannot find symbol
+                Gson gson = new Gson();
+                                ^
+  symbol:   class Gson
+  location: class Main
+3 errors
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\108\ExecutionsExp14Run1\03-29-2025_13h35m20s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\108\ExecutionsExp14Run1\03-29-2025_13h35m20s\JavascriptToC#.exe ./Projects/HumanEvalX\108\ExecutionsExp14Run1\03-29-2025_13h35m20s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\108\\ExecutionsExp14Run1\\03-29-2025_13h35m20s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\108\ExecutionsExp14Run1\03-29-2025_13h35m20s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\108\ExecutionsExp14Run1\03-29-2025_13h35m20s\PythonToC#.exe ./Projects/HumanEvalX\108\ExecutionsExp14Run1\03-29-2025_13h35m20s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\108\\ExecutionsExp14Run1\\03-29-2025_13h35m20s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\109\ExecutionsExp14Run1\03-29-2025_13h38m12s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\109\ExecutionsExp14Run1\03-29-2025_13h38m12s\JavascriptToC#.exe ./Projects/HumanEvalX\109\ExecutionsExp14Run1\03-29-2025_13h38m12s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\109\\ExecutionsExp14Run1\\03-29-2025_13h38m12s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\109\ExecutionsExp14Run1\03-29-2025_13h38m12s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\109\ExecutionsExp14Run1\03-29-2025_13h38m12s\PythonToC#.exe ./Projects/HumanEvalX\109\ExecutionsExp14Run1\03-29-2025_13h38m12s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\109\\ExecutionsExp14Run1\\03-29-2025_13h38m12s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\11\ExecutionsExp14Run1\03-29-2025_13h41m27s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\11\ExecutionsExp14Run1\03-29-2025_13h41m27s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\11\\ExecutionsExp14Run1\\03-29-2025_13h41m27s\\C++ToPascal.pas\r\nC++ToPascal.pas(11,17) Error: Identifier not found ""Math""\r\nC++ToPascal.pas(38,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\110\ExecutionsExp14Run1\03-29-2025_13h42m57s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\110\ExecutionsExp14Run1\03-29-2025_13h42m57s\JavascriptToC#.exe ./Projects/HumanEvalX\110\ExecutionsExp14Run1\03-29-2025_13h42m57s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\110\\ExecutionsExp14Run1\\03-29-2025_13h42m57s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\110\ExecutionsExp14Run1\03-29-2025_13h42m57s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\110\ExecutionsExp14Run1\03-29-2025_13h42m57s\PythonToC#.exe ./Projects/HumanEvalX\110\ExecutionsExp14Run1\03-29-2025_13h42m57s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\110\\ExecutionsExp14Run1\\03-29-2025_13h42m57s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\JavascriptToC#.exe ./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\113\\ExecutionsExp14Run1\\03-29-2025_13h45m48s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToC#.exe ./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\113\\ExecutionsExp14Run1\\03-29-2025_13h45m48s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToHaskell.hs -o ./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\113\\ExecutionsExp14Run1\\03-29-2025_13h45m48s\\PythonToHaskell.hs, Projects\\HumanEvalX\\113\\ExecutionsExp14Run1\\03-29-2025_13h45m48s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToHaskell.hs:17:12: error: [GHC-39999]
+    * Ambiguous type variable `t0' arising from a use of `readMaybe'
+      prevents the constraint `(Read (t0 [Char]))' from being solved.
+      Probable fix: use a type annotation to specify what `t0' should be.
+      Potentially matching instances:
+        instance Read a => Read (Maybe a)
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Read'
+        instance Read a => Read (Solo a)
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Read'
+        ...plus 15 others
+        ...plus 12 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    * In the expression: readMaybe input
+      In a stmt of a 'do' block:
+        case readMaybe input of
+          Just lst -> print (oddCount (map concat lst))
+          Nothing -> putStrLn ""Error: Could not parse input""
+      In the expression:
+        do case readMaybe input of
+             Just lst -> print (oddCount (map concat lst))
+             Nothing -> putStrLn ""Error: Could not parse input""
+   |
+17 |       case readMaybe input of
+   |            ^^^^^^^^^
+
+Projects\HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToHaskell.hs:18:42: error: [GHC-39999]
+    * Ambiguous type variable `t0' arising from a use of `concat'
+      prevents the constraint `(Foldable t0)' from being solved.
+      Relevant bindings include
+        lst :: [t0 [Char]]
+          (bound at Projects\HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToHaskell.hs:18:14)
+      Probable fix: use a type annotation to specify what `t0' should be.
+      Potentially matching instances:
+        instance Foldable (Either a)
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Data.Foldable'
+        instance Foldable Maybe
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Data.Foldable'
+        ...plus three others
+        ...plus 26 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    * In the first argument of `map', namely `concat'
+      In the first argument of `oddCount', namely `(map concat lst)'
+      In the first argument of `print', namely
+        `(oddCount (map concat lst))'
+   |
+18 |         Just lst -> print (oddCount (map concat lst))
+   |                                          ^^^^^^
+
+"
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\113\ExecutionsExp14Run1\03-29-2025_13h45m48s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\113\\ExecutionsExp14Run1\\03-29-2025_13h45m48s\\PythonToPascal.pas\r\nPythonToPascal.pas(20,21) Warning: function result variable of a managed type does not seem to be initialized\r\nPythonToPascal.pas(12,6) Note: Local variable ""cnt"" not used\r\nPythonToPascal.pas(60,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(114) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\116\ExecutionsExp14Run1\03-29-2025_13h49m15s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\116\ExecutionsExp14Run1\03-29-2025_13h49m15s\JavascriptToC#.exe ./Projects/HumanEvalX\116\ExecutionsExp14Run1\03-29-2025_13h49m15s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\116\\ExecutionsExp14Run1\\03-29-2025_13h49m15s\\JavascriptToC#.cs(48,32): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\116\ExecutionsExp14Run1\03-29-2025_13h49m15s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\116\ExecutionsExp14Run1\03-29-2025_13h49m15s\PythonToC#.exe ./Projects/HumanEvalX\116\ExecutionsExp14Run1\03-29-2025_13h49m15s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\116\\ExecutionsExp14Run1\\03-29-2025_13h49m15s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX\118\ExecutionsExp14Run1\03-29-2025_13h53m21s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX\118\ExecutionsExp14Run1\03-29-2025_13h53m21s\PythonToHaskell.hs -o ./Projects/HumanEvalX\118\ExecutionsExp14Run1\03-29-2025_13h53m21s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\118\\ExecutionsExp14Run1\\03-29-2025_13h53m21s\\PythonToHaskell.hs, Projects\\HumanEvalX\\118\\ExecutionsExp14Run1\\03-29-2025_13h53m21s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\118\ExecutionsExp14Run1\03-29-2025_13h53m21s\PythonToHaskell.hs:2:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+2 | import qualified Data.Set as Set
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\JavascriptToC#.exe ./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\119\\ExecutionsExp14Run1\\03-29-2025_13h55m27s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\outputCPP,b'',"./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\JavascriptToC++.c++:4:10: fatal error: nlohmann/json.hpp: No such file or directory
+    4 | #include <nlohmann/json.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+"
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\119\\ExecutionsExp14Run1\\03-29-2025_13h55m27s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(95,23) Fatal: Syntax error, "";"" expected but "":"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\PythonToC#.exe ./Projects/HumanEvalX\119\ExecutionsExp14Run1\03-29-2025_13h55m27s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\119\\ExecutionsExp14Run1\\03-29-2025_13h55m27s\\PythonToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\120\ExecutionsExp14Run1\03-29-2025_13h58m32s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\120\ExecutionsExp14Run1\03-29-2025_13h58m32s\JavascriptToC#.exe ./Projects/HumanEvalX\120\ExecutionsExp14Run1\03-29-2025_13h58m32s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\120\\ExecutionsExp14Run1\\03-29-2025_13h58m32s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\121\ExecutionsExp14Run1\03-29-2025_14h01m33s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\121\ExecutionsExp14Run1\03-29-2025_14h01m33s\JavascriptToC#.exe ./Projects/HumanEvalX\121\ExecutionsExp14Run1\03-29-2025_14h01m33s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\121\\ExecutionsExp14Run1\\03-29-2025_14h01m33s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\121\ExecutionsExp14Run1\03-29-2025_14h01m33s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\121\ExecutionsExp14Run1\03-29-2025_14h01m33s\PythonToC#.exe ./Projects/HumanEvalX\121\ExecutionsExp14Run1\03-29-2025_14h01m33s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\121\\ExecutionsExp14Run1\\03-29-2025_14h01m33s\\PythonToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\122\ExecutionsExp14Run1\03-29-2025_14h03m46s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\122\ExecutionsExp14Run1\03-29-2025_14h03m46s\JavascriptToC#.exe ./Projects/HumanEvalX\122\ExecutionsExp14Run1\03-29-2025_14h03m46s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\122\\ExecutionsExp14Run1\\03-29-2025_14h03m46s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\122\ExecutionsExp14Run1\03-29-2025_14h03m46s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\122\ExecutionsExp14Run1\03-29-2025_14h03m46s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\122\\ExecutionsExp14Run1\\03-29-2025_14h03m46s\\JavaToPascal.pas\r\nJavaToPascal.pas(17,17) Error: Identifier not found ""Math""\r\nJavaToPascal.pas(31,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(96,4) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\123\ExecutionsExp14Run1\03-29-2025_14h06m23s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\123\ExecutionsExp14Run1\03-29-2025_14h06m23s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\123\\ExecutionsExp14Run1\\03-29-2025_14h06m23s\\JavaToPascal.pas\r\nJavaToPascal.pas(20,56) Error: Identifier not found ""Index""\r\nJavaToPascal.pas(20,62) Error: Illegal symbol for property access\r\nJavaToPascal.pas(18,14) Warning: An inherited method is hidden by ""ToString:AnsiString;""\r\nJavaToPascal.pas(115,4) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\JavascriptToC#.exe ./Projects/HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\126\\ExecutionsExp14Run1\\03-29-2025_14h11m40s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\PythonToC#.exe ./Projects/HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\126\\ExecutionsExp14Run1\\03-29-2025_14h11m40s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\PythonToHaskell.hs -o ./Projects/HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\126\\ExecutionsExp14Run1\\03-29-2025_14h11m40s\\PythonToHaskell.hs, Projects\\HumanEvalX\\126\\ExecutionsExp14Run1\\03-29-2025_14h11m40s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\126\ExecutionsExp14Run1\03-29-2025_14h11m40s\PythonToHaskell.hs:3:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import qualified Data.Map.Strict as Map
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\127\ExecutionsExp14Run1\03-29-2025_14h14m42s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\127\ExecutionsExp14Run1\03-29-2025_14h14m42s\JavascriptToC#.exe ./Projects/HumanEvalX\127\ExecutionsExp14Run1\03-29-2025_14h14m42s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\127\\ExecutionsExp14Run1\\03-29-2025_14h14m42s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\133\ExecutionsExp14Run1\03-29-2025_14h25m19s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\133\ExecutionsExp14Run1\03-29-2025_14h25m19s\JavascriptToC#.exe ./Projects/HumanEvalX\133\ExecutionsExp14Run1\03-29-2025_14h25m19s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\133\\ExecutionsExp14Run1\\03-29-2025_14h25m19s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\133\ExecutionsExp14Run1\03-29-2025_14h25m19s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\133\ExecutionsExp14Run1\03-29-2025_14h25m19s\PythonToC#.exe ./Projects/HumanEvalX\133\ExecutionsExp14Run1\03-29-2025_14h25m19s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\133\\ExecutionsExp14Run1\\03-29-2025_14h25m19s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\133\ExecutionsExp14Run1\03-29-2025_14h25m19s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\133\ExecutionsExp14Run1\03-29-2025_14h25m19s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\133\\ExecutionsExp14Run1\\03-29-2025_14h25m19s\\PythonToPascal.pas\r\nPythonToPascal.pas(28,13) Error: Identifier not found ""RPos""\r\nPythonToPascal.pas(70,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\135\ExecutionsExp14Run1\03-29-2025_14h29m37s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\135\ExecutionsExp14Run1\03-29-2025_14h29m37s\JavascriptToC#.exe ./Projects/HumanEvalX\135\ExecutionsExp14Run1\03-29-2025_14h29m37s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\135\\ExecutionsExp14Run1\\03-29-2025_14h29m37s\\JavascriptToC#.cs(31,33): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\135\ExecutionsExp14Run1\03-29-2025_14h29m37s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\135\ExecutionsExp14Run1\03-29-2025_14h29m37s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\135\ExecutionsExp14Run1\03-29-2025_14h29m37s\outputCPP,b'',"./Projects/HumanEvalX\135\ExecutionsExp14Run1\03-29-2025_14h29m37s\JavascriptToC++.c++:5:10: fatal error: json/json.h: No such file or directory
+    5 | #include <json/json.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\JavascriptToC#.exe ./Projects/HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp14Run1\\03-29-2025_14h41m39s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Java,JavascriptToJava.java,./Projects/HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\SumSquares.java,b'',".\Projects\HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\SumSquares.java:2: error: package org.json does not exist
+import org.json.JSONArray;
+               ^
+.\Projects\HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\SumSquares.java:24: error: cannot find symbol
+                JSONArray jsonArray = new JSONArray(jsonArrayString);
+                ^
+  symbol:   class JSONArray
+  location: class SumSquares
+.\Projects\HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\SumSquares.java:24: error: cannot find symbol
+                JSONArray jsonArray = new JSONArray(jsonArrayString);
+                                          ^
+  symbol:   class JSONArray
+  location: class SumSquares
+3 errors
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\PythonToC#.exe ./Projects/HumanEvalX\142\ExecutionsExp14Run1\03-29-2025_14h41m39s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp14Run1\\03-29-2025_14h41m39s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\145\ExecutionsExp14Run1\03-29-2025_14h46m34s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\145\ExecutionsExp14Run1\03-29-2025_14h46m34s\JavascriptToC#.exe ./Projects/HumanEvalX\145\ExecutionsExp14Run1\03-29-2025_14h46m34s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\145\\ExecutionsExp14Run1\\03-29-2025_14h46m34s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\145\ExecutionsExp14Run1\03-29-2025_14h46m34s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\145\ExecutionsExp14Run1\03-29-2025_14h46m34s\PythonToC#.exe ./Projects/HumanEvalX\145\ExecutionsExp14Run1\03-29-2025_14h46m34s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\145\\ExecutionsExp14Run1\\03-29-2025_14h46m34s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\146\ExecutionsExp14Run1\03-29-2025_14h50m27s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\146\ExecutionsExp14Run1\03-29-2025_14h50m27s\JavascriptToC#.exe ./Projects/HumanEvalX\146\ExecutionsExp14Run1\03-29-2025_14h50m27s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\146\\ExecutionsExp14Run1\\03-29-2025_14h50m27s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\JavascriptToC#.exe ./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\149\\ExecutionsExp14Run1\\03-29-2025_14h55m26s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C,JavascriptToC.c,./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\JavascriptToC.c,1,gcc ./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\JavascriptToC.c -o ./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\outputC,b'',"./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\JavascriptToC.c:5:10: fatal error: jansson.h: No such file or directory
+    5 | #include <jansson.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\149\\ExecutionsExp14Run1\\03-29-2025_14h55m26s\\JavaToPascal.pas\r\nJavaToPascal.pas(20,89) Error: Identifier not found ""TCompareFunc""\r\nJavaToPascal.pas(32,24) Fatal: Syntax error, ""DO"" expected but ""("" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\PythonToC#.exe ./Projects/HumanEvalX\149\ExecutionsExp14Run1\03-29-2025_14h55m26s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\149\\ExecutionsExp14Run1\\03-29-2025_14h55m26s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\152\ExecutionsExp14Run1\03-29-2025_15h02m16s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\152\ExecutionsExp14Run1\03-29-2025_15h02m16s\JavascriptToC#.exe ./Projects/HumanEvalX\152\ExecutionsExp14Run1\03-29-2025_15h02m16s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\152\\ExecutionsExp14Run1\\03-29-2025_15h02m16s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\152\ExecutionsExp14Run1\03-29-2025_15h02m16s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\152\ExecutionsExp14Run1\03-29-2025_15h02m16s\PythonToC#.exe ./Projects/HumanEvalX\152\ExecutionsExp14Run1\03-29-2025_15h02m16s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\152\\ExecutionsExp14Run1\\03-29-2025_15h02m16s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\153\ExecutionsExp14Run1\03-29-2025_15h05m22s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\153\ExecutionsExp14Run1\03-29-2025_15h05m22s\JavascriptToC#.exe ./Projects/HumanEvalX\153\ExecutionsExp14Run1\03-29-2025_15h05m22s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\153\\ExecutionsExp14Run1\\03-29-2025_15h05m22s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\153\ExecutionsExp14Run1\03-29-2025_15h05m22s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\153\ExecutionsExp14Run1\03-29-2025_15h05m22s\PythonToC#.exe ./Projects/HumanEvalX\153\ExecutionsExp14Run1\03-29-2025_15h05m22s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\153\\ExecutionsExp14Run1\\03-29-2025_15h05m22s\\PythonToC#.cs(39,31): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavascriptToC#.exe ./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\158\\ExecutionsExp14Run1\\03-29-2025_15h12m49s\\JavascriptToC#.cs(38,35): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\158\\ExecutionsExp14Run1\\03-29-2025_15h12m49s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\158\\ExecutionsExp14Run1\\03-29-2025_15h12m49s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavascriptToHaskell.hs:26:25: error: [GHC-39999]
+    * Ambiguous type variable `t0' arising from a use of `readMaybe'
+      prevents the constraint `(Read (t0 [String]))' from being solved.
+      Probable fix: use a type annotation to specify what `t0' should be.
+      Potentially matching instances:
+        instance Read a => Read (Maybe a)
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Read'
+        instance Read a => Read (Solo a)
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Read'
+        ...plus 15 others
+        ...plus 12 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    * In the expression: readMaybe input
+      In the expression:
+        case readMaybe input of
+          Just wordList -> concat wordList
+          Nothing -> []
+      In an equation for `parseInput':
+          parseInput input
+            = case readMaybe input of
+                Just wordList -> concat wordList
+                Nothing -> []
+   |
+26 | parseInput input = case readMaybe input of
+   |                         ^^^^^^^^^
+
+Projects\HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavascriptToHaskell.hs:27:39: error: [GHC-39999]
+    * Ambiguous type variable `t0' arising from a use of `concat'
+      prevents the constraint `(Foldable t0)' from being solved.
+      Relevant bindings include
+        wordList :: t0 [String]
+          (bound at Projects\HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavascriptToHaskell.hs:27:27)
+      Probable fix: use a type annotation to specify what `t0' should be.
+      Potentially matching instances:
+        instance Foldable (Either a)
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Data.Foldable'
+        instance Foldable Maybe
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Data.Foldable'
+        ...plus three others
+        ...plus 26 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    * In the expression: concat wordList
+      In a case alternative: Just wordList -> concat wordList
+      In the expression:
+        case readMaybe input of
+          Just wordList -> concat wordList
+          Nothing -> []
+   |
+27 |                      Just wordList -> concat wordList
+   |                                       ^^^^^^
+
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\158\\ExecutionsExp14Run1\\03-29-2025_15h12m49s\\JavaToPascal.pas\r\nJavaToPascal.pas(8,32) Error: Identifier not found ""specialize""\r\nJavaToPascal.pas(8,32) Error: class type expected, but got ""<erroneous type>""\r\nJavaToPascal.pas(8,32) Fatal: Syntax error, "")"" expected but ""identifier TCOMPARER"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\PythonToC#.exe ./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\158\\ExecutionsExp14Run1\\03-29-2025_15h12m49s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\158\ExecutionsExp14Run1\03-29-2025_15h12m49s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\158\\ExecutionsExp14Run1\\03-29-2025_15h12m49s\\PythonToPascal.pas\r\nPythonToPascal.pas(18,13) Error: Illegal type conversion: ""Set Of Char"" to ""LongWord""\r\nPythonToPascal.pas(89,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\16\\ExecutionsExp14Run1\\03-29-2025_15h17m33s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\16\\ExecutionsExp14Run1\\03-29-2025_15h17m33s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\JavascriptToHaskell.hs:2:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+2 | import qualified Data.Set as Set
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\JavaToHaskell.hs -o ./Projects/HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\16\\ExecutionsExp14Run1\\03-29-2025_15h17m33s\\JavaToHaskell.hs, Projects\\HumanEvalX\\16\\ExecutionsExp14Run1\\03-29-2025_15h17m33s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\JavaToHaskell.hs:3:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import qualified Data.Set as Set
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\16\ExecutionsExp14Run1\03-29-2025_15h17m33s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\16\\ExecutionsExp14Run1\\03-29-2025_15h17m33s\\PythonToPascal.pas\r\nPythonToPascal.pas(17,33) Error: Illegal qualifier\r\nPythonToPascal.pas(38,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX\17\ExecutionsExp14Run1\03-29-2025_15h22m53s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX\17\ExecutionsExp14Run1\03-29-2025_15h22m53s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX\17\ExecutionsExp14Run1\03-29-2025_15h22m53s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\17\\ExecutionsExp14Run1\\03-29-2025_15h22m53s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\17\\ExecutionsExp14Run1\\03-29-2025_15h22m53s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\17\ExecutionsExp14Run1\03-29-2025_15h22m53s\JavascriptToHaskell.hs:4:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+4 | import qualified Data.Map.Strict as Map
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\17\ExecutionsExp14Run1\03-29-2025_15h22m53s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\17\ExecutionsExp14Run1\03-29-2025_15h22m53s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\17\\ExecutionsExp14Run1\\03-29-2025_15h22m53s\\JavaToPascal.pas\r\nJavaToPascal.pas(17,57) Error: Identifier not found ""Index""\r\nJavaToPascal.pas(17,63) Error: Illegal symbol for property access\r\nJavaToPascal.pas(91,4) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Haskell,C++ToHaskell.hs,./Projects/HumanEvalX\19\ExecutionsExp14Run1\03-29-2025_15h26m44s\C++ToHaskell.hs,1,ghc ./Projects/HumanEvalX\19\ExecutionsExp14Run1\03-29-2025_15h26m44s\C++ToHaskell.hs -o ./Projects/HumanEvalX\19\ExecutionsExp14Run1\03-29-2025_15h26m44s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\19\\ExecutionsExp14Run1\\03-29-2025_15h26m44s\\C++ToHaskell.hs, Projects\\HumanEvalX\\19\\ExecutionsExp14Run1\\03-29-2025_15h26m44s\\C++ToHaskell.o )\r\n'","Projects\HumanEvalX\19\ExecutionsExp14Run1\03-29-2025_15h26m44s\C++ToHaskell.hs:3:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import qualified Data.Map.Strict as M
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\19\ExecutionsExp14Run1\03-29-2025_15h26m44s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\19\ExecutionsExp14Run1\03-29-2025_15h26m44s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\19\\ExecutionsExp14Run1\\03-29-2025_15h26m44s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(9,25) Error: Error in type definition\r\nJavascriptToPascal.pas(79,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\JavascriptToC#.exe ./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\20\\ExecutionsExp14Run1\\03-29-2025_15h30m59s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\20\\ExecutionsExp14Run1\\03-29-2025_15h30m59s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(76,37) Error: identifier idents no member ""Create""\r\nJavascriptToPascal.pas(76,37) Fatal: Syntax error, "";"" expected but ""identifier CREATE"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\PythonToC#.exe ./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\20\\ExecutionsExp14Run1\\03-29-2025_15h30m59s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\20\ExecutionsExp14Run1\03-29-2025_15h30m59s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\20\\ExecutionsExp14Run1\\03-29-2025_15h30m59s\\PythonToPascal.pas\r\nPythonToPascal.pas(84,21) Warning: function result variable of a managed type does not seem to be initialized\r\nPythonToPascal.pas(101,27) Error: Identifier not found ""LOCALE_SYSTEM_DEFAULT""\r\nPythonToPascal.pas(125,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\JavascriptToC#.exe ./Projects/HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\21\\ExecutionsExp14Run1\\03-29-2025_15h34m23s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Java,JavascriptToJava.java,./Projects/HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\RescaleToUnit.java,b'',".\Projects\HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\RescaleToUnit.java:4: error: package org.json does not exist
+import org.json.JSONArray;
+               ^
+.\Projects\HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\RescaleToUnit.java:34: error: cannot find symbol
+            JSONArray jsonArray = new JSONArray(jsonInput);
+            ^
+  symbol:   class JSONArray
+  location: class RescaleToUnit
+.\Projects\HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\RescaleToUnit.java:34: error: cannot find symbol
+            JSONArray jsonArray = new JSONArray(jsonInput);
+                                      ^
+  symbol:   class JSONArray
+  location: class RescaleToUnit
+3 errors
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\PythonToC#.exe ./Projects/HumanEvalX\21\ExecutionsExp14Run1\03-29-2025_15h34m23s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\21\\ExecutionsExp14Run1\\03-29-2025_15h34m23s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\JavascriptToC#.exe ./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\26\\ExecutionsExp14Run1\\03-29-2025_15h41m38s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\26\\ExecutionsExp14Run1\\03-29-2025_15h41m38s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\26\\ExecutionsExp14Run1\\03-29-2025_15h41m38s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\JavascriptToHaskell.hs:2:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+2 | import qualified Data.Map.Strict as Map
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\JavaToHaskell.hs -o ./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\26\\ExecutionsExp14Run1\\03-29-2025_15h41m38s\\JavaToHaskell.hs, Projects\\HumanEvalX\\26\\ExecutionsExp14Run1\\03-29-2025_15h41m38s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\JavaToHaskell.hs:4:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+4 | import qualified Data.Map.Strict as Map
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\PythonToC#.exe ./Projects/HumanEvalX\26\ExecutionsExp14Run1\03-29-2025_15h41m38s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\26\\ExecutionsExp14Run1\\03-29-2025_15h41m38s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\JavascriptToC#.exe ./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\28\\ExecutionsExp14Run1\\03-29-2025_15h46m35s\\JavascriptToC#.cs(17,36): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\28\\ExecutionsExp14Run1\\03-29-2025_15h46m35s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(8,9) Error: Duplicate identifier ""RESULT""\r\nJavascriptToPascal.pas(40,49) Warning: Symbol ""Create"" is deprecated: ""use options form instead""\r\nJavascriptToPascal.pas(60,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\PythonToC#.exe ./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\28\\ExecutionsExp14Run1\\03-29-2025_15h46m35s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\PythonToHaskell.hs -o ./Projects/HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\28\\ExecutionsExp14Run1\\03-29-2025_15h46m35s\\PythonToHaskell.hs, Projects\\HumanEvalX\\28\\ExecutionsExp14Run1\\03-29-2025_15h46m35s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\PythonToHaskell.hs:10:25: error: [GHC-39999]
+    * Ambiguous type variable `t0' arising from a use of `readMaybe'
+      prevents the constraint `(Read (t0 [String]))' from being solved.
+      Probable fix: use a type annotation to specify what `t0' should be.
+      Potentially matching instances:
+        instance Read a => Read (Maybe a)
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Read'
+        instance Read a => Read (Solo a)
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Read'
+        ...plus 15 others
+        ...plus 12 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    * In the expression: readMaybe input
+      In the expression:
+        case readMaybe input of
+          Just strLists -> Just (concat strLists)
+          Nothing -> Nothing
+      In an equation for `parseInput':
+          parseInput input
+            = case readMaybe input of
+                Just strLists -> Just (concat strLists)
+                Nothing -> Nothing
+   |
+10 | parseInput input = case readMaybe input of
+   |                         ^^^^^^^^^
+
+Projects\HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\PythonToHaskell.hs:11:28: error: [GHC-39999]
+    * Ambiguous type variable `t0' arising from a use of `concat'
+      prevents the constraint `(Foldable t0)' from being solved.
+      Relevant bindings include
+        strLists :: t0 [String]
+          (bound at Projects\HumanEvalX\28\ExecutionsExp14Run1\03-29-2025_15h46m35s\PythonToHaskell.hs:11:10)
+      Probable fix: use a type annotation to specify what `t0' should be.
+      Potentially matching instances:
+        instance Foldable (Either a)
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Data.Foldable'
+        instance Foldable Maybe
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Data.Foldable'
+        ...plus three others
+        ...plus 26 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    * In the first argument of `Just', namely `(concat strLists)'
+      In the expression: Just (concat strLists)
+      In a case alternative: Just strLists -> Just (concat strLists)
+   |
+11 |     Just strLists -> Just (concat strLists)
+   |                            ^^^^^^
+
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\JavascriptToC#.exe ./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\29\\ExecutionsExp14Run1\\03-29-2025_15h49m11s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\29\\ExecutionsExp14Run1\\03-29-2025_15h49m11s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\29\\ExecutionsExp14Run1\\03-29-2025_15h49m11s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\JavascriptToHaskell.hs:20:57: error: [GHC-68567]
+    Illegal type: `[[String], String]'
+    Suggested fix: Perhaps you intended to use DataKinds
+   |
+20 |                 inputMaybe = readMaybe cleaned :: Maybe [[String], String]
+   |                                                         ^^^^^^^^^^^^^^^^^^
+
+"
+Java,JavascriptToJava.java,./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\FilterByPrefix.java,b'',".\Projects\HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\FilterByPrefix.java:4: error: package org.json does not exist
+import org.json.JSONArray;
+               ^
+.\Projects\HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\FilterByPrefix.java:27: error: cannot find symbol
+            JSONArray jsonArray = new JSONArray(jsonStr);
+            ^
+  symbol:   class JSONArray
+  location: class FilterByPrefix
+.\Projects\HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\FilterByPrefix.java:27: error: cannot find symbol
+            JSONArray jsonArray = new JSONArray(jsonStr);
+                                      ^
+  symbol:   class JSONArray
+  location: class FilterByPrefix
+3 errors
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\PythonToC#.exe ./Projects/HumanEvalX\29\ExecutionsExp14Run1\03-29-2025_15h49m11s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\29\\ExecutionsExp14Run1\\03-29-2025_15h49m11s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\JavascriptToC#.exe ./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\3\\ExecutionsExp14Run1\\03-29-2025_15h52m35s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC#.exe ./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\3\\ExecutionsExp14Run1\\03-29-2025_15h52m35s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,PythonToC++.c++,./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC++.c++,1,g++ ./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC++.c++ -o ./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\outputCPP,b'',"./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC++.c++: In function 'std::vector<int> parseInput(const std::string&)':
+./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC++.c++:24:58: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   24 |     processedInput.erase(std::remove(processedInput.begin(), processedInput.end(), '['), processedInput.end());
+      |                                      ~~~~~~~~~~~~~~~~~~~~^~
+      |                                                          |
+      |                                                          std::__cxx11::basic_string<char>::iterator
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/locale.h:12,
+                 from C:/MinGWCPP/include/c++/13.2.0/clocale:42,
+                 from C:/MinGWCPP/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:41,
+                 from C:/MinGWCPP/include/c++/13.2.0/bits/localefwd.h:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/ios:43,
+                 from C:/MinGWCPP/include/c++/13.2.0/ostream:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/iostream:41,
+                 from ./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC++.c++:1:
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC++.c++:25:58: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   25 |     processedInput.erase(std::remove(processedInput.begin(), processedInput.end(), ']'), processedInput.end());
+      |                                      ~~~~~~~~~~~~~~~~~~~~^~
+      |                                                          |
+      |                                                          std::__cxx11::basic_string<char>::iterator
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+./Projects/HumanEvalX\3\ExecutionsExp14Run1\03-29-2025_15h52m35s\PythonToC++.c++:26:58: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   26 |     processedInput.erase(std::remove(processedInput.begin(), processedInput.end(), ' '), processedInput.end());
+      |                                      ~~~~~~~~~~~~~~~~~~~~^~
+      |                                                          |
+      |                                                          std::__cxx11::basic_string<char>::iterator
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\JavascriptToC#.exe ./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\30\\ExecutionsExp14Run1\\03-29-2025_15h55m05s\\JavascriptToC#.cs(18,35): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\outputCPP,b'',"./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\JavascriptToC++.c++:5:10: fatal error: nlohmann/json.hpp: No such file or directory
+    5 | #include <nlohmann/json.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+"
+Java,JavascriptToJava.java,./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\Main.java,b'',".\Projects\HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\Main.java:5: error: package org.json does not exist
+import org.json.JSONArray;
+               ^
+.\Projects\HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\Main.java:13: error: cannot find symbol
+                JSONArray jsonArray = new JSONArray(jsonStr);
+                ^
+  symbol:   class JSONArray
+  location: class Main
+.\Projects\HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\Main.java:13: error: cannot find symbol
+                JSONArray jsonArray = new JSONArray(jsonStr);
+                                          ^
+  symbol:   class JSONArray
+  location: class Main
+3 errors
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\PythonToC#.exe ./Projects/HumanEvalX\30\ExecutionsExp14Run1\03-29-2025_15h55m05s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\30\\ExecutionsExp14Run1\\03-29-2025_15h55m05s\\PythonToC#.cs(18,21): error CS0234: The type or namespace name 'JsonConvert' does not exist in the namespace 'Newtonsoft.Json' (are you missing an assembly reference?)\r\n""",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\31\ExecutionsExp14Run1\03-29-2025_15h57m53s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\31\ExecutionsExp14Run1\03-29-2025_15h57m53s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\31\\ExecutionsExp14Run1\\03-29-2025_15h57m53s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(14,7) Error: Illegal expression\r\nJavascriptToPascal.pas(14,11) Fatal: Syntax error, "":="" expected but ""identifier K"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\34\ExecutionsExp14Run1\03-29-2025_15h59m11s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\34\ExecutionsExp14Run1\03-29-2025_15h59m11s\JavascriptToC#.exe ./Projects/HumanEvalX\34\ExecutionsExp14Run1\03-29-2025_15h59m11s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\34\\ExecutionsExp14Run1\\03-29-2025_15h59m11s\\JavascriptToC#.cs(18,31): error CS0234: The type or namespace name 'JsonConvert' does not exist in the namespace 'Newtonsoft.Json' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\34\ExecutionsExp14Run1\03-29-2025_15h59m11s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\34\ExecutionsExp14Run1\03-29-2025_15h59m11s\PythonToC#.exe ./Projects/HumanEvalX\34\ExecutionsExp14Run1\03-29-2025_15h59m11s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\34\\ExecutionsExp14Run1\\03-29-2025_15h59m11s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\35\ExecutionsExp14Run1\03-29-2025_16h02m13s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\35\ExecutionsExp14Run1\03-29-2025_16h02m13s\JavascriptToC#.exe ./Projects/HumanEvalX\35\ExecutionsExp14Run1\03-29-2025_16h02m13s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\35\\ExecutionsExp14Run1\\03-29-2025_16h02m13s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\35\ExecutionsExp14Run1\03-29-2025_16h02m13s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\35\ExecutionsExp14Run1\03-29-2025_16h02m13s\PythonToC#.exe ./Projects/HumanEvalX\35\ExecutionsExp14Run1\03-29-2025_16h02m13s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\35\\ExecutionsExp14Run1\\03-29-2025_16h02m13s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\39\ExecutionsExp14Run1\03-29-2025_16h06m07s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\39\ExecutionsExp14Run1\03-29-2025_16h06m07s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\39\\ExecutionsExp14Run1\\03-29-2025_16h06m07s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(15,7) Error: Ordinal expression expected\r\nJavascriptToPascal.pas(55,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\39\ExecutionsExp14Run1\03-29-2025_16h06m07s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\39\ExecutionsExp14Run1\03-29-2025_16h06m07s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\39\\ExecutionsExp14Run1\\03-29-2025_16h06m07s\\JavaToPascal.pas\r\nJavaToPascal.pas(25,9) Error: Ordinal expression expected\r\nJavaToPascal.pas(64,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\4\ExecutionsExp14Run1\03-29-2025_16h08m13s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\4\ExecutionsExp14Run1\03-29-2025_16h08m13s\JavascriptToC#.exe ./Projects/HumanEvalX\4\ExecutionsExp14Run1\03-29-2025_16h08m13s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\4\\ExecutionsExp14Run1\\03-29-2025_16h08m13s\\JavascriptToC#.cs(18,32): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\4\ExecutionsExp14Run1\03-29-2025_16h08m13s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\4\ExecutionsExp14Run1\03-29-2025_16h08m13s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\4\\ExecutionsExp14Run1\\03-29-2025_16h08m13s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(80,15) Warning: Variable ""paramStr"" of a managed type does not seem to be initialized\r\nJavascriptToPascal.pas(80,23) Fatal: Syntax error, "";"" expected but ""("" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\4\ExecutionsExp14Run1\03-29-2025_16h08m13s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\4\ExecutionsExp14Run1\03-29-2025_16h08m13s\PythonToC#.exe ./Projects/HumanEvalX\4\ExecutionsExp14Run1\03-29-2025_16h08m13s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\4\\ExecutionsExp14Run1\\03-29-2025_16h08m13s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\40\ExecutionsExp14Run1\03-29-2025_16h10m45s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\40\ExecutionsExp14Run1\03-29-2025_16h10m45s\JavascriptToC#.exe ./Projects/HumanEvalX\40\ExecutionsExp14Run1\03-29-2025_16h10m45s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\40\\ExecutionsExp14Run1\\03-29-2025_16h10m45s\\JavascriptToC#.cs(21,27): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\40\ExecutionsExp14Run1\03-29-2025_16h10m45s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\40\ExecutionsExp14Run1\03-29-2025_16h10m45s\PythonToC#.exe ./Projects/HumanEvalX\40\ExecutionsExp14Run1\03-29-2025_16h10m45s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\40\\ExecutionsExp14Run1\\03-29-2025_16h10m45s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\42\ExecutionsExp14Run1\03-29-2025_16h14m23s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\42\ExecutionsExp14Run1\03-29-2025_16h14m23s\JavascriptToC#.exe ./Projects/HumanEvalX\42\ExecutionsExp14Run1\03-29-2025_16h14m23s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\42\\ExecutionsExp14Run1\\03-29-2025_16h14m23s\\JavascriptToC#.cs(17,32): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\42\ExecutionsExp14Run1\03-29-2025_16h14m23s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\42\ExecutionsExp14Run1\03-29-2025_16h14m23s\PythonToC#.exe ./Projects/HumanEvalX\42\ExecutionsExp14Run1\03-29-2025_16h14m23s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\42\\ExecutionsExp14Run1\\03-29-2025_16h14m23s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\43\ExecutionsExp14Run1\03-29-2025_16h17m01s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\43\ExecutionsExp14Run1\03-29-2025_16h17m01s\JavascriptToC#.exe ./Projects/HumanEvalX\43\ExecutionsExp14Run1\03-29-2025_16h17m01s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\43\\ExecutionsExp14Run1\\03-29-2025_16h17m01s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\47\ExecutionsExp14Run1\03-29-2025_16h22m22s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\47\ExecutionsExp14Run1\03-29-2025_16h22m22s\JavascriptToC#.exe ./Projects/HumanEvalX\47\ExecutionsExp14Run1\03-29-2025_16h22m22s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\47\\ExecutionsExp14Run1\\03-29-2025_16h22m22s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\47\ExecutionsExp14Run1\03-29-2025_16h22m22s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\47\ExecutionsExp14Run1\03-29-2025_16h22m22s\PythonToC#.exe ./Projects/HumanEvalX\47\ExecutionsExp14Run1\03-29-2025_16h22m22s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\47\\ExecutionsExp14Run1\\03-29-2025_16h22m22s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\JavascriptToC#.exe ./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\5\\ExecutionsExp14Run1\\03-29-2025_16h27m47s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\5\\ExecutionsExp14Run1\\03-29-2025_16h27m47s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(13,9) Error: Duplicate identifier ""RESULT""\r\nJavascriptToPascal.pas(43,9) Error: Duplicate identifier ""RESULT""\r\nJavascriptToPascal.pas(121,4) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\5\\ExecutionsExp14Run1\\03-29-2025_16h27m47s\\JavaToPascal.pas\r\nJavaToPascal.pas(12,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(39,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(102,4) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\PythonToC#.exe ./Projects/HumanEvalX\5\ExecutionsExp14Run1\03-29-2025_16h27m47s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\5\\ExecutionsExp14Run1\\03-29-2025_16h27m47s\\PythonToC#.cs(30,23): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\5\\ExecutionsExp14Run1\\03-29-2025_16h27m47s\\PythonToC#.cs(35,27): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\54\\ExecutionsExp14Run1\\03-29-2025_16h30m45s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\54\\ExecutionsExp14Run1\\03-29-2025_16h30m45s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\JavascriptToHaskell.hs:3:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import qualified Data.Set as Set
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\JavaToHaskell.hs -o ./Projects/HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\54\\ExecutionsExp14Run1\\03-29-2025_16h30m45s\\JavaToHaskell.hs, Projects\\HumanEvalX\\54\\ExecutionsExp14Run1\\03-29-2025_16h30m45s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\JavaToHaskell.hs:2:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+2 | import qualified Data.Set as Set
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\PythonToHaskell.hs -o ./Projects/HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\54\\ExecutionsExp14Run1\\03-29-2025_16h30m45s\\PythonToHaskell.hs, Projects\\HumanEvalX\\54\\ExecutionsExp14Run1\\03-29-2025_16h30m45s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\54\ExecutionsExp14Run1\03-29-2025_16h30m45s\PythonToHaskell.hs:3:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import qualified Data.Set as Set
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\57\\ExecutionsExp14Run1\\03-29-2025_16h35m18s\\C++ToPascal.pas\r\nC++ToPascal.pas(33,9) Error: Duplicate identifier ""RESULT""\r\nC++ToPascal.pas(88,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\JavascriptToC#.exe ./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\57\\ExecutionsExp14Run1\\03-29-2025_16h35m18s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\outputCPP,b'',"./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\JavascriptToC++.c++:6:10: fatal error: nlohmann/json.hpp: No such file or directory
+    6 | #include <nlohmann/json.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\PythonToC#.exe ./Projects/HumanEvalX\57\ExecutionsExp14Run1\03-29-2025_16h35m18s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\57\\ExecutionsExp14Run1\\03-29-2025_16h35m18s\\PythonToC#.cs(46,29): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\57\\ExecutionsExp14Run1\\03-29-2025_16h35m18s\\PythonToC#.cs(48,38): error CS0019: Operator '>' cannot be applied to operands of type 'method group' and 'int'\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavascriptToC#.exe ./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\58\\ExecutionsExp14Run1\\03-29-2025_16h38m13s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\outputCPP,b'',"./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavascriptToC++.c++:7:10: fatal error: nlohmann/json.hpp: No such file or directory
+    7 | #include <nlohmann/json.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+"
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\58\\ExecutionsExp14Run1\\03-29-2025_16h38m13s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(96,9) Error: Duplicate identifier ""RESULT""\r\nJavascriptToPascal.pas(171) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\58\\ExecutionsExp14Run1\\03-29-2025_16h38m13s\\JavaToPascal.pas\r\nJavaToPascal.pas(29,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(148,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\PythonToC#.exe ./Projects/HumanEvalX\58\ExecutionsExp14Run1\03-29-2025_16h38m13s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\58\\ExecutionsExp14Run1\\03-29-2025_16h38m13s\\PythonToC#.cs(32,17): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\58\\ExecutionsExp14Run1\\03-29-2025_16h38m13s\\PythonToC#.cs(33,17): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\58\\ExecutionsExp14Run1\\03-29-2025_16h38m13s\\PythonToC#.cs(36,27): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Java,JavascriptToJava.java,./Projects/HumanEvalX\59\ExecutionsExp14Run1\03-29-2025_16h41m52s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\59\ExecutionsExp14Run1\03-29-2025_16h41m52s\LargestPrimeFactor.java,b'',".\Projects\HumanEvalX\59\ExecutionsExp14Run1\03-29-2025_16h41m52s\LargestPrimeFactor.java:3: error: '.class' expected
+        boolean isPrime = function(long k) {
+                                        ^
+.\Projects\HumanEvalX\59\ExecutionsExp14Run1\03-29-2025_16h41m52s\LargestPrimeFactor.java:3: error: ';' expected
+        boolean isPrime = function(long k) {
+                                         ^
+2 errors
+"
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\59\ExecutionsExp14Run1\03-29-2025_16h41m52s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\59\ExecutionsExp14Run1\03-29-2025_16h41m52s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\59\\ExecutionsExp14Run1\\03-29-2025_16h41m52s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(29,18) Error: Identifier not found ""Max""\r\nJavascriptToPascal.pas(52) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\6\ExecutionsExp14Run1\03-29-2025_16h43m24s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\6\ExecutionsExp14Run1\03-29-2025_16h43m24s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\6\\ExecutionsExp14Run1\\03-29-2025_16h43m24s\\JavaToPascal.pas\r\nJavaToPascal.pas(13,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(89) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\60\ExecutionsExp14Run1\03-29-2025_16h45m54s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\60\ExecutionsExp14Run1\03-29-2025_16h45m54s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\60\\ExecutionsExp14Run1\\03-29-2025_16h45m54s\\JavaToPascal.pas\r\nJavaToPascal.pas(9,12) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(29) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\JavascriptToC#.exe ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\62\\ExecutionsExp14Run1\\03-29-2025_16h47m04s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\outputCPP,b'',"./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\JavascriptToC++.c++:4:10: fatal error: nlohmann/json.hpp: No such file or directory
+    4 | #include <nlohmann/json.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+"
+Java,JavascriptToJava.java,./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\Main.java,b'',".\Projects\HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\Main.java:4: error: package org.json does not exist
+import org.json.JSONArray;
+               ^
+.\Projects\HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\Main.java:12: error: cannot find symbol
+                JSONArray jsonArray = new JSONArray(jsonStr);
+                ^
+  symbol:   class JSONArray
+  location: class Main
+.\Projects\HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\Main.java:12: error: cannot find symbol
+                JSONArray jsonArray = new JSONArray(jsonStr);
+                                          ^
+  symbol:   class JSONArray
+  location: class Main
+.\Projects\HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\Main.java:16: error: cannot find symbol
+                JSONArray innerArray = jsonArray.getJSONArray(0);
+                ^
+  symbol:   class JSONArray
+  location: class Main
+4 errors
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC#.exe ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\62\\ExecutionsExp14Run1\\03-29-2025_16h47m04s\\PythonToC#.cs(20,33): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\62\\ExecutionsExp14Run1\\03-29-2025_16h47m04s\\PythonToC#.cs(21,42): error CS0019: Operator '>' cannot be applied to operands of type 'method group' and 'int'\r\nProjects\\HumanEvalX\\62\\ExecutionsExp14Run1\\03-29-2025_16h47m04s\\PythonToC#.cs(24,39): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+C++,PythonToC++.c++,./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC++.c++,1,g++ ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC++.c++ -o ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\outputCPP,b'',"./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC++.c++: In function 'std::vector<int> parseList(const std::string&)':
+./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC++.c++:20:44: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   20 |     cleaned.erase(std::remove(cleaned.begin(), cleaned.end(), '['), cleaned.end());
+      |                               ~~~~~~~~~~~~~^~
+      |                                            |
+      |                                            std::__cxx11::basic_string<char>::iterator
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/locale.h:12,
+                 from C:/MinGWCPP/include/c++/13.2.0/clocale:42,
+                 from C:/MinGWCPP/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:41,
+                 from C:/MinGWCPP/include/c++/13.2.0/bits/localefwd.h:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/ios:43,
+                 from C:/MinGWCPP/include/c++/13.2.0/ostream:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/iostream:41,
+                 from ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC++.c++:1:
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC++.c++:21:44: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   21 |     cleaned.erase(std::remove(cleaned.begin(), cleaned.end(), ']'), cleaned.end());
+      |                               ~~~~~~~~~~~~~^~
+      |                                            |
+      |                                            std::__cxx11::basic_string<char>::iterator
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToC++.c++:22:44: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   22 |     cleaned.erase(std::remove(cleaned.begin(), cleaned.end(), ' '), cleaned.end());
+      |                               ~~~~~~~~~~~~~^~
+      |                                            |
+      |                                            std::__cxx11::basic_string<char>::iterator
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+"
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToHaskell.hs -o ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\62\\ExecutionsExp14Run1\\03-29-2025_16h47m04s\\PythonToHaskell.hs, Projects\\HumanEvalX\\62\\ExecutionsExp14Run1\\03-29-2025_16h47m04s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToHaskell.hs:7:17: error: [GHC-83865]
+    * Couldn't match expected type `Int' with actual type `[Int]'
+    * In the first argument of `drop', namely `zipWith (*) [1 .. ] xs'
+      In the expression: zipWith (*) [1 .. ] xs `drop` 1
+      In an equation for `derivative':
+          derivative xs = zipWith (*) [1 .. ] xs `drop` 1
+  |
+7 | derivative xs = zipWith (*) [1..] xs `drop` 1
+  |                 ^^^^^^^^^^^^^^^^^^^^
+
+"
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\62\ExecutionsExp14Run1\03-29-2025_16h47m04s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\62\\ExecutionsExp14Run1\\03-29-2025_16h47m04s\\PythonToPascal.pas\r\nPythonToPascal.pas(17,21) Warning: function result variable of a managed type does not seem to be initialized\r\nPythonToPascal.pas(38,15) Error: Identifier not found ""LastPos""\r\nPythonToPascal.pas(47,23) Warning: function result variable of a managed type does not seem to be initialized\r\nPythonToPascal.pas(89,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\65\ExecutionsExp14Run1\03-29-2025_16h52m37s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\65\ExecutionsExp14Run1\03-29-2025_16h52m37s\JavascriptToC#.exe ./Projects/HumanEvalX\65\ExecutionsExp14Run1\03-29-2025_16h52m37s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\65\\ExecutionsExp14Run1\\03-29-2025_16h52m37s\\JavascriptToC#.cs(9,33): error CS1061: 'string' does not contain a definition for 'Reverse' and no accessible extension method 'Reverse' accepting a first argument of type 'string' could be found (are you missing a using directive or an assembly reference?)\r\nProjects\\HumanEvalX\\65\\ExecutionsExp14Run1\\03-29-2025_16h52m37s\\JavascriptToC#.cs(9,42): error CS0023: Operator '.' cannot be applied to operand of type 'void'\r\n""",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\65\ExecutionsExp14Run1\03-29-2025_16h52m37s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\65\ExecutionsExp14Run1\03-29-2025_16h52m37s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\65\\ExecutionsExp14Run1\\03-29-2025_16h52m37s\\JavaToPascal.pas\r\nJavaToPascal.pas(16,11) Error: Illegal expression\r\nJavaToPascal.pas(16,15) Fatal: Syntax error, "":="" expected but ""identifier I"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\JavascriptToC#.exe ./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\68\\ExecutionsExp14Run1\\03-29-2025_16h57m25s\\JavascriptToC#.cs(25,34): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\outputCPP,b'',"./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\JavascriptToC++.c++:7:10: fatal error: nlohmann/json.hpp: No such file or directory
+    7 | #include <nlohmann/json.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\68\\ExecutionsExp14Run1\\03-29-2025_16h57m25s\\JavaToPascal.pas\r\nJavaToPascal.pas(17,14) Warning: An inherited method is hidden by ""ToString:AnsiString;""\r\nJavaToPascal.pas(62,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(151) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\PythonToC#.exe ./Projects/HumanEvalX\68\ExecutionsExp14Run1\03-29-2025_16h57m25s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\68\\ExecutionsExp14Run1\\03-29-2025_16h57m25s\\PythonToC#.cs(23,25): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\68\\ExecutionsExp14Run1\\03-29-2025_16h57m25s\\PythonToC#.cs(25,31): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavascriptToC#.exe ./Projects/HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\69\\ExecutionsExp14Run1\\03-29-2025_17h00m37s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\69\\ExecutionsExp14Run1\\03-29-2025_17h00m37s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\69\\ExecutionsExp14Run1\\03-29-2025_17h00m37s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavascriptToHaskell.hs:6:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+6 | import qualified Data.Map.Strict as Map
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavaToHaskell.hs -o ./Projects/HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\69\\ExecutionsExp14Run1\\03-29-2025_17h00m37s\\JavaToHaskell.hs, Projects\\HumanEvalX\\69\\ExecutionsExp14Run1\\03-29-2025_17h00m37s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavaToHaskell.hs:3:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import Data.Map.Strict (Map)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\69\ExecutionsExp14Run1\03-29-2025_17h00m37s\JavaToHaskell.hs:4:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+  |
+4 | import qualified Data.Map.Strict as Map
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavascriptToC#.exe ./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\7\\ExecutionsExp14Run1\\03-29-2025_17h03m53s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\outputCPP,b'',"./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavascriptToC++.c++:6:10: fatal error: json/json.h: No such file or directory
+    6 | #include <json/json.h> // Using jsoncpp library for JSON parsing
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+"
+Java,JavascriptToJava.java,./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\StringFilter.java,b'',".\Projects\HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\StringFilter.java:4: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+.\Projects\HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\StringFilter.java:24: error: cannot find symbol
+        Gson gson = new Gson();
+        ^
+  symbol:   class Gson
+  location: class StringFilter
+.\Projects\HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\StringFilter.java:24: error: cannot find symbol
+        Gson gson = new Gson();
+                        ^
+  symbol:   class Gson
+  location: class StringFilter
+3 errors
+"
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavascriptToPascal.pas,"b""Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\7\\ExecutionsExp14Run1\\03-29-2025_17h03m53s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(5,32) Fatal: Can't find unit JSON used by FilterBySubstring\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n""",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\7\\ExecutionsExp14Run1\\03-29-2025_17h03m53s\\JavaToPascal.pas\r\nJavaToPascal.pas(10,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(37,14) Error: Identifier not found ""TStringStringDynArray""\r\nJavaToPascal.pas(37,35) Error: Error in type definition\r\nJavaToPascal.pas(60,20) Error: Type mismatch\r\nJavaToPascal.pas(62,21) Error: Type mismatch\r\nJavaToPascal.pas(64,32) Error: Illegal qualifier\r\nJavaToPascal.pas(109,4) Fatal: There were 6 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\PythonToC#.exe ./Projects/HumanEvalX\7\ExecutionsExp14Run1\03-29-2025_17h03m53s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\7\\ExecutionsExp14Run1\\03-29-2025_17h03m53s\\PythonToC#.cs(16,26): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\7\\ExecutionsExp14Run1\\03-29-2025_17h03m53s\\PythonToC#.cs(25,27): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\70\\ExecutionsExp14Run1\\03-29-2025_17h07m24s\\C++ToPascal.pas\r\nC++ToPascal.pas(30,9) Note: Local variable ""i"" not used\r\nC++ToPascal.pas(104,9) Error: Duplicate identifier ""RESULT""\r\nC++ToPascal.pas(129,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\JavascriptToC#.exe ./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\70\\ExecutionsExp14Run1\\03-29-2025_17h07m24s\\JavascriptToC#.cs(39,35): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Java,JavascriptToJava.java,./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\Main.java,b'',".\Projects\HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\Main.java:5: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+.\Projects\HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\Main.java:33: error: cannot find symbol
+                Gson gson = new Gson();
+                ^
+  symbol:   class Gson
+  location: class Main
+.\Projects\HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\Main.java:33: error: cannot find symbol
+                Gson gson = new Gson();
+                                ^
+  symbol:   class Gson
+  location: class Main
+3 errors
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\70\\ExecutionsExp14Run1\\03-29-2025_17h07m24s\\JavaToPascal.pas\r\nJavaToPascal.pas(144,49) Error: Incompatible type for arg no. 2: Got ""Boolean"", expected ""LongInt""\r\nJavaToPascal.pas(143,17) Error: Incompatible types: got ""ShortInt"" expected ""Boolean""\r\nJavaToPascal.pas(143,32) Error: Incompatible types: got ""LongInt"" expected ""Boolean""\r\nJavaToPascal.pas(193) Fatal: There were 3 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToC#.exe ./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\70\\ExecutionsExp14Run1\\03-29-2025_17h07m24s\\PythonToC#.cs(46,35): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\70\\ExecutionsExp14Run1\\03-29-2025_17h07m24s\\PythonToC#.cs(51,31): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToHaskell.hs -o ./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\70\\ExecutionsExp14Run1\\03-29-2025_17h07m24s\\PythonToHaskell.hs, Projects\\HumanEvalX\\70\\ExecutionsExp14Run1\\03-29-2025_17h07m24s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToHaskell.hs:19:21: error: [GHC-39999]
+    * Ambiguous type variable `a0' arising from a use of `readMaybe'
+      prevents the constraint `(Read a0)' from being solved.
+      Probable fix: use a type annotation to specify what `a0' should be.
+      Potentially matching instances:
+        instance Read Lexeme
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Read'
+        instance Read Ordering
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Read'
+        ...plus 25 others
+        ...plus 10 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    * In the expression: readMaybe input
+      In the expression:
+        case readMaybe input of
+          Just lst -> print (strangeSort lst)
+          Nothing -> putStrLn ""Invalid input""
+      In a case alternative:
+          [input]
+            -> case readMaybe input of
+                 Just lst -> print (strangeSort lst)
+                 Nothing -> putStrLn ""Invalid input""
+   |
+19 |     [input] -> case readMaybe input of
+   |                     ^^^^^^^^^
+
+Projects\HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToHaskell.hs:20:30: error: [GHC-39999]
+    * Ambiguous type variable `a0' arising from a use of `print'
+      prevents the constraint `(Show a0)' from being solved.
+      Relevant bindings include
+        lst :: [a0]
+          (bound at Projects\HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToHaskell.hs:20:23)
+      Probable fix: use a type annotation to specify what `a0' should be.
+      Potentially matching instances:
+        instance Show Ordering
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Show'
+        instance Show Integer
+          -- Defined in `ghc-internal-9.1001.0:GHC.Internal.Show'
+        ...plus 25 others
+        ...plus 14 instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    * In the expression: print (strangeSort lst)
+      In a case alternative: Just lst -> print (strangeSort lst)
+      In the expression:
+        case readMaybe input of
+          Just lst -> print (strangeSort lst)
+          Nothing -> putStrLn ""Invalid input""
+   |
+20 |                  Just lst -> print (strangeSort lst)
+   |                              ^^^^^
+
+Projects\HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToHaskell.hs:20:37: error: [GHC-39999]
+    * Ambiguous type variable `a0' arising from a use of `strangeSort'
+      prevents the constraint `(Ord a0)' from being solved.
+      Relevant bindings include
+        lst :: [a0]
+          (bound at Projects\HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToHaskell.hs:20:23)
+      Probable fix: use a type annotation to specify what `a0' should be.
+      Potentially matching instances:
+        instance Ord Ordering -- Defined in `ghc-prim-0.11.0:GHC.Classes'
+        instance Ord Integer -- Defined in `GHC.Num.Integer'
+        ...plus 24 others
+        ...plus four instances involving out-of-scope types
+        (use -fprint-potential-instances to see them all)
+    * In the first argument of `print', namely `(strangeSort lst)'
+      In the expression: print (strangeSort lst)
+      In a case alternative: Just lst -> print (strangeSort lst)
+   |
+20 |                  Just lst -> print (strangeSort lst)
+   |                                     ^^^^^^^^^^^
+
+"
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\70\ExecutionsExp14Run1\03-29-2025_17h07m24s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\70\\ExecutionsExp14Run1\\03-29-2025_17h07m24s\\PythonToPascal.pas\r\nPythonToPascal.pas(109,15) Error: Identifier not found ""LastPos""\r\nPythonToPascal.pas(175,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\71\\ExecutionsExp14Run1\\03-29-2025_17h11m10s\\C++ToPascal.pas\r\nC++ToPascal.pas(12,5) Error: Illegal expression\r\nC++ToPascal.pas(12,9) Fatal: Syntax error, "";"" expected but ""identifier H"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+C++,JavaToC++.c++,./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\JavaToC++.c++,1,g++ ./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\JavaToC++.c++ -o ./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\outputCPP,b'',"./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\JavaToC++.c++:1:2: warning: missing terminating ' character
+    1 | I'll help you translate this Java code to C++.
+      |  ^
+./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\JavaToC++.c++:1:2: error: missing terminating ' character
+    1 | I'll help you translate this Java code to C++.
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\JavaToC++.c++:1:1: error: 'I' does not name a type
+    1 | I'll help you translate this Java code to C++.
+      | ^
+"
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\71\ExecutionsExp14Run1\03-29-2025_17h11m10s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\71\\ExecutionsExp14Run1\\03-29-2025_17h11m10s\\PythonToPascal.pas\r\nPythonToPascal.pas(19,11) Error: Identifier not found ""RoundTo""\r\nPythonToPascal.pas(44,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\73\ExecutionsExp14Run1\03-29-2025_17h12m53s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\73\ExecutionsExp14Run1\03-29-2025_17h12m53s\JavascriptToC#.exe ./Projects/HumanEvalX\73\ExecutionsExp14Run1\03-29-2025_17h12m53s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\73\\ExecutionsExp14Run1\\03-29-2025_17h12m53s\\JavascriptToC#.cs(24,30): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\73\ExecutionsExp14Run1\03-29-2025_17h12m53s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\73\ExecutionsExp14Run1\03-29-2025_17h12m53s\PythonToC#.exe ./Projects/HumanEvalX\73\ExecutionsExp14Run1\03-29-2025_17h12m53s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\73\\ExecutionsExp14Run1\\03-29-2025_17h12m53s\\PythonToC#.cs(27,37): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\73\ExecutionsExp14Run1\03-29-2025_17h12m53s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\73\ExecutionsExp14Run1\03-29-2025_17h12m53s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\73\\ExecutionsExp14Run1\\03-29-2025_17h12m53s\\PythonToPascal.pas\r\nPythonToPascal.pas(61,11) Error: Illegal assignment to for-loop variable ""i""\r\nPythonToPascal.pas(90,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\JavascriptToC#.exe ./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\74\\ExecutionsExp14Run1\\03-29-2025_17h15m17s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\outputCPP,b'',"./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\JavascriptToC++.c++:5:10: fatal error: nlohmann/json.hpp: No such file or directory
+    5 | #include <nlohmann/json.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+"
+Java,JavascriptToJava.java,./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\TotalMatch.java,b'',".\Projects\HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\TotalMatch.java:5: error: package org.json does not exist
+import org.json.JSONArray;
+               ^
+.\Projects\HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\TotalMatch.java:31: error: cannot find symbol
+            JSONArray jsonArray1 = new JSONArray(jsonStr1);
+            ^
+  symbol:   class JSONArray
+  location: class TotalMatch
+.\Projects\HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\TotalMatch.java:31: error: cannot find symbol
+            JSONArray jsonArray1 = new JSONArray(jsonStr1);
+                                       ^
+  symbol:   class JSONArray
+  location: class TotalMatch
+.\Projects\HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\TotalMatch.java:32: error: cannot find symbol
+            JSONArray jsonArray2 = new JSONArray(jsonStr2);
+            ^
+  symbol:   class JSONArray
+  location: class TotalMatch
+.\Projects\HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\TotalMatch.java:32: error: cannot find symbol
+            JSONArray jsonArray2 = new JSONArray(jsonStr2);
+                                       ^
+  symbol:   class JSONArray
+  location: class TotalMatch
+5 errors
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\74\\ExecutionsExp14Run1\\03-29-2025_17h15m17s\\JavaToPascal.pas\r\nJavaToPascal.pas(15,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(42,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(107,4) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\PythonToC#.exe ./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\74\\ExecutionsExp14Run1\\03-29-2025_17h15m17s\\PythonToC#.cs(40,26): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\74\\ExecutionsExp14Run1\\03-29-2025_17h15m17s\\PythonToC#.cs(41,26): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\74\\ExecutionsExp14Run1\\03-29-2025_17h15m17s\\PythonToC#.cs(44,27): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+C++,PythonToC++.c++,./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\PythonToC++.c++,1,g++ ./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\PythonToC++.c++ -o ./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\outputCPP,b'',"./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\PythonToC++.c++:4:10: fatal error: json/json.h: No such file or directory
+    4 | #include <json/json.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+"
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\74\ExecutionsExp14Run1\03-29-2025_17h15m17s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\74\\ExecutionsExp14Run1\\03-29-2025_17h15m17s\\PythonToPascal.pas\r\nPythonToPascal.pas(58,43) Error: Operator is not overloaded: ""Boolean"" and ""Char""\r\nPythonToPascal.pas(82,41) Error: Operator is not overloaded: ""Boolean"" and ""Char""\r\nPythonToPascal.pas(125,4) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\79\ExecutionsExp14Run1\03-29-2025_17h22m18s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\79\ExecutionsExp14Run1\03-29-2025_17h22m18s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\79\\ExecutionsExp14Run1\\03-29-2025_17h22m18s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(7,20) Error: Identifier not found ""IntToBin""\r\nJavascriptToPascal.pas(21) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\JavascriptToC#.exe ./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\8\\ExecutionsExp14Run1\\03-29-2025_17h23m51s\\JavascriptToC#.cs(23,33): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\outputCPP,b'',"./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\JavascriptToC++.c++:5:10: fatal error: nlohmann/json.hpp: No such file or directory
+    5 | #include <nlohmann/json.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\PythonToC#.exe ./Projects/HumanEvalX\8\ExecutionsExp14Run1\03-29-2025_17h23m51s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\8\\ExecutionsExp14Run1\\03-29-2025_17h23m51s\\PythonToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\81\\ExecutionsExp14Run1\\03-29-2025_17h28m04s\\C++ToPascal.pas\r\nC++ToPascal.pas(42,9) Error: Duplicate identifier ""RESULT""\r\nC++ToPascal.pas(100) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\JavascriptToC#.exe ./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\81\\ExecutionsExp14Run1\\03-29-2025_17h28m04s\\JavascriptToC#.cs(75,37): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+c#,PythonToC#.cs,./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToC#.exe ./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\81\\ExecutionsExp14Run1\\03-29-2025_17h28m04s\\PythonToC#.cs(74,40): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+C++,PythonToC++.c++,./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToC++.c++,1,g++ ./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToC++.c++ -o ./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\outputCPP,b'',"./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToC++.c++: In function 'std::vector<double> parse_input(const std::string&)':
+./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToC++.c++:46:44: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   46 |     cleaned.erase(std::remove(cleaned.begin(), cleaned.end(), '['), cleaned.end());
+      |                               ~~~~~~~~~~~~~^~
+      |                                            |
+      |                                            std::__cxx11::basic_string<char>::iterator
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/locale.h:12,
+                 from C:/MinGWCPP/include/c++/13.2.0/clocale:42,
+                 from C:/MinGWCPP/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:41,
+                 from C:/MinGWCPP/include/c++/13.2.0/bits/localefwd.h:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/ios:43,
+                 from C:/MinGWCPP/include/c++/13.2.0/ostream:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/iostream:41,
+                 from ./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToC++.c++:1:
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToC++.c++:47:44: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   47 |     cleaned.erase(std::remove(cleaned.begin(), cleaned.end(), ']'), cleaned.end());
+      |                               ~~~~~~~~~~~~~^~
+      |                                            |
+      |                                            std::__cxx11::basic_string<char>::iterator
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+"
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\81\ExecutionsExp14Run1\03-29-2025_17h28m04s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\81\\ExecutionsExp14Run1\\03-29-2025_17h28m04s\\PythonToPascal.pas\r\nPythonToPascal.pas(77,15) Warning: Variable ""paramStr"" of a managed type does not seem to be initialized\r\nPythonToPascal.pas(77,23) Fatal: Syntax error, "";"" expected but ""("" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\83\ExecutionsExp14Run1\03-29-2025_17h33m42s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\83\ExecutionsExp14Run1\03-29-2025_17h33m42s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\83\\ExecutionsExp14Run1\\03-29-2025_17h33m42s\\C++ToPascal.pas\r\nC++ToPascal.pas(16,9) Error: Illegal expression\r\nC++ToPascal.pas(16,13) Fatal: Syntax error, "":="" expected but ""identifier I"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\83\ExecutionsExp14Run1\03-29-2025_17h33m42s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\83\ExecutionsExp14Run1\03-29-2025_17h33m42s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\83\\ExecutionsExp14Run1\\03-29-2025_17h33m42s\\PythonToPascal.pas\r\nPythonToPascal.pas(12,26) Error: Identifier not found ""Power""\r\nPythonToPascal.pas(28,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\JavascriptToC#.exe ./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\85\\ExecutionsExp14Run1\\03-29-2025_17h36m45s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\outputCPP,b'',"./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\JavascriptToC++.c++:5:10: fatal error: json/json.h: No such file or directory
+    5 | #include <json/json.h> // Using jsoncpp library
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+"
+Java,JavascriptToJava.java,./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\Main.java,b'',".\Projects\HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\Main.java:4: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+.\Projects\HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\Main.java:22: error: cannot find symbol
+                Gson gson = new Gson();
+                ^
+  symbol:   class Gson
+  location: class Main
+.\Projects\HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\Main.java:22: error: cannot find symbol
+                Gson gson = new Gson();
+                                ^
+  symbol:   class Gson
+  location: class Main
+3 errors
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\PythonToC#.exe ./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\85\\ExecutionsExp14Run1\\03-29-2025_17h36m45s\\PythonToC#.cs(27,29): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\85\ExecutionsExp14Run1\03-29-2025_17h36m45s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\85\\ExecutionsExp14Run1\\03-29-2025_17h36m45s\\PythonToPascal.pas\r\nPythonToPascal.pas(21,35) Error: Type identifier expected\r\nPythonToPascal.pas(21,35) Fatal: Syntax error, "";"" expected but ""ARRAY"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\86\ExecutionsExp14Run1\03-29-2025_17h39m05s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\86\ExecutionsExp14Run1\03-29-2025_17h39m05s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\86\\ExecutionsExp14Run1\\03-29-2025_17h39m05s\\C++ToPascal.pas\r\nC++ToPascal.pas(22,13) Error: Illegal assignment to for-loop variable ""i""\r\nC++ToPascal.pas(26,7) Error: Illegal expression\r\nC++ToPascal.pas(26,11) Fatal: Syntax error, "";"" expected but ""identifier J"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\86\ExecutionsExp14Run1\03-29-2025_17h39m05s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\86\ExecutionsExp14Run1\03-29-2025_17h39m05s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\86\\ExecutionsExp14Run1\\03-29-2025_17h39m05s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(10,15) Error: Duplicate identifier ""RESULT""\r\nJavascriptToPascal.pas(89) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\86\ExecutionsExp14Run1\03-29-2025_17h39m05s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\86\ExecutionsExp14Run1\03-29-2025_17h39m05s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\86\\ExecutionsExp14Run1\\03-29-2025_17h39m05s\\JavaToPascal.pas\r\nJavaToPascal.pas(10,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(35,15) Error: Illegal assignment to for-loop variable ""i""\r\nJavaToPascal.pas(70,4) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\86\ExecutionsExp14Run1\03-29-2025_17h39m05s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\86\ExecutionsExp14Run1\03-29-2025_17h39m05s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\86\\ExecutionsExp14Run1\\03-29-2025_17h39m05s\\PythonToPascal.pas\r\nPythonToPascal.pas(14,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(28,11) Error: Illegal expression\r\nPythonToPascal.pas(28,15) Fatal: Syntax error, "":="" expected but ""identifier K"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\88\\ExecutionsExp14Run1\\03-29-2025_17h41m29s\\C++ToPascal.pas\r\nC++ToPascal.pas(13,9) Error: Duplicate identifier ""RESULT""\r\nC++ToPascal.pas(28,9) Error: Illegal expression\r\nC++ToPascal.pas(28,13) Fatal: Syntax error, "":="" expected but ""identifier J"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\JavascriptToC#.exe ./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\88\\ExecutionsExp14Run1\\03-29-2025_17h41m29s\\JavascriptToC#.cs(38,36): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\outputCPP,b'',"./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\JavascriptToC++.c++:6:10: fatal error: json/json.h: No such file or directory
+    6 | #include <json/json.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\PythonToC#.exe ./Projects/HumanEvalX\88\ExecutionsExp14Run1\03-29-2025_17h41m29s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\88\\ExecutionsExp14Run1\\03-29-2025_17h41m29s\\PythonToC#.cs(28,35): error CS0103: The name 'JsonConvert' does not exist in the current context\r\nProjects\\HumanEvalX\\88\\ExecutionsExp14Run1\\03-29-2025_17h41m29s\\PythonToC#.cs(33,35): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\89\ExecutionsExp14Run1\03-29-2025_17h44m48s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\89\ExecutionsExp14Run1\03-29-2025_17h44m48s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\89\\ExecutionsExp14Run1\\03-29-2025_17h44m48s\\JavaToPascal.pas\r\nJavaToPascal.pas(10,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(37,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\9\\ExecutionsExp14Run1\\03-29-2025_17h46m17s\\C++ToPascal.pas\r\nC++ToPascal.pas(28,9) Error: Duplicate identifier ""RESULT""\r\nC++ToPascal.pas(82) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavascriptToC#.exe ./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\9\\ExecutionsExp14Run1\\03-29-2025_17h46m17s\\JavascriptToC#.cs(4,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\outputCPP,b'',"./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavascriptToC++.c++:7:10: fatal error: nlohmann/json.hpp: No such file or directory
+    7 | #include <nlohmann/json.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+"
+Java,JavascriptToJava.java,./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavascriptToJava.java,1,javac ./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\RollingMax.java,b'',".\Projects\HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\RollingMax.java:4: error: package com.google.gson does not exist
+import com.google.gson.Gson;
+                      ^
+.\Projects\HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\RollingMax.java:27: error: cannot find symbol
+            Gson gson = new Gson();
+            ^
+  symbol:   class Gson
+  location: class RollingMax
+.\Projects\HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\RollingMax.java:27: error: cannot find symbol
+            Gson gson = new Gson();
+                            ^
+  symbol:   class Gson
+  location: class RollingMax
+3 errors
+"
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\9\\ExecutionsExp14Run1\\03-29-2025_17h46m17s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(12,9) Error: Duplicate identifier ""RESULT""\r\nJavascriptToPascal.pas(29,21) Error: Identifier not found ""Max""\r\nJavascriptToPascal.pas(41,9) Error: Duplicate identifier ""RESULT""\r\nJavascriptToPascal.pas(45,13) Error: Identifier not found ""LastPos""\r\nJavascriptToPascal.pas(120) Fatal: There were 4 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\9\\ExecutionsExp14Run1\\03-29-2025_17h46m17s\\JavaToPascal.pas\r\nJavaToPascal.pas(17,24) Error: Identifier not found ""IntToStr""\r\nJavaToPascal.pas(30,17) Error: Identifier not found ""Trim""\r\nJavaToPascal.pas(35,21) Warning: function result variable of a managed type does not seem to be initialized\r\nJavaToPascal.pas(60,27) Error: Identifier not found ""Trim""\r\nJavaToPascal.pas(65,23) Error: Identifier not found ""Trim""\r\nJavaToPascal.pas(69,18) Error: Identifier not found ""StrToInt""\r\nJavaToPascal.pas(77,19) Warning: function result variable of a managed type does not seem to be initialized\r\nJavaToPascal.pas(108,4) Fatal: There were 5 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,PythonToC#.cs,./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\PythonToC#.exe ./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\9\\ExecutionsExp14Run1\\03-29-2025_17h46m17s\\PythonToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\9\ExecutionsExp14Run1\03-29-2025_17h46m17s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\9\\ExecutionsExp14Run1\\03-29-2025_17h46m17s\\PythonToPascal.pas\r\nPythonToPascal.pas(13,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(115,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX\91\ExecutionsExp14Run1\03-29-2025_17h49m17s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX\91\ExecutionsExp14Run1\03-29-2025_17h49m17s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\91\\ExecutionsExp14Run1\\03-29-2025_17h49m17s\\JavaToPascal.pas\r\nJavaToPascal.pas(9,14) Error: Identifier not found ""TStringList""\r\nJavaToPascal.pas(9,25) Error: Error in type definition\r\nJavaToPascal.pas(15,16) Error: Identifier not found ""TStringList""\r\nJavaToPascal.pas(20,28) Error: Incompatible type for arg no. 2: Got ""<erroneous type>"", expected ""TStrings""\r\nJavaToPascal.pas(23,23) Error: Cannot find an enumerator for the type ""<erroneous type>""\r\nJavaToPascal.pas(34,15) Error: Illegal qualifier\r\nJavaToPascal.pas(49,4) Fatal: There were 6 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX\91\ExecutionsExp14Run1\03-29-2025_17h49m17s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX\91\ExecutionsExp14Run1\03-29-2025_17h49m17s\PythonToHaskell.hs -o ./Projects/HumanEvalX\91\ExecutionsExp14Run1\03-29-2025_17h49m17s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\91\\ExecutionsExp14Run1\\03-29-2025_17h49m17s\\PythonToHaskell.hs, Projects\\HumanEvalX\\91\\ExecutionsExp14Run1\\03-29-2025_17h49m17s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\91\ExecutionsExp14Run1\03-29-2025_17h49m17s\PythonToHaskell.hs:3:1: error: [GHC-87110]
+    Could not find module `Text.Regex.PCRE'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import Text.Regex.PCRE
+  | ^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX\93\ExecutionsExp14Run1\03-29-2025_17h51m01s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX\93\ExecutionsExp14Run1\03-29-2025_17h51m01s\PythonToHaskell.hs -o ./Projects/HumanEvalX\93\ExecutionsExp14Run1\03-29-2025_17h51m01s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\93\\ExecutionsExp14Run1\\03-29-2025_17h51m01s\\PythonToHaskell.hs, Projects\\HumanEvalX\\93\\ExecutionsExp14Run1\\03-29-2025_17h51m01s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\93\ExecutionsExp14Run1\03-29-2025_17h51m01s\PythonToHaskell.hs:9:5: error: [GHC-58481]
+    parse error on input `in'
+  |
+9 |     in concat [if i `elem` vowels then lookup i vowelsReplace else i | i <- swappedMessage]
+  |     ^^
+
+"
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX\93\ExecutionsExp14Run1\03-29-2025_17h51m01s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX\93\ExecutionsExp14Run1\03-29-2025_17h51m01s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\93\\ExecutionsExp14Run1\\03-29-2025_17h51m01s\\PythonToPascal.pas\r\nPythonToPascal.pas(9,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(46,4) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\94\\ExecutionsExp14Run1\\03-29-2025_17h53m00s\\C++ToPascal.pas\r\nC++ToPascal.pas(41,12) Error: Identifier not found ""TStringList""\r\nC++ToPascal.pas(41,23) Error: Error in type definition\r\nC++ToPascal.pas(46,14) Error: Identifier not found ""TStringList""\r\nC++ToPascal.pas(61,13) Error: Illegal qualifier\r\nC++ToPascal.pas(62,13) Error: Illegal qualifier\r\nC++ToPascal.pas(65,36) Error: Illegal qualifier\r\nC++ToPascal.pas(66,27) Error: Illegal qualifier\r\nC++ToPascal.pas(68,35) Error: Illegal qualifier\r\nC++ToPascal.pas(69,27) Warning: Local variable ""value"" does not seem to be initialized\r\nC++ToPascal.pas(74,13) Error: Illegal qualifier\r\nC++ToPascal.pas(88,4) Fatal: There were 9 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\JavascriptToC#.exe ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\94\\ExecutionsExp14Run1\\03-29-2025_17h53m00s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\JavascriptToC++.c++ -o ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\outputCPP,b'',"./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\JavascriptToC++.c++:5:10: fatal error: json/json.h: No such file or directory
+    5 | #include <json/json.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+"
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\94\\ExecutionsExp14Run1\\03-29-2025_17h53m00s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\94\\ExecutionsExp14Run1\\03-29-2025_17h53m00s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\JavascriptToHaskell.hs:5:1: error: [GHC-87110]
+    Could not find module `Text.JSON'.
+    Use -v to see a list of the files searched for.
+  |
+5 | import Text.JSON
+  | ^^^^^^^^^^^^^^^^
+
+"
+c#,PythonToC#.cs,./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC#.exe ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\94\\ExecutionsExp14Run1\\03-29-2025_17h53m00s\\PythonToC#.cs(44,37): error CS0103: The name 'JsonConvert' does not exist in the current context\r\n""",
+C++,PythonToC++.c++,./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC++.c++,1,g++ ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC++.c++ -o ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\outputCPP,b'',"./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC++.c++: In function 'std::vector<int> parseInput(const std::string&)':
+./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC++.c++:41:45: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   41 |     cleanInput.erase(remove(cleanInput.begin(), cleanInput.end(), '['), cleanInput.end());
+      |                             ~~~~~~~~~~~~~~~~^~
+      |                                             |
+      |                                             std::__cxx11::basic_string<char>::iterator
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/locale.h:12,
+                 from C:/MinGWCPP/include/c++/13.2.0/clocale:42,
+                 from C:/MinGWCPP/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:41,
+                 from C:/MinGWCPP/include/c++/13.2.0/bits/localefwd.h:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/ios:43,
+                 from C:/MinGWCPP/include/c++/13.2.0/ostream:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/iostream:41,
+                 from ./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC++.c++:1:
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC++.c++:42:45: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   42 |     cleanInput.erase(remove(cleanInput.begin(), cleanInput.end(), ']'), cleanInput.end());
+      |                             ~~~~~~~~~~~~~~~~^~
+      |                                             |
+      |                                             std::__cxx11::basic_string<char>::iterator
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+./Projects/HumanEvalX\94\ExecutionsExp14Run1\03-29-2025_17h53m00s\PythonToC++.c++:43:45: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   43 |     cleanInput.erase(remove(cleanInput.begin(), cleanInput.end(), ' '), cleanInput.end());
+      |                             ~~~~~~~~~~~~~~~~^~
+      |                                             |
+      |                                             std::__cxx11::basic_string<char>::iterator
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+"
+Java,C++ToJava.java,./Projects/HumanEvalX\99\ExecutionsExp14Run1\03-29-2025_17h59m33s\C++ToJava.java,1,javac ./Projects/HumanEvalX\99\ExecutionsExp14Run1\03-29-2025_17h59m33s\ClosestInteger.java,b'',".\Projects\HumanEvalX\99\ExecutionsExp14Run1\03-29-2025_17h59m33s\ClosestInteger.java:1: error: cannot find symbol
+import java.util.Math;
+                ^
+  symbol:   class Math
+  location: package java.util
+1 error
+"

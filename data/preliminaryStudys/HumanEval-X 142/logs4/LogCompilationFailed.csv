@@ -1,0 +1,225 @@
+language,filename,DirPath,Returncode,Command,Output,Stdout,Stderr
+C,C++ToC.c,./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\C++ToC.c,1,gcc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\C++ToC.c -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\outputC,b'',"./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\C++ToC.c:1:5: warning: missing terminating ' character
+    1 | Here's the complete translation of the provided C++ code into C:
+      |     ^
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\C++ToC.c:1:5: error: missing terminating ' character
+    1 | Here's the complete translation of the provided C++ code into C:
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/_mingw.h:282,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt_stdio_config.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:9,
+                 from ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\C++ToC.c:3:
+C:/MinGWCPP/x86_64-w64-mingw32/include/vadefs.h:14:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '#pragma'
+   14 | #pragma pack(push,_CRT_PACKING)
+      |         ^~~~
+"
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h16m01s\\C++ToPascal.pas\r\nC++ToPascal.pas(30,24) Error: Identifier not found ""RemoveChars""\r\nC++ToPascal.pas(30,36) Error: Identifier not found ""RemoveChars""\r\nC++ToPascal.pas(32,11) Error: Incompatible types: got ""TStringDynArray"" expected ""TArray$1$crc9F312717""\r\nC++ToPascal.pas(34,19) Warning: function result variable of a managed type does not seem to be initialized\r\nC++ToPascal.pas(36,37) Error: Incompatible type for arg no. 1: Got ""LongInt"", expected ""AnsiString""\r\nC++ToPascal.pas(54) Fatal: There were 4 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavascriptToC#.exe ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\Executions\\08-15-2024_12h16m01s\\JavascriptToC#.cs(2,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h16m01s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(45,11) Error: Illegal assignment to for-loop variable ""i""\r\nJavascriptToPascal.pas(66) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+C++,JavaToC++.c++,./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavaToC++.c++,1,g++ ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavaToC++.c++ -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\outputCPP,b'',"./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavaToC++.c++: In function 'std::vector<int> parseInput(const std::string&)':
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavaToC++.c++:34:49: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   34 |     cleanedInput.erase(remove(cleanedInput.begin(), cleanedInput.end(), '['), cleanedInput.end());
+      |                               ~~~~~~~~~~~~~~~~~~^~
+      |                                                 |
+      |                                                 std::__cxx11::basic_string<char>::iterator
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/locale.h:12,
+                 from C:/MinGWCPP/include/c++/13.2.0/clocale:42,
+                 from C:/MinGWCPP/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:41,
+                 from C:/MinGWCPP/include/c++/13.2.0/bits/localefwd.h:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/ios:43,
+                 from C:/MinGWCPP/include/c++/13.2.0/ostream:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/iostream:41,
+                 from ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavaToC++.c++:1:
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavaToC++.c++:35:49: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   35 |     cleanedInput.erase(remove(cleanedInput.begin(), cleanedInput.end(), ']'), cleanedInput.end());
+      |                               ~~~~~~~~~~~~~~~~~~^~
+      |                                                 |
+      |                                                 std::__cxx11::basic_string<char>::iterator
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h16m01s\\JavaToPascal.pas\r\nJavaToPascal.pas(10,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(57,5) Error: Illegal expression\r\nJavaToPascal.pas(57,9) Fatal: Syntax error, "";"" expected but ""identifier TEMPARRAY"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h16m01s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h16m01s\\PythonToPascal.pas\r\nPythonToPascal.pas(8,12) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(48) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+C,C++ToC.c,./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\C++ToC.c,1,gcc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\C++ToC.c -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\outputC,b'',"./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\C++ToC.c:1:5: warning: missing terminating ' character
+    1 | Here's the translated C code that performs the same functionality as the original C++ code. The C code includes necessary logic to parse the input and computes the sum of squares based on the given rules.
+      |     ^
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\C++ToC.c:1:5: error: missing terminating ' character
+    1 | Here's the translated C code that performs the same functionality as the original C++ code. The C code includes necessary logic to parse the input and computes the sum of squares based on the given rules.
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/_mingw.h:282,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt_stdio_config.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:9,
+                 from ./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\C++ToC.c:3:
+C:/MinGWCPP/x86_64-w64-mingw32/include/vadefs.h:14:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '#pragma'
+   14 | #pragma pack(push,_CRT_PACKING)
+      |         ^~~~
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\JavascriptToC#.exe ./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\Executions\\08-15-2024_12h18m16s\\JavascriptToC#.cs(3,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\outputHS,"b'[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h18m16s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h18m16s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\142\Executions\08-15-2024_12h18m16s\JavascriptToHaskell.hs:2:1: error: [GHC-61948]
+    Could not find module `Data.Aeson'.
+    Perhaps you meant Data.Version (from base-4.20.0.0)
+    Use -v to see a list of the files searched for.
+  |
+2 | import Data.Aeson (decode, encode)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h18m16s\\JavaToPascal.pas\r\nJavaToPascal.pas(8,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(23,13) Error: Incompatible types: got ""ShortInt"" expected ""{Dynamic} Array Of LongInt""\r\nJavaToPascal.pas(25,30) Error: Incompatible types: got ""LongInt"" expected ""{Dynamic} Array Of LongInt""\r\nJavaToPascal.pas(59) Fatal: There were 3 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h18m16s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h18m16s\\PythonToPascal.pas\r\nPythonToPascal.pas(9,12) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(56) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+C,C++ToC.c,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\C++ToC.c,1,gcc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\C++ToC.c -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\outputC,b'',"./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\C++ToC.c:1:5: warning: missing terminating ' character
+    1 | Here's the equivalent C code translating the provided C++ functionality:
+      |     ^
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\C++ToC.c:1:5: error: missing terminating ' character
+    1 | Here's the equivalent C code translating the provided C++ functionality:
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/_mingw.h:282,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt_stdio_config.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:9,
+                 from ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\C++ToC.c:3:
+C:/MinGWCPP/x86_64-w64-mingw32/include/vadefs.h:14:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '#pragma'
+   14 | #pragma pack(push,_CRT_PACKING)
+      |         ^~~~
+"
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h20m34s\\C++ToPascal.pas\r\nC++ToPascal.pas(53,27) Error: Incompatible type for arg no. 1: Got ""LongInt"", expected ""AnsiString""\r\nC++ToPascal.pas(51,7) Error: Incompatible types: got ""AnsiString"" expected ""LongInt""\r\nC++ToPascal.pas(64) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavascriptToC#.exe ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\Executions\\08-15-2024_12h20m34s\\JavascriptToC#.cs(32,28): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\outputHS,"b'[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h20m34s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h20m34s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\142\Executions\08-15-2024_12h20m34s\JavascriptToHaskell.hs:16:44: error: [GHC-88464]
+    Variable not in scope: listToMaybe :: [[Int]] -> Maybe [Int]
+    Suggested fix:
+      Add `listToMaybe' to the import list in the import of `Data.Maybe'
+      (at Projects\HumanEvalX\142\Executions\08-15-2024_12h20m34s\JavascriptToHaskell.hs:3:1-29).
+   |
+16 |     let result = sumSquares (fromMaybe [] (listToMaybe input))
+   |                                            ^^^^^^^^^^^
+
+"
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h20m34s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(56,11) Error: Illegal assignment to for-loop variable ""i""\r\nJavascriptToPascal.pas(66) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+C++,JavaToC++.c++,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToC++.c++,1,g++ ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToC++.c++ -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\outputCPP,b'',"./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToC++.c++: In function 'int main(int, char**)':
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToC++.c++:36:55: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   36 |             listString0.erase(remove(listString0.begin(), listString0.end(), '['), listString0.end());
+      |                                      ~~~~~~~~~~~~~~~~~^~
+      |                                                       |
+      |                                                       std::__cxx11::basic_string<char>::iterator
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/locale.h:12,
+                 from C:/MinGWCPP/include/c++/13.2.0/clocale:42,
+                 from C:/MinGWCPP/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:41,
+                 from C:/MinGWCPP/include/c++/13.2.0/bits/localefwd.h:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/ios:43,
+                 from C:/MinGWCPP/include/c++/13.2.0/ostream:40,
+                 from C:/MinGWCPP/include/c++/13.2.0/iostream:41,
+                 from ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToC++.c++:1:
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToC++.c++:37:55: error: cannot convert 'std::__cxx11::basic_string<char>::iterator' to 'const char*'
+   37 |             listString0.erase(remove(listString0.begin(), listString0.end(), ']'), listString0.end());
+      |                                      ~~~~~~~~~~~~~~~~~^~
+      |                                                       |
+      |                                                       std::__cxx11::basic_string<char>::iterator
+C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:715:34: note:   initializing argument 1 of 'int remove(const char*)'
+  715 |   int __cdecl remove(const char *_Filename);
+      |                      ~~~~~~~~~~~~^~~~~~~~~
+"
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToHaskell.hs -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\outputHS,"b'[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h20m34s\\JavaToHaskell.hs, Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h20m34s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\142\Executions\08-15-2024_12h20m34s\JavaToHaskell.hs:2:1: error: [GHC-87110]
+    Could not find module `Data.List.Split'.
+    Use -v to see a list of the files searched for.
+  |
+2 | import Data.List.Split (splitOn)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h20m34s\\JavaToPascal.pas\r\nJavaToPascal.pas(9,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(17,51) Error: Call by var for arg no. 1 has to match exactly: Got ""Extended"" expected ""File""\r\nJavaToPascal.pas(67) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+C,PythonToC.c,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c,1,gcc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\outputC,b'',"./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c:1:1: error: unknown type name 'Here'
+    1 | Here is the translated C code from the provided Python code:
+      | ^~~~
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c:1:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'the'
+    1 | Here is the translated C code from the provided Python code:
+      |         ^~~
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c:1:9: error: unknown type name 'the'
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/_mingw.h:282,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt_stdio_config.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:9,
+                 from ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c:3:
+C:/MinGWCPP/x86_64-w64-mingw32/include/vadefs.h:31:11: error: unknown type name '__gnuc_va_list'
+   31 |   typedef __gnuc_va_list va_list;
+      |           ^~~~~~~~~~~~~~
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c: In function 'main':
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c:34:19: warning: implicit declaration of function 'strtok'; did you mean 'strtol'? [-Wimplicit-function-declaration]
+   34 |     char *token = strtok(input, "","");
+      |                   ^~~~~~
+      |                   strtol
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c:34:19: warning: initialization of 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToC.c:37:15: warning: assignment to 'char *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   37 |         token = strtok(NULL, "","");
+      |               ^
+"
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h20m34s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h20m34s\\PythonToPascal.pas\r\nPythonToPascal.pas(8,9) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(57) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+C,C++ToC.c,./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\C++ToC.c,1,gcc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\C++ToC.c -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\outputC,b'',"./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\C++ToC.c:1:5: warning: missing terminating ' character
+    1 | Here's the C equivalent of the provided C++ code:
+      |     ^
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\C++ToC.c:1:5: error: missing terminating ' character
+    1 | Here's the C equivalent of the provided C++ code:
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/_mingw.h:282,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt_stdio_config.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:9,
+                 from ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\C++ToC.c:3:
+C:/MinGWCPP/x86_64-w64-mingw32/include/vadefs.h:14:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '#pragma'
+   14 | #pragma pack(push,_CRT_PACKING)
+      |         ^~~~
+"
+Haskell,C++ToHaskell.hs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\C++ToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\C++ToHaskell.hs -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\outputHS,"b'[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h22m35s\\C++ToHaskell.hs, Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h22m35s\\C++ToHaskell.o )\r\n'","Projects\HumanEvalX\142\Executions\08-15-2024_12h22m35s\C++ToHaskell.hs:16:19: error: [GHC-88464]
+    Variable not in scope:
+      mapMaybe :: (String -> Maybe a1) -> [String] -> b
+   |
+16 |         numbers = mapMaybe readMaybe $ words $ map (\c -> if c == ',' || c == '[' || c == ']' then ' ' else c) cleanedInput
+   |                   ^^^^^^^^
+
+"
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\JavascriptToC#.exe ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\Executions\\08-15-2024_12h22m35s\\JavascriptToC#.cs(36,21): error CS0234: The type or namespace name 'JsonConvert' does not exist in the namespace 'Newtonsoft.Json' (are you missing an assembly reference?)\r\n""",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\outputHS,"b'[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h22m35s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h22m35s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\142\Executions\08-15-2024_12h22m35s\JavascriptToHaskell.hs:3:1: error: [GHC-87110]
+    Could not find module `Data.String.Utils'.
+    Use -v to see a list of the files searched for.
+  |
+3 | import Data.String.Utils (replace)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\JavaToHaskell.hs -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\outputHS,"b'[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h22m35s\\JavaToHaskell.hs, Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h22m35s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\142\Executions\08-15-2024_12h22m35s\JavaToHaskell.hs:4:1: error: [GHC-87110]
+    Could not find module `Data.List.Split'.
+    Use -v to see a list of the files searched for.
+  |
+4 | import Data.List.Split (splitOn)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+"
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h22m35s\\JavaToPascal.pas\r\nJavaToPascal.pas(8,9) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(59) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h22m35s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h22m35s\\PythonToPascal.pas\r\nPythonToPascal.pas(8,12) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(37) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+C,C++ToC.c,./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\C++ToC.c,1,gcc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\C++ToC.c -o ./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\outputC,b'',"./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\C++ToC.c:1:5: warning: missing terminating ' character
+    1 | Here's the translated C code from the provided C++ code. This C program will compile and perform the same functionality:
+      |     ^
+./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\C++ToC.c:1:5: error: missing terminating ' character
+    1 | Here's the translated C code from the provided C++ code. This C program will compile and perform the same functionality:
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from C:/MinGWCPP/x86_64-w64-mingw32/include/_mingw.h:282,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/corecrt_stdio_config.h:10,
+                 from C:/MinGWCPP/x86_64-w64-mingw32/include/stdio.h:9,
+                 from ./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\C++ToC.c:3:
+C:/MinGWCPP/x86_64-w64-mingw32/include/vadefs.h:14:9: error: expected '=', ',', ';', 'asm' or '__attribute__' before '#pragma'
+   14 | #pragma pack(push,_CRT_PACKING)
+      |         ^~~~
+"
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h24m22s\\C++ToPascal.pas\r\nC++ToPascal.pas(42,12) Error: Invalid assignment, procedures return no value\r\nC++ToPascal.pas(44,12) Error: Invalid assignment, procedures return no value\r\nC++ToPascal.pas(48,14) Error: Incompatible types: got ""TStringArray"" expected ""TArray$1$crc9F312717""\r\nC++ToPascal.pas(52,26) Error: Incompatible type for arg no. 1: Got ""LongInt"", expected ""AnsiString""\r\nC++ToPascal.pas(57) Fatal: There were 4 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\JavascriptToC#.exe ./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\Executions\\08-15-2024_12h24m22s\\JavascriptToC#.cs(37,21): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h24m22s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(41,18) Error: Incompatible types: got ""ShortInt"" expected ""AnsiString""\r\nJavascriptToPascal.pas(43,18) Error: Incompatible types: got ""LongInt"" expected ""AnsiString""\r\nJavascriptToPascal.pas(47,28) Error: Incompatible type for arg no. 1: Got ""TStringArray"", expected ""{Open} Array Of LongInt""\r\nJavascriptToPascal.pas(50) Fatal: There were 3 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h24m22s\\JavaToPascal.pas\r\nJavaToPascal.pas(9,11) Error: Duplicate identifier ""RESULT""\r\nJavaToPascal.pas(63,19) Error: Illegal assignment to for-loop variable ""i""\r\nJavaToPascal.pas(75) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/Executions\08-15-2024_12h24m22s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\Executions\\08-15-2024_12h24m22s\\PythonToPascal.pas\r\nPythonToPascal.pas(8,11) Error: Duplicate identifier ""RESULT""\r\nPythonToPascal.pas(41,31) Error: Identifier not found ""SplitString""\r\nPythonToPascal.pas(45,37) Error: Identifier not found ""SplitString""\r\nPythonToPascal.pas(53) Fatal: There were 3 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",

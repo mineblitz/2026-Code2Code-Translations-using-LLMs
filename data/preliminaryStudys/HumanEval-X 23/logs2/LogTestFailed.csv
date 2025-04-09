@@ -1,0 +1,11 @@
+language,File Path,C++ToJavascript.js,returncode,input,Expected,actualy
+JavaScript,./Projects/HumanEvalX/23/Executions\08-12-2024_21h07m20s\JavaToJavascript.js,JavaToJavascript.js,0,[''],0,"0
+1
+9"
+JavaScript,./Projects/HumanEvalX/23/Executions\08-12-2024_21h08m07s\C++ToJavascript.js,C++ToJavascript.js,0,[''],0,"0
+1
+9"
+JavaScript,./Projects/HumanEvalX/23/Executions\08-12-2024_21h09m50s\JavaToJavascript.js,JavaToJavascript.js,0,[''],0,"0
+1
+9"
+JavaScript,./Projects/HumanEvalX/23/Executions\08-12-2024_21h07m20s\C++ToJavascript.js,C++ToJavascript.js,0,['x'],1,0

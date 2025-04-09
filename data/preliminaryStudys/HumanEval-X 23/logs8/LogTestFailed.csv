@@ -1,0 +1,15 @@
+language,File Path,JavascriptToJava.java,returncode,input,Expected,actualy
+Haskell,./Projects/HumanEvalX/23/Executions\08-17-2024_19h20m12s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,[''],0,[0]
+Java,./Projects/HumanEvalX/23/Executions\08-17-2024_19h19m29s\JavascriptToJava.java,JavascriptToJava.java,0,[''],0,2
+JavaScript,./Projects/HumanEvalX/23/Executions\08-17-2024_19h28m40s\PythonToJavascript.js,PythonToJavascript.js,0,[''],0,Enter a string:
+JavaScript,./Projects/HumanEvalX/23/Executions\08-17-2024_19h31m20s\PythonToJavascript.js,PythonToJavascript.js,0,[''],0,Please enter a string:
+JavaScript,./Projects/HumanEvalX/23/Executions\08-17-2024_19h31m54s\PythonToJavascript.js,PythonToJavascript.js,0,[''],0,Please enter a string:
+Pascal,./Projects/HumanEvalX/23/Executions\08-17-2024_19h20m53s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-17-2024_19h21m59s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-17-2024_19h22m40s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-17-2024_19h24m00s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-17-2024_19h24m37s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-17-2024_19h25m24s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-17-2024_19h26m01s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-17-2024_19h26m37s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-17-2024_19h27m13s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0

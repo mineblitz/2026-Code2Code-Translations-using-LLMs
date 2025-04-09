@@ -1,0 +1,4 @@
+language,File Path,JavaToPascal.pas,returncode,input,Expected,actualy
+Pascal,./Projects/HumanEvalX/23/Executions\08-13-2024_13h54m33s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-13-2024_13h55m18s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0
+Pascal,./Projects/HumanEvalX/23/Executions\08-13-2024_13h56m45s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0

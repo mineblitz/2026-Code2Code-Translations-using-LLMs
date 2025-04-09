@@ -1,0 +1,1586 @@
+language,filename,DirPath,Returncode,Command,Output,Stdout,Stderr
+C,C++ToC.c,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToC.c,1,gcc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToC.c -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputC,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToC.c:27:5: error: redefinition of 'sum_squares'
+   27 | int sum_squares(int *lst, int size) {
+      |     ^~~~~~~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToC.c:15:5: note: previous definition of 'sum_squares' with type 'int(int *, int)'
+   15 | int sum_squares(int *lst, int size) {
+      |     ^~~~~~~~~~~
+",
+C,C++ToC.c,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToC.c,1,gcc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToC.c -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputC,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToC.c: In function 'main':
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToC.c:61:18: error: too few arguments to function 'sum_squares'
+   61 |     int result = sum_squares(n);
+      |                  ^~~~~~~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToC.c:15:5: note: declared here
+   15 | int sum_squares(int* lst, int size) {
+      |     ^~~~~~~~~~~
+",
+C,JavaToC.c,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC.c,1,gcc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC.c -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputC,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC.c:37:5: error: redefinition of 'sumSquares'
+   37 | int sumSquares(int* lst, int size) {
+      |     ^~~~~~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC.c:15:5: note: previous definition of 'sumSquares' with type 'int(int *, int)'
+   15 | int sumSquares(int *lst, int size) {
+      |     ^~~~~~~~~~
+",
+C,JavascriptToC.c,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC.c,1,gcc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC.c -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputC,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC.c:28:5: error: redefinition of 'sumSquares'
+   28 | int sumSquares(int* lst, int length) {
+      |     ^~~~~~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC.c:15:5: note: previous definition of 'sumSquares' with type 'int(int *, int)'
+   15 | int sumSquares(int* lst, int length) {
+      |     ^~~~~~~~~~
+",
+C,JavascriptToC.c,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToC.c,1,gcc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToC.c -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputC,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToC.c:28:5: error: redefinition of 'sumSquares'
+   28 | int sumSquares(int *lst, int length) {
+      |     ^~~~~~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToC.c:15:5: note: previous definition of 'sumSquares' with type 'int(int *, int)'
+   15 | int sumSquares(int *lst, int length) {
+      |     ^~~~~~~~~~
+",
+C,PythonToC.c,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC.c,1,gcc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC.c -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputC,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC.c:28:5: error: redefinition of 'sum_squares'
+   28 | int sum_squares(int *lst, int len) {
+      |     ^~~~~~~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC.c:15:5: note: previous definition of 'sum_squares' with type 'int(int *, int)'
+   15 | int sum_squares(int *lst, int len) {
+      |     ^~~~~~~~~~~
+",
+C++,JavaToC++.c++,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC++.c++,1,g++ ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC++.c++ -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputCPP,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC++.c++:56:1: error: expected unqualified-id before 'public'
+   56 | public:
+      | ^~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC++.c++:74:17: error: cannot declare '::main' to be static
+   74 |     static void main(int argc, char* argv[]) {
+      |                 ^~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC++.c++:74:12: error: '::main' must return 'int'
+   74 |     static void main(int argc, char* argv[]) {
+      |            ^~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC++.c++: In function 'int main(int, char**)':
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC++.c++:75:9: error: 'Solution' was not declared in this scope
+   75 |         Solution solution;
+      |         ^~~~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC++.c++:87:22: error: 'solution' was not declared in this scope
+   87 |         int result = solution.sumSquares(n);
+      |                      ^~~~~~~~
+",
+C++,JavaToC++.c++,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++,1,g++ ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++ -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputCPP,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++:43:16: error: 'vector' was not declared in this scope
+   43 | int sumSquares(vector<int> lst) {
+      |                ^~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++:43:16: note: suggested alternatives:
+In file included from C:/MinGWCPP/include/c++/13.2.0/vector:66,
+                 from C:/MinGWCPP/include/c++/13.2.0/functional:64,
+                 from ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++:2:
+C:/MinGWCPP/include/c++/13.2.0/bits/stl_vector.h:425:11: note:   'std::vector'
+  425 |     class vector : protected _Vector_base<_Tp, _Alloc>
+      |           ^~~~~~
+C:/MinGWCPP/include/c++/13.2.0/vector:86:13: note:   'std::pmr::vector'
+   86 |       using vector = std::vector<_Tp, polymorphic_allocator<_Tp>>;
+      |             ^~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++:43:23: error: expected primary-expression before 'int'
+   43 | int sumSquares(vector<int> lst) {
+      |                       ^~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++:56:1: error: expected unqualified-id before 'public'
+   56 | public:
+      | ^~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++:75:17: error: cannot declare '::main' to be static
+   75 |     static void main(int argc, char* argv[]) {
+      |                 ^~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++:75:12: error: '::main' must return 'int'
+   75 |     static void main(int argc, char* argv[]) {
+      |            ^~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++: In function 'int main(int, char**)':
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++:76:9: error: 'Solution' was not declared in this scope
+   76 |         Solution solution;
+      |         ^~~~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC++.c++:88:22: error: 'solution' was not declared in this scope
+   88 |         int result = solution.sumSquares(n);
+      |                      ^~~~~~~~
+",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC++.c++ -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputCPP,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC++.c++:52:5: error: redefinition of 'int sumSquares(const std::vector<int>&)'
+   52 | int sumSquares(const std::vector<int>& lst) {
+      |     ^~~~~~~~~~
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC++.c++:43:5: note: 'int sumSquares(const std::vector<int>&)' previously defined here
+   43 | int sumSquares(const std::vector<int>& lst) {
+      |     ^~~~~~~~~~
+",
+C++,JavascriptToC++.c++,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToC++.c++,1,g++ ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToC++.c++ -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputCPP,b'',"C:/MinGWCPP/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/MinGWCPP/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/libmingw32.a(lib64_libmingw32_a-crtexewin.o): in function `main':
+E:\temp\gcc\build-mingw-w64\mingw-w64-crt/../../src/mingw-w64-crt/crt/crtexewin.c:70:(.text.startup+0xbd): undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+",
+C++,PythonToC++.c++,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToC++.c++,1,g++ ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToC++.c++ -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputCPP,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToC++.c++: In function 'int main(int, char**)':
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToC++.c++:57:73: error: expected primary-expression before ';' token
+   57 |     std::vector<int> n = /* logic to parse argv[1] into a vector<int> */;
+      |                                                                         ^
+",
+C++,PythonToC++.c++,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC++.c++,1,g++ ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC++.c++ -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputCPP,b'',"./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC++.c++: In function 'int main(int, char**)':
+./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC++.c++:61:67: error: expected primary-expression before ';' token
+   61 |     std::vector<int> n = /* code to parse argv[1] into a vector */;
+      |                                                                   ^
+",
+Haskell,C++ToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\C++ToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\C++ToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:5:46: error: [GHC-61689]
+    Module `Data.Aeson.Types' does not export `getJsonValue'.
+  |
+5 | import Data.Aeson.Types (Parser, parseMaybe, getJsonValue, Array, Value)
+  |                                              ^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:6:1: error: [GHC-87110]
+    Could not load module `Data.Array'.
+    It is a member of the hidden package `array-0.5.7.0'.
+    Use -v to see a list of the files searched for.
+  |
+6 | import Data.Array (Array, listArray, (!))
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:7:1: error: [GHC-87110]
+    Could not find module `Data.Attoparsec.Text'.
+    Use -v to see a list of the files searched for.
+  |
+7 | import Data.Attoparsec.Text (Parser, double, parseOnly)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:16:20: error: [GHC-61689]
+    Module `Data.Fixed' does not export `CEILING'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                    ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:16:35: error: [GHC-61689]
+    Module `Data.Fixed' does not export `round'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:20:223: error: [GHC-61689]
+    Module `Data.List' does not export `rotate'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                               ^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:20:295: error: [GHC-61689]
+    Module `Data.List' does not export `isSorted'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                       ^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:20:305: error: [GHC-61689]
+    Module `Data.List' does not export `sublist'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                 ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:20:377: error: [GHC-61689]
+    Module `Data.List' does not export `stripSuffix'.
+    Suggested fix: Perhaps use `stripPrefix'
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:20:419: error: [GHC-61689]
+    Module `Data.List' does not export `strip'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:22:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+22 | import Data.Map.Strict (Map)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:26:1: error: [GHC-87110]
+    Could not load module `Data.Scientific'.
+    It is a member of the hidden package `scientific-0.3.8.0'.
+    Use -v to see a list of the files searched for.
+   |
+26 | import Data.Scientific (toBoundedInteger)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:27:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+27 | import Data.Set (Set, fromList, insert, member, size, intersection, equal)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:28:33: error: [GHC-61689]
+    Module `Data.String' does not export `strip'.
+   |
+28 | import Data.String (fromString, strip)
+   |                                 ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:32:1: error: [GHC-87110]
+    Could not load module `Data.Time.Clock'.
+    It is a member of the hidden package `time-1.12.2'.
+    Use -v to see a list of the files searched for.
+   |
+32 | import Data.Time.Clock (getCurrentTime)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:33:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+33 | import Data.Vector (Vector, fromList, toList)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:36:1: error: [GHC-87110]
+    Could not find module `Read'.
+    Use -v to see a list of the files searched for.
+   |
+36 | import Read (readMaybe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:37:1: error: [GHC-87110]
+    Could not find module `ReadP'.
+    Use -v to see a list of the files searched for.
+   |
+37 | import ReadP (readP_to_S)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:46:1: error: [GHC-87110]
+    Could not load module `Data.Map'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+46 | import qualified Data.Map as M
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:47:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+47 | import qualified Data.Map.Strict as Map
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:48:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+48 | import qualified Data.Set as Set
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:54:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+54 | import qualified Data.Vector as V
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:55:1: error: [GHC-61948]
+    Could not find module `Data.ByteString.Lazy.UTF8'.
+    Perhaps you meant
+      Data.ByteString.Lazy.Char8 (from bytestring-0.12.1.0)
+      Data.ByteString.Lazy (from bytestring-0.12.1.0)
+    Use -v to see a list of the files searched for.
+   |
+55 | import qualified Data.ByteString.Lazy.UTF8 as B
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToHaskell.hs:56:1: error: [GHC-87110]
+    Could not find module `Safe'.
+    Use -v to see a list of the files searched for.
+   |
+56 | import qualified Safe
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,C++ToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\C++ToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\C++ToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:5:46: error: [GHC-61689]
+    Module `Data.Aeson.Types' does not export `getJsonValue'.
+  |
+5 | import Data.Aeson.Types (Parser, parseMaybe, getJsonValue, Array, Value)
+  |                                              ^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:6:1: error: [GHC-87110]
+    Could not load module `Data.Array'.
+    It is a member of the hidden package `array-0.5.7.0'.
+    Use -v to see a list of the files searched for.
+  |
+6 | import Data.Array (Array, listArray, (!))
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:7:1: error: [GHC-87110]
+    Could not find module `Data.Attoparsec.Text'.
+    Use -v to see a list of the files searched for.
+  |
+7 | import Data.Attoparsec.Text (Parser, double, parseOnly)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:16:20: error: [GHC-61689]
+    Module `Data.Fixed' does not export `CEILING'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                    ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:16:35: error: [GHC-61689]
+    Module `Data.Fixed' does not export `round'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:20:223: error: [GHC-61689]
+    Module `Data.List' does not export `rotate'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                               ^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:20:295: error: [GHC-61689]
+    Module `Data.List' does not export `isSorted'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                       ^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:20:305: error: [GHC-61689]
+    Module `Data.List' does not export `sublist'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                 ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:20:377: error: [GHC-61689]
+    Module `Data.List' does not export `stripSuffix'.
+    Suggested fix: Perhaps use `stripPrefix'
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:20:419: error: [GHC-61689]
+    Module `Data.List' does not export `strip'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:22:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+22 | import Data.Map.Strict (Map)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:26:1: error: [GHC-87110]
+    Could not load module `Data.Scientific'.
+    It is a member of the hidden package `scientific-0.3.8.0'.
+    Use -v to see a list of the files searched for.
+   |
+26 | import Data.Scientific (toBoundedInteger)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:27:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+27 | import Data.Set (Set, fromList, insert, member, size, intersection, equal)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:28:33: error: [GHC-61689]
+    Module `Data.String' does not export `strip'.
+   |
+28 | import Data.String (fromString, strip)
+   |                                 ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:32:1: error: [GHC-87110]
+    Could not load module `Data.Time.Clock'.
+    It is a member of the hidden package `time-1.12.2'.
+    Use -v to see a list of the files searched for.
+   |
+32 | import Data.Time.Clock (getCurrentTime)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:33:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+33 | import Data.Vector (Vector, fromList, toList)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:36:1: error: [GHC-87110]
+    Could not find module `Read'.
+    Use -v to see a list of the files searched for.
+   |
+36 | import Read (readMaybe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:37:1: error: [GHC-87110]
+    Could not find module `ReadP'.
+    Use -v to see a list of the files searched for.
+   |
+37 | import ReadP (readP_to_S)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:46:1: error: [GHC-87110]
+    Could not load module `Data.Map'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+46 | import qualified Data.Map as M
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:47:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+47 | import qualified Data.Map.Strict as Map
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:48:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+48 | import qualified Data.Set as Set
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:54:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+54 | import qualified Data.Vector as V
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:55:1: error: [GHC-61948]
+    Could not find module `Data.ByteString.Lazy.UTF8'.
+    Perhaps you meant
+      Data.ByteString.Lazy.Char8 (from bytestring-0.12.1.0)
+      Data.ByteString.Lazy (from bytestring-0.12.1.0)
+    Use -v to see a list of the files searched for.
+   |
+55 | import qualified Data.ByteString.Lazy.UTF8 as B
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToHaskell.hs:56:1: error: [GHC-87110]
+    Could not find module `Safe'.
+    Use -v to see a list of the files searched for.
+   |
+56 | import qualified Safe
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavaToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:5:46: error: [GHC-61689]
+    Module `Data.Aeson.Types' does not export `getJsonValue'.
+  |
+5 | import Data.Aeson.Types (Parser, parseMaybe, getJsonValue, Array, Value)
+  |                                              ^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:6:1: error: [GHC-87110]
+    Could not load module `Data.Array'.
+    It is a member of the hidden package `array-0.5.7.0'.
+    Use -v to see a list of the files searched for.
+  |
+6 | import Data.Array (Array, listArray, (!))
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:7:1: error: [GHC-87110]
+    Could not find module `Data.Attoparsec.Text'.
+    Use -v to see a list of the files searched for.
+  |
+7 | import Data.Attoparsec.Text (Parser, double, parseOnly)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:16:20: error: [GHC-61689]
+    Module `Data.Fixed' does not export `CEILING'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                    ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:16:35: error: [GHC-61689]
+    Module `Data.Fixed' does not export `round'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:20:223: error: [GHC-61689]
+    Module `Data.List' does not export `rotate'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                               ^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:20:295: error: [GHC-61689]
+    Module `Data.List' does not export `isSorted'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                       ^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:20:305: error: [GHC-61689]
+    Module `Data.List' does not export `sublist'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                 ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:20:377: error: [GHC-61689]
+    Module `Data.List' does not export `stripSuffix'.
+    Suggested fix: Perhaps use `stripPrefix'
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:20:419: error: [GHC-61689]
+    Module `Data.List' does not export `strip'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:22:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+22 | import Data.Map.Strict (Map)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:26:1: error: [GHC-87110]
+    Could not load module `Data.Scientific'.
+    It is a member of the hidden package `scientific-0.3.8.0'.
+    Use -v to see a list of the files searched for.
+   |
+26 | import Data.Scientific (toBoundedInteger)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:27:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+27 | import Data.Set (Set, fromList, insert, member, size, intersection, equal)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:28:33: error: [GHC-61689]
+    Module `Data.String' does not export `strip'.
+   |
+28 | import Data.String (fromString, strip)
+   |                                 ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:32:1: error: [GHC-87110]
+    Could not load module `Data.Time.Clock'.
+    It is a member of the hidden package `time-1.12.2'.
+    Use -v to see a list of the files searched for.
+   |
+32 | import Data.Time.Clock (getCurrentTime)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:33:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+33 | import Data.Vector (Vector, fromList, toList)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:36:1: error: [GHC-87110]
+    Could not find module `Read'.
+    Use -v to see a list of the files searched for.
+   |
+36 | import Read (readMaybe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:37:1: error: [GHC-87110]
+    Could not find module `ReadP'.
+    Use -v to see a list of the files searched for.
+   |
+37 | import ReadP (readP_to_S)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:46:1: error: [GHC-87110]
+    Could not load module `Data.Map'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+46 | import qualified Data.Map as M
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:47:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+47 | import qualified Data.Map.Strict as Map
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:48:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+48 | import qualified Data.Set as Set
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:54:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+54 | import qualified Data.Vector as V
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:55:1: error: [GHC-61948]
+    Could not find module `Data.ByteString.Lazy.UTF8'.
+    Perhaps you meant
+      Data.ByteString.Lazy.Char8 (from bytestring-0.12.1.0)
+      Data.ByteString.Lazy (from bytestring-0.12.1.0)
+    Use -v to see a list of the files searched for.
+   |
+55 | import qualified Data.ByteString.Lazy.UTF8 as B
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToHaskell.hs:56:1: error: [GHC-87110]
+    Could not find module `Safe'.
+    Use -v to see a list of the files searched for.
+   |
+56 | import qualified Safe
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,JavaToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavaToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavaToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:5:46: error: [GHC-61689]
+    Module `Data.Aeson.Types' does not export `getJsonValue'.
+  |
+5 | import Data.Aeson.Types (Parser, parseMaybe, getJsonValue, Array, Value)
+  |                                              ^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:6:1: error: [GHC-87110]
+    Could not load module `Data.Array'.
+    It is a member of the hidden package `array-0.5.7.0'.
+    Use -v to see a list of the files searched for.
+  |
+6 | import Data.Array (Array, listArray, (!))
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:7:1: error: [GHC-87110]
+    Could not find module `Data.Attoparsec.Text'.
+    Use -v to see a list of the files searched for.
+  |
+7 | import Data.Attoparsec.Text (Parser, double, parseOnly)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:16:20: error: [GHC-61689]
+    Module `Data.Fixed' does not export `CEILING'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                    ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:16:35: error: [GHC-61689]
+    Module `Data.Fixed' does not export `round'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:20:223: error: [GHC-61689]
+    Module `Data.List' does not export `rotate'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                               ^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:20:295: error: [GHC-61689]
+    Module `Data.List' does not export `isSorted'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                       ^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:20:305: error: [GHC-61689]
+    Module `Data.List' does not export `sublist'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                 ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:20:377: error: [GHC-61689]
+    Module `Data.List' does not export `stripSuffix'.
+    Suggested fix: Perhaps use `stripPrefix'
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:20:419: error: [GHC-61689]
+    Module `Data.List' does not export `strip'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:22:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+22 | import Data.Map.Strict (Map)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:26:1: error: [GHC-87110]
+    Could not load module `Data.Scientific'.
+    It is a member of the hidden package `scientific-0.3.8.0'.
+    Use -v to see a list of the files searched for.
+   |
+26 | import Data.Scientific (toBoundedInteger)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:27:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+27 | import Data.Set (Set, fromList, insert, member, size, intersection, equal)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:28:33: error: [GHC-61689]
+    Module `Data.String' does not export `strip'.
+   |
+28 | import Data.String (fromString, strip)
+   |                                 ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:32:1: error: [GHC-87110]
+    Could not load module `Data.Time.Clock'.
+    It is a member of the hidden package `time-1.12.2'.
+    Use -v to see a list of the files searched for.
+   |
+32 | import Data.Time.Clock (getCurrentTime)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:33:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+33 | import Data.Vector (Vector, fromList, toList)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:36:1: error: [GHC-87110]
+    Could not find module `Read'.
+    Use -v to see a list of the files searched for.
+   |
+36 | import Read (readMaybe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:37:1: error: [GHC-87110]
+    Could not find module `ReadP'.
+    Use -v to see a list of the files searched for.
+   |
+37 | import ReadP (readP_to_S)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:46:1: error: [GHC-87110]
+    Could not load module `Data.Map'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+46 | import qualified Data.Map as M
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:47:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+47 | import qualified Data.Map.Strict as Map
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:48:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+48 | import qualified Data.Set as Set
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:54:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+54 | import qualified Data.Vector as V
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:55:1: error: [GHC-61948]
+    Could not find module `Data.ByteString.Lazy.UTF8'.
+    Perhaps you meant
+      Data.ByteString.Lazy.Char8 (from bytestring-0.12.1.0)
+      Data.ByteString.Lazy (from bytestring-0.12.1.0)
+    Use -v to see a list of the files searched for.
+   |
+55 | import qualified Data.ByteString.Lazy.UTF8 as B
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToHaskell.hs:56:1: error: [GHC-87110]
+    Could not find module `Safe'.
+    Use -v to see a list of the files searched for.
+   |
+56 | import qualified Safe
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:5:46: error: [GHC-61689]
+    Module `Data.Aeson.Types' does not export `getJsonValue'.
+  |
+5 | import Data.Aeson.Types (Parser, parseMaybe, getJsonValue, Array, Value)
+  |                                              ^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:6:1: error: [GHC-87110]
+    Could not load module `Data.Array'.
+    It is a member of the hidden package `array-0.5.7.0'.
+    Use -v to see a list of the files searched for.
+  |
+6 | import Data.Array (Array, listArray, (!))
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:7:1: error: [GHC-87110]
+    Could not find module `Data.Attoparsec.Text'.
+    Use -v to see a list of the files searched for.
+  |
+7 | import Data.Attoparsec.Text (Parser, double, parseOnly)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:16:20: error: [GHC-61689]
+    Module `Data.Fixed' does not export `CEILING'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                    ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:16:35: error: [GHC-61689]
+    Module `Data.Fixed' does not export `round'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:20:223: error: [GHC-61689]
+    Module `Data.List' does not export `rotate'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                               ^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:20:295: error: [GHC-61689]
+    Module `Data.List' does not export `isSorted'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                       ^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:20:305: error: [GHC-61689]
+    Module `Data.List' does not export `sublist'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                 ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:20:377: error: [GHC-61689]
+    Module `Data.List' does not export `stripSuffix'.
+    Suggested fix: Perhaps use `stripPrefix'
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:20:419: error: [GHC-61689]
+    Module `Data.List' does not export `strip'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:22:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+22 | import Data.Map.Strict (Map)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:26:1: error: [GHC-87110]
+    Could not load module `Data.Scientific'.
+    It is a member of the hidden package `scientific-0.3.8.0'.
+    Use -v to see a list of the files searched for.
+   |
+26 | import Data.Scientific (toBoundedInteger)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:27:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+27 | import Data.Set (Set, fromList, insert, member, size, intersection, equal)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:28:33: error: [GHC-61689]
+    Module `Data.String' does not export `strip'.
+   |
+28 | import Data.String (fromString, strip)
+   |                                 ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:32:1: error: [GHC-87110]
+    Could not load module `Data.Time.Clock'.
+    It is a member of the hidden package `time-1.12.2'.
+    Use -v to see a list of the files searched for.
+   |
+32 | import Data.Time.Clock (getCurrentTime)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:33:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+33 | import Data.Vector (Vector, fromList, toList)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:36:1: error: [GHC-87110]
+    Could not find module `Read'.
+    Use -v to see a list of the files searched for.
+   |
+36 | import Read (readMaybe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:37:1: error: [GHC-87110]
+    Could not find module `ReadP'.
+    Use -v to see a list of the files searched for.
+   |
+37 | import ReadP (readP_to_S)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:46:1: error: [GHC-87110]
+    Could not load module `Data.Map'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+46 | import qualified Data.Map as M
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:47:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+47 | import qualified Data.Map.Strict as Map
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:48:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+48 | import qualified Data.Set as Set
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:54:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+54 | import qualified Data.Vector as V
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:55:1: error: [GHC-61948]
+    Could not find module `Data.ByteString.Lazy.UTF8'.
+    Perhaps you meant
+      Data.ByteString.Lazy.Char8 (from bytestring-0.12.1.0)
+      Data.ByteString.Lazy (from bytestring-0.12.1.0)
+    Use -v to see a list of the files searched for.
+   |
+55 | import qualified Data.ByteString.Lazy.UTF8 as B
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToHaskell.hs:56:1: error: [GHC-87110]
+    Could not find module `Safe'.
+    Use -v to see a list of the files searched for.
+   |
+56 | import qualified Safe
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,JavascriptToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:5:46: error: [GHC-61689]
+    Module `Data.Aeson.Types' does not export `getJsonValue'.
+  |
+5 | import Data.Aeson.Types (Parser, parseMaybe, getJsonValue, Array, Value)
+  |                                              ^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:6:1: error: [GHC-87110]
+    Could not load module `Data.Array'.
+    It is a member of the hidden package `array-0.5.7.0'.
+    Use -v to see a list of the files searched for.
+  |
+6 | import Data.Array (Array, listArray, (!))
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:7:1: error: [GHC-87110]
+    Could not find module `Data.Attoparsec.Text'.
+    Use -v to see a list of the files searched for.
+  |
+7 | import Data.Attoparsec.Text (Parser, double, parseOnly)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:16:20: error: [GHC-61689]
+    Module `Data.Fixed' does not export `CEILING'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                    ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:16:35: error: [GHC-61689]
+    Module `Data.Fixed' does not export `round'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:20:223: error: [GHC-61689]
+    Module `Data.List' does not export `rotate'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                               ^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:20:295: error: [GHC-61689]
+    Module `Data.List' does not export `isSorted'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                       ^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:20:305: error: [GHC-61689]
+    Module `Data.List' does not export `sublist'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                 ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:20:377: error: [GHC-61689]
+    Module `Data.List' does not export `stripSuffix'.
+    Suggested fix: Perhaps use `stripPrefix'
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:20:419: error: [GHC-61689]
+    Module `Data.List' does not export `strip'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:22:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+22 | import Data.Map.Strict (Map)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:26:1: error: [GHC-87110]
+    Could not load module `Data.Scientific'.
+    It is a member of the hidden package `scientific-0.3.8.0'.
+    Use -v to see a list of the files searched for.
+   |
+26 | import Data.Scientific (toBoundedInteger)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:27:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+27 | import Data.Set (Set, fromList, insert, member, size, intersection, equal)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:28:33: error: [GHC-61689]
+    Module `Data.String' does not export `strip'.
+   |
+28 | import Data.String (fromString, strip)
+   |                                 ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:32:1: error: [GHC-87110]
+    Could not load module `Data.Time.Clock'.
+    It is a member of the hidden package `time-1.12.2'.
+    Use -v to see a list of the files searched for.
+   |
+32 | import Data.Time.Clock (getCurrentTime)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:33:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+33 | import Data.Vector (Vector, fromList, toList)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:36:1: error: [GHC-87110]
+    Could not find module `Read'.
+    Use -v to see a list of the files searched for.
+   |
+36 | import Read (readMaybe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:37:1: error: [GHC-87110]
+    Could not find module `ReadP'.
+    Use -v to see a list of the files searched for.
+   |
+37 | import ReadP (readP_to_S)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:46:1: error: [GHC-87110]
+    Could not load module `Data.Map'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+46 | import qualified Data.Map as M
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:47:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+47 | import qualified Data.Map.Strict as Map
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:48:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+48 | import qualified Data.Set as Set
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:54:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+54 | import qualified Data.Vector as V
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:55:1: error: [GHC-61948]
+    Could not find module `Data.ByteString.Lazy.UTF8'.
+    Perhaps you meant
+      Data.ByteString.Lazy.Char8 (from bytestring-0.12.1.0)
+      Data.ByteString.Lazy (from bytestring-0.12.1.0)
+    Use -v to see a list of the files searched for.
+   |
+55 | import qualified Data.ByteString.Lazy.UTF8 as B
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToHaskell.hs:56:1: error: [GHC-87110]
+    Could not find module `Safe'.
+    Use -v to see a list of the files searched for.
+   |
+56 | import qualified Safe
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\PythonToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:5:46: error: [GHC-61689]
+    Module `Data.Aeson.Types' does not export `getJsonValue'.
+  |
+5 | import Data.Aeson.Types (Parser, parseMaybe, getJsonValue, Array, Value)
+  |                                              ^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:6:1: error: [GHC-87110]
+    Could not load module `Data.Array'.
+    It is a member of the hidden package `array-0.5.7.0'.
+    Use -v to see a list of the files searched for.
+  |
+6 | import Data.Array (Array, listArray, (!))
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:7:1: error: [GHC-87110]
+    Could not find module `Data.Attoparsec.Text'.
+    Use -v to see a list of the files searched for.
+  |
+7 | import Data.Attoparsec.Text (Parser, double, parseOnly)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:16:20: error: [GHC-61689]
+    Module `Data.Fixed' does not export `CEILING'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                    ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:16:35: error: [GHC-61689]
+    Module `Data.Fixed' does not export `round'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:20:223: error: [GHC-61689]
+    Module `Data.List' does not export `rotate'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                               ^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:20:295: error: [GHC-61689]
+    Module `Data.List' does not export `isSorted'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                       ^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:20:305: error: [GHC-61689]
+    Module `Data.List' does not export `sublist'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                 ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:20:377: error: [GHC-61689]
+    Module `Data.List' does not export `stripSuffix'.
+    Suggested fix: Perhaps use `stripPrefix'
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:20:419: error: [GHC-61689]
+    Module `Data.List' does not export `strip'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:22:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+22 | import Data.Map.Strict (Map)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:26:1: error: [GHC-87110]
+    Could not load module `Data.Scientific'.
+    It is a member of the hidden package `scientific-0.3.8.0'.
+    Use -v to see a list of the files searched for.
+   |
+26 | import Data.Scientific (toBoundedInteger)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:27:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+27 | import Data.Set (Set, fromList, insert, member, size, intersection, equal)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:28:33: error: [GHC-61689]
+    Module `Data.String' does not export `strip'.
+   |
+28 | import Data.String (fromString, strip)
+   |                                 ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:32:1: error: [GHC-87110]
+    Could not load module `Data.Time.Clock'.
+    It is a member of the hidden package `time-1.12.2'.
+    Use -v to see a list of the files searched for.
+   |
+32 | import Data.Time.Clock (getCurrentTime)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:33:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+33 | import Data.Vector (Vector, fromList, toList)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:36:1: error: [GHC-87110]
+    Could not find module `Read'.
+    Use -v to see a list of the files searched for.
+   |
+36 | import Read (readMaybe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:37:1: error: [GHC-87110]
+    Could not find module `ReadP'.
+    Use -v to see a list of the files searched for.
+   |
+37 | import ReadP (readP_to_S)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:46:1: error: [GHC-87110]
+    Could not load module `Data.Map'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+46 | import qualified Data.Map as M
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:47:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+47 | import qualified Data.Map.Strict as Map
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:48:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+48 | import qualified Data.Set as Set
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:54:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+54 | import qualified Data.Vector as V
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:55:1: error: [GHC-61948]
+    Could not find module `Data.ByteString.Lazy.UTF8'.
+    Perhaps you meant
+      Data.ByteString.Lazy.Char8 (from bytestring-0.12.1.0)
+      Data.ByteString.Lazy (from bytestring-0.12.1.0)
+    Use -v to see a list of the files searched for.
+   |
+55 | import qualified Data.ByteString.Lazy.UTF8 as B
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToHaskell.hs:56:1: error: [GHC-87110]
+    Could not find module `Safe'.
+    Use -v to see a list of the files searched for.
+   |
+56 | import qualified Safe
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,PythonToHaskell.hs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs,1,ghc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs -o ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\PythonToHaskell.hs, Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\PythonToHaskell.o )\r\n'","Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:5:46: error: [GHC-61689]
+    Module `Data.Aeson.Types' does not export `getJsonValue'.
+  |
+5 | import Data.Aeson.Types (Parser, parseMaybe, getJsonValue, Array, Value)
+  |                                              ^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:6:1: error: [GHC-87110]
+    Could not load module `Data.Array'.
+    It is a member of the hidden package `array-0.5.7.0'.
+    Use -v to see a list of the files searched for.
+  |
+6 | import Data.Array (Array, listArray, (!))
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:7:1: error: [GHC-87110]
+    Could not find module `Data.Attoparsec.Text'.
+    Use -v to see a list of the files searched for.
+  |
+7 | import Data.Attoparsec.Text (Parser, double, parseOnly)
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:16:20: error: [GHC-61689]
+    Module `Data.Fixed' does not export `CEILING'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                    ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:16:35: error: [GHC-61689]
+    Module `Data.Fixed' does not export `round'.
+   |
+16 | import Data.Fixed (CEILING, mod', round)
+   |                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:20:223: error: [GHC-61689]
+    Module `Data.List' does not export `rotate'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                               ^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:20:295: error: [GHC-61689]
+    Module `Data.List' does not export `isSorted'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                       ^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:20:305: error: [GHC-61689]
+    Module `Data.List' does not export `sublist'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                 ^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:20:377: error: [GHC-61689]
+    Module `Data.List' does not export `stripSuffix'.
+    Suggested fix: Perhaps use `stripPrefix'
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:20:419: error: [GHC-61689]
+    Module `Data.List' does not export `strip'.
+   |
+20 | import Data.List (sort, sortBy, sortOn, nub, intercalate, filter, isInfixOf, isPrefixOf, isSuffixOf, genericIndex, genericTake, genericDrop, tails, inits, unfoldr, group, zipWith, maximumBy, minimumBy, delete, take, drop, rotate, intersect, reverse, concat, replicate, length, elemIndex, find, isSorted, sublist, null, zip, foldl, foldl1', genericReplicate, sum, stripPrefix, stripSuffix, genericLength, dropWhileEnd, strip)
+   |                                                                                                                                                                                                                                                                                                                                                                                                                                   ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:22:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+22 | import Data.Map.Strict (Map)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:26:1: error: [GHC-87110]
+    Could not load module `Data.Scientific'.
+    It is a member of the hidden package `scientific-0.3.8.0'.
+    Use -v to see a list of the files searched for.
+   |
+26 | import Data.Scientific (toBoundedInteger)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:27:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+27 | import Data.Set (Set, fromList, insert, member, size, intersection, equal)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:28:33: error: [GHC-61689]
+    Module `Data.String' does not export `strip'.
+   |
+28 | import Data.String (fromString, strip)
+   |                                 ^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:32:1: error: [GHC-87110]
+    Could not load module `Data.Time.Clock'.
+    It is a member of the hidden package `time-1.12.2'.
+    Use -v to see a list of the files searched for.
+   |
+32 | import Data.Time.Clock (getCurrentTime)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:33:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+33 | import Data.Vector (Vector, fromList, toList)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:36:1: error: [GHC-87110]
+    Could not find module `Read'.
+    Use -v to see a list of the files searched for.
+   |
+36 | import Read (readMaybe)
+   | ^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:37:1: error: [GHC-87110]
+    Could not find module `ReadP'.
+    Use -v to see a list of the files searched for.
+   |
+37 | import ReadP (readP_to_S)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:46:1: error: [GHC-87110]
+    Could not load module `Data.Map'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+46 | import qualified Data.Map as M
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:47:1: error: [GHC-87110]
+    Could not load module `Data.Map.Strict'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+47 | import qualified Data.Map.Strict as Map
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:48:1: error: [GHC-87110]
+    Could not load module `Data.Set'.
+    It is a member of the hidden package `containers-0.7'.
+    Use -v to see a list of the files searched for.
+   |
+48 | import qualified Data.Set as Set
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:54:1: error: [GHC-87110]
+    Could not load module `Data.Vector'.
+    It is a member of the hidden package `vector-0.13.1.0'.
+    Use -v to see a list of the files searched for.
+   |
+54 | import qualified Data.Vector as V
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:55:1: error: [GHC-61948]
+    Could not find module `Data.ByteString.Lazy.UTF8'.
+    Perhaps you meant
+      Data.ByteString.Lazy.Char8 (from bytestring-0.12.1.0)
+      Data.ByteString.Lazy (from bytestring-0.12.1.0)
+    Use -v to see a list of the files searched for.
+   |
+55 | import qualified Data.ByteString.Lazy.UTF8 as B
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToHaskell.hs:56:1: error: [GHC-87110]
+    Could not find module `Safe'.
+    Use -v to see a list of the files searched for.
+   |
+56 | import qualified Safe
+   | ^^^^^^^^^^^^^^^^^^^^^
+
+",
+Java,C++ToJava.java,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToJava.java,1,javac -cp ./JavaLibs/* ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\Solution.java,b'',".\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\Solution.java:69: error: non-static method sum_squares(List<Integer>) cannot be referenced from a static context
+    int result = sum_squares(n);
+                 ^
+1 error
+",
+Java,C++ToJava.java,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToJava.java,1,javac -cp ./JavaLibs/* ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java,b'',".\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:69: error: non-static method sum_squares(List<Integer>) cannot be referenced from a static context
+    int result = sum_squares(n);
+                 ^
+1 error
+",
+Java,JavascriptToJava.java,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToJava.java,1,javac -cp ./JavaLibs/* ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\Solution.java,b'',".\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\Solution.java:59: error: ']' expected
+args[0] = args[0].replace(""'"", ""\"""");
+     ^
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\Solution.java:59: error: ']' expected
+args[0] = args[0].replace(""'"", ""\"""");
+               ^
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\Solution.java:59: error: invalid method declaration; return type required
+args[0] = args[0].replace(""'"", ""\"""");
+                  ^
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\Solution.java:59: error: illegal start of type
+args[0] = args[0].replace(""'"", ""\"""");
+                          ^
+4 errors
+",
+Java,JavascriptToJava.java,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToJava.java,1,javac -cp ./JavaLibs/* ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java,b'',".\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:59: error: <identifier> expected
+System.arraycopy(args, 1, args, 0, args.length - 1);
+                ^
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:59: error: <identifier> expected
+System.arraycopy(args, 1, args, 0, args.length - 1);
+                     ^
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:59: error: illegal start of type
+System.arraycopy(args, 1, args, 0, args.length - 1);
+                       ^
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:60: error: ']' expected
+args[0] = args[0].replace(""'"", ""\"""");
+     ^
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:60: error: ']' expected
+args[0] = args[0].replace(""'"", ""\"""");
+               ^
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:60: error: invalid method declaration; return type required
+args[0] = args[0].replace(""'"", ""\"""");
+                  ^
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:60: error: illegal start of type
+args[0] = args[0].replace(""'"", ""\"""");
+                          ^
+7 errors
+",
+Java,PythonToJava.java,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToJava.java,1,javac -cp ./JavaLibs/* ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\Solution.java,b'',".\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h47m52s\Solution.java:59: error: reached end of file while parsing
+}
+ ^
+1 error
+",
+Java,PythonToJava.java,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToJava.java,1,javac -cp ./JavaLibs/* ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java,b'',".\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:62: error: incompatible types: CAP#1 cannot be converted to int[]
+    int[] n = (int[]) new java.util.Scanner(System.in).nextLine().getClass().getDeclaredConstructor().newInstance();
+                                                                                                                 ^
+  where CAP#1 is a fresh type-variable:
+    CAP#1 extends String from capture of ? extends String
+.\Projects\HumanEvalX\142\ExecutionsExp8Run12_0\08-27-2024_14h49m52s\Solution.java:63: error: incompatible types: int[] cannot be converted to List<Integer>
+    int result = sum_squares(n);
+                             ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+2 errors
+",
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\C++ToPascal.pas\r\nC++ToPascal.pas(4,40) Fatal: Syntax error, ""BEGIN"" expected but ""identifier MATH"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,C++ToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\C++ToPascal.pas\r\nC++ToPascal.pas(4,40) Fatal: Syntax error, ""BEGIN"" expected but ""identifier MATH"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavaToPascal.pas\r\nJavaToPascal.pas(4,40) Fatal: Syntax error, ""BEGIN"" expected but ""identifier MATH"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavaToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavaToPascal.pas\r\nJavaToPascal.pas(4,40) Fatal: Syntax error, ""BEGIN"" expected but ""identifier MATH"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(4,40) Fatal: Syntax error, ""BEGIN"" expected but ""identifier MATH"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,JavascriptToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToPascal.pas\r\nJavascriptToPascal.pas(4,40) Fatal: Syntax error, ""BEGIN"" expected but ""identifier MATH"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\PythonToPascal.pas\r\nPythonToPascal.pas(4,40) Fatal: Syntax error, ""BEGIN"" expected but ""identifier MATH"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToPascal.pas,1,fpc ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\PythonToPascal.pas\r\nPythonToPascal.pas(4,40) Fatal: Syntax error, ""BEGIN"" expected but ""identifier MATH"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+c#,C++ToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\C++ToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\C++ToC#.cs(5,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\C++ToC#.cs(9,7): warning CS0105: The using directive for 'System.Linq' appeared previously in this namespace\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\C++ToC#.cs(11,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\C++ToC#.cs(15,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",,
+c#,C++ToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\C++ToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\C++ToC#.cs(5,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\C++ToC#.cs(9,7): warning CS0105: The using directive for 'System.Linq' appeared previously in this namespace\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\C++ToC#.cs(11,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\C++ToC#.cs(15,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",,
+c#,JavaToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavaToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavaToC#.cs(5,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavaToC#.cs(9,7): warning CS0105: The using directive for 'System.Linq' appeared previously in this namespace\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavaToC#.cs(11,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavaToC#.cs(15,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",,
+c#,JavaToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavaToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavaToC#.cs(5,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavaToC#.cs(9,7): warning CS0105: The using directive for 'System.Linq' appeared previously in this namespace\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavaToC#.cs(11,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavaToC#.cs(15,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",,
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToC#.cs(29,9): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToC#.cs(29,18): error CS1519: Invalid token '.' in class, record, struct, or interface member declaration\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToC#.cs(29,27): error CS1001: Identifier expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToC#.cs(29,30): error CS1031: Type expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToC#.cs(29,30): error CS1001: Identifier expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToC#.cs(29,32): error CS1031: Type expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToC#.cs(29,32): error CS1001: Identifier expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\JavascriptToC#.cs(29,32): error CS1003: Syntax error, ',' expected\r\n""",,
+c#,JavascriptToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\JavascriptToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToC#.cs(29,9): error CS1519: Invalid token '=' in class, record, struct, or interface member declaration\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToC#.cs(29,18): error CS1519: Invalid token '.' in class, record, struct, or interface member declaration\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToC#.cs(29,27): error CS1001: Identifier expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToC#.cs(29,30): error CS1031: Type expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToC#.cs(29,30): error CS1001: Identifier expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToC#.cs(29,32): error CS1031: Type expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToC#.cs(29,32): error CS1001: Identifier expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\JavascriptToC#.cs(29,32): error CS1003: Syntax error, ',' expected\r\n""",,
+c#,PythonToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h47m52s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\PythonToC#.cs(38,1): error CS1519: Invalid token 'if' in class, record, struct, or interface member declaration\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\PythonToC#.cs(38,17): error CS8124: Tuple must contain at least two elements.\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\PythonToC#.cs(38,17): error CS1026: ) expected\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\PythonToC#.cs(38,17): error CS1519: Invalid token '>' in class, record, struct, or interface member declaration\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h47m52s\\PythonToC#.cs(43,1): error CS1022: Type or namespace definition, or end-of-file expected\r\n""",,
+c#,PythonToC#.cs,./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC#.cs,1,csc.bat /out:./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC#.exe ./Projects/HumanEvalX/142/ExecutionsExp8Run12_0\08-27-2024_14h49m52s\PythonToC#.cs,"b""Microsoft (R) Visual C# Compiler version 3.9.0-6.21124.20 (db94f4cc)\r\nCopyright (C) Microsoft Corporation. All rights reserved.\r\n\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\PythonToC#.cs(5,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\PythonToC#.cs(9,7): warning CS0105: The using directive for 'System.Linq' appeared previously in this namespace\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\PythonToC#.cs(11,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\nProjects\\HumanEvalX\\142\\ExecutionsExp8Run12_0\\08-27-2024_14h49m52s\\PythonToC#.cs(15,19): error CS0234: The type or namespace name 'Json' does not exist in the namespace 'System.Text' (are you missing an assembly reference?)\r\n""",,

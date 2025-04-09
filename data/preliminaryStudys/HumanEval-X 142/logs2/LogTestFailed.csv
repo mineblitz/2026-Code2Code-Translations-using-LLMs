@@ -1,0 +1,36 @@
+language,File Path,C++ToHaskell.hs,returncode,input,Expected,actualy
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h50m30s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h51m56s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h53m38s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h53m38s\JavaToC.c,JavaToC.c,3221225477,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h53m38s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,9
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h55m30s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h50m30s\PythonToC.c,PythonToC.c,0,"[[1, 4, 9]]",14,6
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h51m56s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 4, 9]]",14,6
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h55m30s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 4, 9]]",14,6
+C,./Projects/HumanEvalX/142/Executions\08-13-2024_22h57m08s\PythonToC.c,PythonToC.c,0,"[[1, 4, 9]]",14,6
+C#,./Projects/HumanEvalX/142/Executions\08-13-2024_22h53m38s\PythonToC#.cs,PythonToC#.cs,0,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/Executions\08-13-2024_22h51m56s\PythonToC++.c++,PythonToC++.c++,0,"[[1, 2, 3]]",6,0
+C++,./Projects/HumanEvalX/142/Executions\08-13-2024_22h53m38s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/Executions\08-13-2024_22h57m08s\PythonToC++.c++,PythonToC++.c++,0,"[[1, 4, 9]]",14,6
+Haskell,./Projects/HumanEvalX/142/Executions\08-13-2024_22h50m30s\C++ToHaskell.hs,C++ToHaskell.hs,0,"[[1, 2, 3]]",6,0
+Haskell,./Projects/HumanEvalX/142/Executions\08-13-2024_22h55m30s\C++ToHaskell.hs,C++ToHaskell.hs,0,"[[1, 2, 3]]",6,"6
+14
+0
+9
+-3
+0
+-126
+3030
+0
+-14196
+-1448"
+Java,./Projects/HumanEvalX/142/Executions\08-13-2024_22h51m56s\PythonToJava.java,PythonToJava.java,0,"[[1, 4, 9]]",14,6
+Java,./Projects/HumanEvalX/142/Executions\08-13-2024_22h53m38s\PythonToJava.java,PythonToJava.java,0,"[[1, 4, 9]]",14,6
+Java,./Projects/HumanEvalX/142/Executions\08-13-2024_22h57m08s\PythonToJava.java,PythonToJava.java,0,"[[1, 4, 9]]",14,6
+JavaScript,./Projects/HumanEvalX/142/Executions\08-13-2024_22h55m30s\C++ToJavascript.js,C++ToJavascript.js,0,"[[-56, -99, 1, 0, -2]]",3030,3042
+JavaScript,./Projects/HumanEvalX/142/Executions\08-13-2024_22h51m56s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,30
+JavaScript,./Projects/HumanEvalX/142/Executions\08-13-2024_22h53m38s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,
+JavaScript,./Projects/HumanEvalX/142/Executions\08-13-2024_22h53m38s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,Enter the input:
+JavaScript,./Projects/HumanEvalX/142/Executions\08-13-2024_22h57m08s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,30
+JavaScript,./Projects/HumanEvalX/142/Executions\08-13-2024_22h57m08s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,Enter input as a list:

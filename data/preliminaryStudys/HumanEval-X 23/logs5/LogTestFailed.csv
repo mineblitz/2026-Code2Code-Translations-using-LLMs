@@ -1,0 +1,7 @@
+language,File Path,C++ToJavascript.js,returncode,input,Expected,actualy
+Haskell,./Projects/HumanEvalX/23/Executions\08-13-2024_13h40m01s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,[''],0,[0]
+JavaScript,./Projects/HumanEvalX/23/Executions\08-13-2024_13h40m01s\C++ToJavascript.js,C++ToJavascript.js,0,[''],0,"0
+1
+9"
+JavaScript,./Projects/HumanEvalX/23/Executions\08-13-2024_13h40m01s\PythonToJavascript.js,PythonToJavascript.js,0,[''],0,Input:
+Pascal,./Projects/HumanEvalX/23/Executions\08-13-2024_13h40m01s\JavaToPascal.pas,JavaToPascal.pas,0,['x'],1,0

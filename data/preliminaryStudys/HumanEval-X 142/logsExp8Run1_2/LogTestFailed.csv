@@ -1,0 +1,20 @@
+language,File Path,JavaToHaskell.hs,returncode,input,Expected,actualy
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_12h57m48s\PythonToC.c,PythonToC.c,0,"[[-1, -1, -1, -1, -1, -1, -1, -1, -1]]",-3,9
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_12h50m16s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,14
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_12h53m58s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h01m55s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h05m38s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h05m38s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0.0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h01m55s\PythonToC.c,PythonToC.c,0,"[[1, 4, 9]]",14,6.0
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h05m38s\JavascriptToC++.c++,JavascriptToC++.c++,0,"[[1, 2, 3]]",6,0
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h05m38s\C++ToHaskell.hs,C++ToHaskell.hs,0,"[[-1, -1, -1, -1, -1, -1, -1, -1, -1]]",-3,9
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_12h50m16s\JavaToHaskell.hs,JavaToHaskell.hs,0,"[[1, 2, 3]]",6,9
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_12h50m16s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_12h57m48s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h05m38s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input. Please provide a list of integers.
+Java,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h05m38s\C++ToJava.java,C++ToJava.java,0,"[[1, 2, 3]]",6,Please provide an input array as the second argument.
+Java,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h05m38s\PythonToJava.java,PythonToJava.java,0,"[[1, 4, 9]]",14,6
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_12h50m16s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_12h53m58s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h01m55s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run1_2\08-26-2024_13h05m38s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0

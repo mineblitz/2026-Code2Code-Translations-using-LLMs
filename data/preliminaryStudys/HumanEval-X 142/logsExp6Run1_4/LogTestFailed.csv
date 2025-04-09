@@ -1,0 +1,12 @@
+language,File Path,JavascriptToHaskell.hs,returncode,input,Expected,actualy
+C,./Projects/HumanEvalX/142/Executions\08-18-2024_15h21m53s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,5.0
+C,./Projects/HumanEvalX/142/Executions\08-18-2024_15h26m41s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,4.0
+C,./Projects/HumanEvalX/142/Executions\08-18-2024_15h26m41s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,7.0
+C,./Projects/HumanEvalX/142/Executions\08-18-2024_15h21m53s\PythonToC.c,PythonToC.c,0,"[[1, 4, 9]]",14,6.0
+C++,./Projects/HumanEvalX/142/Executions\08-18-2024_15h20m32s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/Executions\08-18-2024_15h25m05s\JavascriptToC++.c++,JavascriptToC++.c++,0,"[[1, 2, 3]]",6,4
+Haskell,./Projects/HumanEvalX/142/Executions\08-18-2024_15h20m32s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input
+JavaScript,./Projects/HumanEvalX/142/Executions\08-18-2024_15h23m31s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,0.0
+JavaScript,./Projects/HumanEvalX/142/Executions\08-18-2024_15h23m31s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0.0
+JavaScript,./Projects/HumanEvalX/142/Executions\08-18-2024_15h20m32s\JavaToJavascript.js,JavaToJavascript.js,0,[[]],0,
+Pascal,./Projects/HumanEvalX/142/Executions\08-18-2024_15h25m05s\PythonToPascal.pas,PythonToPascal.pas,0,[[]],0,"EConvertError: """" is an invalid integer"

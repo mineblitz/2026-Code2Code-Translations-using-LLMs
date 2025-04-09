@@ -1,0 +1,8 @@
+language,File Path,C++ToPascal.pas,returncode,input,Expected,actualy
+C,./Projects/HumanEvalX/142/Executions\08-19-2024_13h05m17s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,4.0
+C,./Projects/HumanEvalX/142/Executions\08-19-2024_13h07m50s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,7.0
+Haskell,./Projects/HumanEvalX/142/Executions\08-19-2024_13h05m17s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input format
+Haskell,./Projects/HumanEvalX/142/Executions\08-19-2024_13h07m50s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,Invalid input
+JavaScript,./Projects/HumanEvalX/142/Executions\08-19-2024_13h07m50s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,0.0
+Pascal,./Projects/HumanEvalX/142/Executions\08-19-2024_13h05m17s\C++ToPascal.pas,C++ToPascal.pas,0,"[[1, 2, 3]]",6,"(2, 0)"
+Pascal,./Projects/HumanEvalX/142/Executions\08-19-2024_13h07m50s\PythonToPascal.pas,PythonToPascal.pas,0,"[[1, 2, 3]]",6,30

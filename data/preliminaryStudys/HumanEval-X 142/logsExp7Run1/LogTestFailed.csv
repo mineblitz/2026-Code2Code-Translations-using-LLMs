@@ -1,0 +1,25 @@
+language,File Path,C++ToC#.cs,returncode,input,Expected,actualy
+C#,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_05h51m39s\C++ToC#.cs,C++ToC#.cs,0,"[[-1, -1, -1, -1, -1, -1, -1, -1, -1]]",-3,9
+C,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_05h51m39s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,"6
+14
+0
+9
+-3
+0
+-126
+3030
+0
+-14196
+-1448"
+C,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_05h51m39s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_05h58m57s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+Pascal,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_05h58m57s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[1, 2, 3]]",6,
+C,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_05h58m57s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_06h07m11s\C++ToC.c,C++ToC.c,0,"[[1, 2, 3]]",6,0
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_06h07m11s\C++ToHaskell.hs,C++ToHaskell.hs,0,"[[1, 2, 3]]",6,15129
+C,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_06h07m11s\JavaToC.c,JavaToC.c,3221226356,"[[1, 1, 1, 1, 1, 1, 1, 1, 1]]",9,
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_06h14m51s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,30
+C,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_06h14m51s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
+Pascal,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_06h21m24s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[1, 2, 3]]",6,0
+C++,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_06h21m24s\PythonToC++.c++,PythonToC++.c++,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp7Run1\08-22-2024_06h21m24s\PythonToC.c,PythonToC.c,0,"[[1, 4, 9]]",14,6

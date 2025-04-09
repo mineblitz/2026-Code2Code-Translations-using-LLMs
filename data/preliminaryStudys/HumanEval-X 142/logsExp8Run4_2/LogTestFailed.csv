@@ -1,0 +1,86 @@
+language,File Path,C++ToC.c,returncode,input,Expected,actualy
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h05m54s\C++ToC.c,C++ToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h05m54s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h05m54s\JavaToC.c,JavaToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h05m54s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h09m21s\C++ToC.c,C++ToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h09m21s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h09m21s\JavaToC.c,JavaToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h09m21s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\C++ToC.c,C++ToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\JavaToC.c,JavaToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h15m23s\C++ToC.c,C++ToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h15m23s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h15m23s\JavaToC.c,JavaToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h15m23s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h18m32s\C++ToC.c,C++ToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h18m32s\JavascriptToC.c,JavascriptToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h18m32s\JavaToC.c,JavaToC.c,0,"[[1, 2, 3]]",6,0
+C,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h18m32s\PythonToC.c,PythonToC.c,0,"[[1, 2, 3]]",6,0
+C#,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\C++ToC#.cs,C++ToC#.cs,0,"[[1, 2, 3]]",6,0
+C#,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\JavascriptToC#.cs,JavascriptToC#.cs,0,"[[1, 2, 3]]",6,0
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h05m54s\JavaToC++.c++,JavaToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h05m54s\PythonToC++.c++,PythonToC++.c++,0,"[[1, 2, 3]]",6,0
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h09m21s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\JavaToC++.c++,JavaToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h15m23s\JavaToC++.c++,JavaToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h15m23s\PythonToC++.c++,PythonToC++.c++,0,"[[1, 2, 3]]",6,0
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h18m32s\JavaToC++.c++,JavaToC++.c++,3,"[[1, 2, 3]]",6,
+C++,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h18m32s\PythonToC++.c++,PythonToC++.c++,3,"[[1, 2, 3]]",6,
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h09m21s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[1, 2, 3]]",6,0
+Haskell,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h18m32s\C++ToHaskell.hs,C++ToHaskell.hs,0,"[[1, 2, 3]]",6,"6
+14
+0
+9
+-3
+0
+-126
+3030
+0
+-14196
+-1448"
+Java,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\C++ToJava.java,C++ToJava.java,0,"[[1, 2, 3]]",6,"Invalid input: [1, 2, 3]"
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h09m21s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+JavaScript,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\PythonToJavascript.js,PythonToJavascript.js,0,"[[1, 2, 3]]",6,0
+Pascal,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h09m21s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[1, 2, 3]]",6,"EConvertError: ""[1, 2, 3]"" is an invalid integer"
+Pascal,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h12m20s\C++ToPascal.pas,C++ToPascal.pas,0,"[[1, 2, 3]]",6,"EConvertError: ""[1, 2, 3]"" is an invalid integer"
+Pascal,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h15m23s\C++ToPascal.pas,C++ToPascal.pas,0,"[[1, 2, 3]]",6,30
+Python,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h05m54s\C++ToPython.py,C++ToPython.py,0,"[[1, 2, 3]]",6,"Each item must be a list.
+Each item must be a list.
+Each item must be a list."
+Python,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h05m54s\JavaToPython.py,JavaToPython.py,0,"[[1, 2, 3]]",6,"6
+14
+0
+9
+-3
+0
+-126
+3030
+0
+-14196
+-1448"
+Python,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h15m23s\C++ToPython.py,C++ToPython.py,0,"[[1, 2, 3]]",6,"6
+14
+0
+9
+-3
+0
+-126
+3030
+0
+-14196
+-1448"
+Python,./Projects/HumanEvalX/142/ExecutionsExp8Run4_2\08-26-2024_06h15m23s\JavaToPython.py,JavaToPython.py,0,"[[1, 2, 3]]",6,"6
+14
+0
+9
+-3
+0
+-126
+3030
+0
+-14196
+-1448"
