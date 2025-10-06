@@ -89,6 +89,21 @@ The experiments are organized by identifier and model combination. Each experime
 3. **Exploring Source Programs:**  
    - The `Programms` folder includes all the source programs used for both translation and testing. Refer to the included links for additional context and explanations of these programs.
 
+
+## Post- and Pre-Processing Steps
+
+### Pre-Processing Steps
+- Generate explanation of the source code with a dedicated prompt (for explanation experiment). 
+
+### Post-Processing Steps
+- Remove backticks surrounding translated code.  
+- Rename files temporarily to match language-specific class or file name rules.  
+- Remove libraries that cause unwanted side effects (e.g., `crt` in Pascal).  
+- Add compiler options where needed (e.g., `{$mode objfpc}{$H+}` in Pascal).  
+- Insert missing imports (e.g., `getArgs` in Haskell).  
+- Disregard all content after the second set of backticks to keep only the code.  
+
+
 ## Concluding Remarks
 
 This repository is intended to provide a transparent and reproducible framework for our experiments on code-to-code translation with LLMs. We invite researchers, practitioners, and interested readers to explore the contents, perform independent analyses, and contribute to furthering this line of inquiry. For additional questions, comments, or contributions, please refer to the contact information in the main paper.
