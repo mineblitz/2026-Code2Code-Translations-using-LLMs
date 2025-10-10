@@ -1,0 +1,245 @@
+language,filename,DirPath,Returncode,Command,Output,Stdout,Stderr
+C++,C#ToC++.c++,./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToC++.c++,1,g++ ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToC++.c++ -o ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\outputCPP,b'',"./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToC++.c++: In static member function 'static void Cpp::Main()':
+./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToC++.c++:7:14: error: 'int8_t' was not declared in this scope
+    7 |         for (int8_t i = 0; i < 10; i++) {
+      |              ^~~~~~
+./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToC++.c++:2:1: note: 'int8_t' is defined in header '<cstdint>'; did you forget to '#include <cstdint>'?
+    1 | #include <iostream>
+  +++ |+#include <cstdint>
+    2 | #include <string>
+./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToC++.c++:7:28: error: 'i' was not declared in this scope
+    7 |         for (int8_t i = 0; i < 10; i++) {
+      |                            ^
+./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToC++.c++:11:14: error: 'int8_t' was not declared in this scope
+   11 |         for (int8_t i = 10; i >= 0; i--) {
+      |              ^~~~~~
+./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToC++.c++:11:14: note: 'int8_t' is defined in header '<cstdint>'; did you forget to '#include <cstdint>'?
+./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToC++.c++:11:29: error: 'i' was not declared in this scope
+   11 |         for (int8_t i = 10; i >= 0; i--) {
+      |                             ^
+",
+C++,C#ToC++.c++,./Projects/Baklava/Executions3\08-05-2024_19h12m09s\C#ToC++.c++,1,g++ ./Projects/Baklava/Executions3\08-05-2024_19h12m09s\C#ToC++.c++ -o ./Projects/Baklava/Executions3\08-05-2024_19h12m09s\outputCPP,b'',"./Projects/Baklava/Executions3\08-05-2024_19h12m09s\C#ToC++.c++: In function 'int main()':
+./Projects/Baklava/Executions3\08-05-2024_19h12m09s\C#ToC++.c++:6:10: error: 'int8_t' was not declared in this scope
+    6 |     for (int8_t i = 0; i < 10; i++) {
+      |          ^~~~~~
+./Projects/Baklava/Executions3\08-05-2024_19h12m09s\C#ToC++.c++:2:1: note: 'int8_t' is defined in header '<cstdint>'; did you forget to '#include <cstdint>'?
+    1 | #include <iostream>
+  +++ |+#include <cstdint>
+    2 | #include <string>
+./Projects/Baklava/Executions3\08-05-2024_19h12m09s\C#ToC++.c++:6:24: error: 'i' was not declared in this scope
+    6 |     for (int8_t i = 0; i < 10; i++) {
+      |                        ^
+./Projects/Baklava/Executions3\08-05-2024_19h12m09s\C#ToC++.c++:11:10: error: 'int8_t' was not declared in this scope
+   11 |     for (int8_t i = 10; i >= 0; i--) {
+      |          ^~~~~~
+./Projects/Baklava/Executions3\08-05-2024_19h12m09s\C#ToC++.c++:11:10: note: 'int8_t' is defined in header '<cstdint>'; did you forget to '#include <cstdint>'?
+./Projects/Baklava/Executions3\08-05-2024_19h12m09s\C#ToC++.c++:11:25: error: 'i' was not declared in this scope
+   11 |     for (int8_t i = 10; i >= 0; i--) {
+      |                         ^
+",
+C++,HaskellToC++.c++,./Projects/Baklava/Executions3\08-05-2024_19h01m56s\HaskellToC++.c++,1,g++ ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\HaskellToC++.c++ -o ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\outputCPP,b'',"./Projects/Baklava/Executions3\08-05-2024_19h01m56s\HaskellToC++.c++: In function 'std::string baklavaGrow(int, int)':
+./Projects/Baklava/Executions3\08-05-2024_19h01m56s\HaskellToC++.c++:10:43: error: 'baklavaShrink' was not declared in this scope; did you mean 'baklavaGrow'?
+   10 |         return line(0, asterisk) + ""\n"" + baklavaShrink(1, asterisk - 2);
+      |                                           ^~~~~~~~~~~~~
+      |                                           baklavaGrow
+",
+C++,HaskellToC++.c++,./Projects/Baklava/Executions3\08-05-2024_19h05m24s\HaskellToC++.c++,1,g++ ./Projects/Baklava/Executions3\08-05-2024_19h05m24s\HaskellToC++.c++ -o ./Projects/Baklava/Executions3\08-05-2024_19h05m24s\outputCPP,b'',"./Projects/Baklava/Executions3\08-05-2024_19h05m24s\HaskellToC++.c++: In function 'std::string baklavaGrow(int, int)':
+./Projects/Baklava/Executions3\08-05-2024_19h05m24s\HaskellToC++.c++:14:43: error: 'baklavaShrink' was not declared in this scope; did you mean 'baklavaGrow'?
+   14 |         return line(0, asterisk) + ""\n"" + baklavaShrink(1, asterisk - 2);
+      |                                           ^~~~~~~~~~~~~
+      |                                           baklavaGrow
+",
+C++,HaskellToC++.c++,./Projects/Baklava/Executions3\08-05-2024_19h08m50s\HaskellToC++.c++,1,g++ ./Projects/Baklava/Executions3\08-05-2024_19h08m50s\HaskellToC++.c++ -o ./Projects/Baklava/Executions3\08-05-2024_19h08m50s\outputCPP,b'',"./Projects/Baklava/Executions3\08-05-2024_19h08m50s\HaskellToC++.c++: In function 'std::string baklavaGrow(int, int)':
+./Projects/Baklava/Executions3\08-05-2024_19h08m50s\HaskellToC++.c++:10:44: error: 'baklavaShrink' was not declared in this scope; did you mean 'baklavaGrow'?
+   10 |         return line(0, asterisks) + ""\n"" + baklavaShrink(1, asterisks - 2);
+      |                                            ^~~~~~~~~~~~~
+      |                                            baklavaGrow
+",
+Haskell,C#ToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C#ToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\Baklava\\Executions3\\08-05-2024_19h01m56s\\C#ToHaskell.hs, Projects\\Baklava\\Executions3\\08-05-2024_19h01m56s\\C#ToHaskell.o )\r\n'","Projects\Baklava\Executions3\08-05-2024_19h01m56s\C#ToHaskell.hs:19:1: error: [GHC-58481]
+    parse error on input `spaces'
+   |
+19 | spaces :: Int -> String
+   | ^^^^^^
+
+",
+Haskell,C++ToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_18h58m45s\C++ToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_18h58m45s\C++ToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_18h58m45s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\Baklava\\Executions3\\08-05-2024_18h58m45s\\C++ToHaskell.hs, Projects\\Baklava\\Executions3\\08-05-2024_18h58m45s\\C++ToHaskell.o )\r\n'","Projects\Baklava\Executions3\08-05-2024_18h58m45s\C++ToHaskell.hs:27:86: error: [GHC-58481]
+    parse error on input `in'
+   |
+27 | This Haskell code will correctly generate and print the pyramid pattern as specified in the original C++ code.
+   |                                                                                      ^^
+
+",
+Haskell,C++ToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C++ToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\C++ToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\Baklava\\Executions3\\08-05-2024_19h01m56s\\C++ToHaskell.hs, Projects\\Baklava\\Executions3\\08-05-2024_19h01m56s\\C++ToHaskell.o )\r\n'","Projects\Baklava\Executions3\08-05-2024_19h01m56s\C++ToHaskell.hs:6:44: error: [GHC-39999]
+    * No instance for `Integral String' arising from a use of `div'
+    * In the expression: printPattern 1 (n + 1) `div` 2
+      In an equation for `upperPart':
+          upperPart = printPattern 1 (n + 1) `div` 2
+      In a stmt of a 'do' block:
+        let upperPart = printPattern 1 (n + 1) `div` 2
+  |
+6 |     let upperPart = printPattern 1 (n + 1) `div` 2
+  |                                            ^^^^^
+
+Projects\Baklava\Executions3\08-05-2024_19h01m56s\C++ToHaskell.hs:6:50: error: [GHC-39999]
+    * No instance for `Num String' arising from the literal `2'
+    * In the second argument of `div', namely `2'
+      In the expression: printPattern 1 (n + 1) `div` 2
+      In an equation for `upperPart':
+          upperPart = printPattern 1 (n + 1) `div` 2
+  |
+6 |     let upperPart = printPattern 1 (n + 1) `div` 2
+  |                                                  ^
+
+",
+Haskell,CToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_19h08m50s\CToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_19h08m50s\CToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_19h08m50s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\Baklava\\Executions3\\08-05-2024_19h08m50s\\CToHaskell.hs, Projects\\Baklava\\Executions3\\08-05-2024_19h08m50s\\CToHaskell.o )\r\n'","Projects\Baklava\Executions3\08-05-2024_19h08m50s\CToHaskell.hs:9:18: error: [GHC-83865]
+    * Couldn't match expected type: IO ()
+                  with actual type: [()]
+    * In the expression:
+        mapM_ printLine [0 .. n - 1] ++ mapM_ printLine [n - 1, n - 2 .. 0]
+      In an equation for `printPyramid':
+          printPyramid n
+            = mapM_ printLine [0 .. n - 1]
+                ++ mapM_ printLine [n - 1, n - 2 .. 0]
+  |
+9 | printPyramid n = mapM_ printLine [0..n-1] ++ mapM_ printLine [n-1, n-2 .. 0]
+  |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\Baklava\Executions3\08-05-2024_19h08m50s\CToHaskell.hs:9:24: error: [GHC-83865]
+    * Couldn't match type `IO' with `[]'
+      Expected: Int -> [()]
+        Actual: Int -> IO ()
+    * In the first argument of `mapM_', namely `printLine'
+      In the first argument of `(++)', namely
+        `mapM_ printLine [0 .. n - 1]'
+      In the expression:
+        mapM_ printLine [0 .. n - 1] ++ mapM_ printLine [n - 1, n - 2 .. 0]
+  |
+9 | printPyramid n = mapM_ printLine [0..n-1] ++ mapM_ printLine [n-1, n-2 .. 0]
+  |                        ^^^^^^^^^
+
+Projects\Baklava\Executions3\08-05-2024_19h08m50s\CToHaskell.hs:9:52: error: [GHC-83865]
+    * Couldn't match type `IO' with `[]'
+      Expected: Int -> [()]
+        Actual: Int -> IO ()
+    * In the first argument of `mapM_', namely `printLine'
+      In the second argument of `(++)', namely
+        `mapM_ printLine [n - 1, n - 2 .. 0]'
+      In the expression:
+        mapM_ printLine [0 .. n - 1] ++ mapM_ printLine [n - 1, n - 2 .. 0]
+  |
+9 | printPyramid n = mapM_ printLine [0..n-1] ++ mapM_ printLine [n-1, n-2 .. 0]
+  |                                                    ^^^^^^^^^
+
+",
+Haskell,JavaToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_18h58m45s\JavaToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_18h58m45s\JavaToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_18h58m45s\outputHS,b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n',"<no location info>: error: [GHC-95379]
+    Output was redirected with -o, but no output will be generated.
+    There is no module named `Main'.
+
+",
+Haskell,JavaToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_19h05m24s\JavaToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_19h05m24s\JavaToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_19h05m24s\outputHS,b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n',"<no location info>: error: [GHC-95379]
+    Output was redirected with -o, but no output will be generated.
+    There is no module named `Main'.
+
+",
+Haskell,JavascriptToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_19h01m56s\JavascriptToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\JavascriptToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\Baklava\\Executions3\\08-05-2024_19h01m56s\\JavascriptToHaskell.hs, Projects\\Baklava\\Executions3\\08-05-2024_19h01m56s\\JavascriptToHaskell.o )\r\n'","Projects\Baklava\Executions3\08-05-2024_19h01m56s\JavascriptToHaskell.hs:12:43: error: [GHC-83865]
+    * Couldn't match type: Int -> String
+                     with: [Char]
+      Expected: Int -> String
+        Actual: Int -> Int -> String
+    * Probable cause: `generateLine' is applied to too few arguments
+      In the second argument of `(.)', namely `generateLine'
+      In the first argument of `mapM_', namely
+        `(putStrLn . generateLine)'
+      In the expression: mapM_ (putStrLn . generateLine) [0 .. maxDepth]
+   |
+12 | printPyramid maxDepth = mapM_ (putStrLn . generateLine) [0..maxDepth]
+   |                                           ^^^^^^^^^^^^
+
+Projects\Baklava\Executions3\08-05-2024_19h01m56s\JavascriptToHaskell.hs:16:51: error: [GHC-83865]
+    * Couldn't match type: Int -> String
+                     with: [Char]
+      Expected: Int -> String
+        Actual: Int -> Int -> String
+    * Probable cause: `generateLine' is applied to too few arguments
+      In the second argument of `(.)', namely `generateLine'
+      In the first argument of `mapM_', namely
+        `(putStrLn . generateLine)'
+      In the expression:
+        mapM_ (putStrLn . generateLine) [maxDepth, maxDepth - 1 .. 0]
+   |
+16 | printInvertedPyramid maxDepth = mapM_ (putStrLn . generateLine) [maxDepth, maxDepth - 1 .. 0]
+   |                                                   ^^^^^^^^^^^^
+
+",
+Haskell,PascalToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_18h58m45s\PascalToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_18h58m45s\PascalToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_18h58m45s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\Baklava\\Executions3\\08-05-2024_18h58m45s\\PascalToHaskell.hs, Projects\\Baklava\\Executions3\\08-05-2024_18h58m45s\\PascalToHaskell.o )\r\n'","Projects\Baklava\Executions3\08-05-2024_18h58m45s\PascalToHaskell.hs:16:7: error: [GHC-55814]
+    The last statement in a 'do' block must be an expression
+      let space = if i == n then newSpace else newSpace
+   |
+16 |       let space = if i == n then newSpace else newSpace
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Projects\Baklava\Executions3\08-05-2024_18h58m45s\PascalToHaskell.hs:23:7: error: [GHC-55814]
+    The last statement in a 'do' block must be an expression
+      let newSpace = space + 1
+   |
+23 |       let newSpace = space + 1
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^
+
+",
+Haskell,PascalToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_19h01m56s\PascalToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\PascalToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\outputHS,b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n',"<no location info>: error: [GHC-95379]
+    Output was redirected with -o, but no output will be generated.
+    There is no module named `Main'.
+
+",
+Haskell,PascalToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_19h05m24s\PascalToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_19h05m24s\PascalToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_19h05m24s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\Baklava\\Executions3\\08-05-2024_19h05m24s\\PascalToHaskell.hs, Projects\\Baklava\\Executions3\\08-05-2024_19h05m24s\\PascalToHaskell.o )\r\n'","Projects\Baklava\Executions3\08-05-2024_19h05m24s\PascalToHaskell.hs:16:16: error: [GHC-88464]
+    Variable not in scope: part
+   |
+16 |     printUpper part initialSpace 1
+   |                ^^^^
+
+Projects\Baklava\Executions3\08-05-2024_19h05m24s\PascalToHaskell.hs:18:16: error: [GHC-88464]
+    Variable not in scope: part
+   |
+18 |     printLower part 1 (n - 1)
+   |                ^^^^
+
+",
+Haskell,PascalToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_19h08m50s\PascalToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_19h08m50s\PascalToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_19h08m50s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\Baklava\\Executions3\\08-05-2024_19h08m50s\\PascalToHaskell.hs, Projects\\Baklava\\Executions3\\08-05-2024_19h08m50s\\PascalToHaskell.o )\r\n'","Projects\Baklava\Executions3\08-05-2024_19h08m50s\PascalToHaskell.hs:11:1: error: [GHC-58481]
+    parse error (possibly incorrect indentation or mismatched brackets)
+   |
+11 | printLowerPart :: Int -> Int -> IO ()
+   | ^
+
+",
+Haskell,PascalToHaskell.hs,./Projects/Baklava/Executions3\08-05-2024_19h12m09s\PascalToHaskell.hs,1,ghc ./Projects/Baklava/Executions3\08-05-2024_19h12m09s\PascalToHaskell.hs -o ./Projects/Baklava/Executions3\08-05-2024_19h12m09s\outputHS,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\Baklava\\Executions3\\08-05-2024_19h12m09s\\PascalToHaskell.hs, Projects\\Baklava\\Executions3\\08-05-2024_19h12m09s\\PascalToHaskell.o )\r\n'","Projects\Baklava\Executions3\08-05-2024_19h12m09s\PascalToHaskell.hs:12:5: error: [GHC-88464]
+    Variable not in scope:
+      foldM_ :: (Int -> Int -> IO Int) -> Int -> [Int] -> IO a0
+    Suggested fix:
+      Perhaps use one of these:
+        `foldl' (imported from Prelude), `foldr' (imported from Prelude),
+        foldl' (imported from Prelude)
+   |
+12 |     foldM_ (\space i -> do
+   |     ^^^^^^
+
+Projects\Baklava\Executions3\08-05-2024_19h12m09s\PascalToHaskell.hs:17:5: error: [GHC-88464]
+    Variable not in scope:
+      foldM_ :: (Int -> Int -> IO Int) -> t0 -> [Int] -> IO ()
+    Suggested fix:
+      Perhaps use one of these:
+        `foldl' (imported from Prelude), `foldr' (imported from Prelude),
+        foldl' (imported from Prelude)
+   |
+17 |     foldM_ (\space i -> do
+   |     ^^^^^^
+
+",
+Pascal,C#ToPascal.pas,./Projects/Baklava/Executions3\08-05-2024_18h58m45s\C#ToPascal.pas,1,fpc ./Projects/Baklava/Executions3\08-05-2024_18h58m45s\C#ToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\Baklava\\Executions3\\08-05-2024_18h58m45s\\C#ToPascal.pas\r\nC#ToPascal.pas(13,13) Error: Identifier not found ""Result""\r\nC#ToPascal.pas(14,12) Error: Identifier not found ""Result""\r\nC#ToPascal.pas(28) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,HaskellToPascal.pas,./Projects/Baklava/Executions3\08-05-2024_18h58m45s\HaskellToPascal.pas,1,fpc ./Projects/Baklava/Executions3\08-05-2024_18h58m45s\HaskellToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\Baklava\\Executions3\\08-05-2024_18h58m45s\\HaskellToPascal.pas\r\nHaskellToPascal.pas(8,3) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(10,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(10,15) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(12,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(12,15) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(18,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(18,41) Error: Identifier not found ""BaklavaShrink""\r\nHaskellToPascal.pas(20,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(26,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(28,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(32,10) Error: Duplicate identifier ""Baklava""\r\nHaskellToPascal.pas(38) Fatal: There were 11 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,HaskellToPascal.pas,./Projects/Baklava/Executions3\08-05-2024_19h01m56s\HaskellToPascal.pas,1,fpc ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\HaskellToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\Baklava\\Executions3\\08-05-2024_19h01m56s\\HaskellToPascal.pas\r\nHaskellToPascal.pas(17,53) Error: Identifier not found ""BaklavaShrink""\r\nHaskellToPascal.pas(38,10) Error: Duplicate identifier ""Baklava""\r\nHaskellToPascal.pas(44) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,HaskellToPascal.pas,./Projects/Baklava/Executions3\08-05-2024_19h05m24s\HaskellToPascal.pas,1,fpc ./Projects/Baklava/Executions3\08-05-2024_19h05m24s\HaskellToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\Baklava\\Executions3\\08-05-2024_19h05m24s\\HaskellToPascal.pas\r\nHaskellToPascal.pas(10,3) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(17,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(17,48) Error: Identifier not found ""BaklavaShrink""\r\nHaskellToPascal.pas(21,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(29,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(33,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(38,10) Error: Duplicate identifier ""Baklava""\r\nHaskellToPascal.pas(45) Fatal: There were 7 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,HaskellToPascal.pas,./Projects/Baklava/Executions3\08-05-2024_19h08m50s\HaskellToPascal.pas,1,fpc ./Projects/Baklava/Executions3\08-05-2024_19h08m50s\HaskellToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\Baklava\\Executions3\\08-05-2024_19h08m50s\\HaskellToPascal.pas\r\nHaskellToPascal.pas(12,53) Error: Identifier not found ""BaklavaShrink""\r\nHaskellToPascal.pas(26,10) Error: Duplicate identifier ""Baklava""\r\nHaskellToPascal.pas(32) Fatal: There were 2 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,HaskellToPascal.pas,./Projects/Baklava/Executions3\08-05-2024_19h12m09s\HaskellToPascal.pas,1,fpc ./Projects/Baklava/Executions3\08-05-2024_19h12m09s\HaskellToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\Baklava\\Executions3\\08-05-2024_19h12m09s\\HaskellToPascal.pas\r\nHaskellToPascal.pas(8,3) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(10,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(10,15) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(12,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(12,15) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(18,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(18,41) Error: Identifier not found ""BaklavaShrink""\r\nHaskellToPascal.pas(20,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(26,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(28,5) Error: Identifier not found ""Result""\r\nHaskellToPascal.pas(32,10) Error: Duplicate identifier ""Baklava""\r\nHaskellToPascal.pas(38) Fatal: There were 11 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/Baklava/Executions3\08-05-2024_18h58m45s\PythonToPascal.pas,1,fpc ./Projects/Baklava/Executions3\08-05-2024_18h58m45s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\Baklava\\Executions3\\08-05-2024_18h58m45s\\PythonToPascal.pas\r\nPythonToPascal.pas(4,5) Error: Illegal expression\r\nPythonToPascal.pas(4,9) Fatal: Syntax error, "";"" expected but ""identifier I"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/Baklava/Executions3\08-05-2024_19h01m56s\PythonToPascal.pas,1,fpc ./Projects/Baklava/Executions3\08-05-2024_19h01m56s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\Baklava\\Executions3\\08-05-2024_19h01m56s\\PythonToPascal.pas\r\nPythonToPascal.pas(10,3) Error: Identifier not found ""clrscr""\r\nPythonToPascal.pas(30) Fatal: There were 1 errors compiling module, stopping\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,
+Pascal,PythonToPascal.pas,./Projects/Baklava/Executions3\08-05-2024_19h05m24s\PythonToPascal.pas,1,fpc ./Projects/Baklava/Executions3\08-05-2024_19h05m24s\PythonToPascal.pas,"b'Free Pascal Compiler version 3.2.2 [2021/05/15] for i386\r\nCopyright (c) 1993-2021 by Florian Klaempfl and others\r\nTarget OS: Win32 for i386\r\nCompiling .\\Projects\\Baklava\\Executions3\\08-05-2024_19h05m24s\\PythonToPascal.pas\r\nPythonToPascal.pas(4,3) Error: Illegal expression\r\nPythonToPascal.pas(4,7) Fatal: Syntax error, "";"" expected but ""identifier I"" found\r\nFatal: Compilation aborted\r\nError: C:\\FPC\\3.2.2\\bin\\i386-Win32\\ppc386.exe returned an error exitcode\r\n'",,

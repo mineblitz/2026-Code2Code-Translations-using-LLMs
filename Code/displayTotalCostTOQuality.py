@@ -42,7 +42,7 @@ def plot_results(df: pd.DataFrame):
             )
 
 
-    plt.xlabel("complete cost (GPT process + Claude process)", fontsize=18, fontweight="bold")
+    plt.xlabel("complete cost in $ (GPT process + Claude process)", fontsize=18, fontweight="bold")
     plt.ylabel("Translation correctness", fontsize=18, fontweight="bold")
     plt.xticks(fontsize=16)
     plt.yticks(fontsize=16)
