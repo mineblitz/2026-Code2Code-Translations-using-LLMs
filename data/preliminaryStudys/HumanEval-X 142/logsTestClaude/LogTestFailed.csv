@@ -1,4 +1,0 @@
-language,File Path,PythonToC++.c++,returncode,input,Expected,actualy
-C,./Projects/HumanEvalX/142/ExecutionsExp4Run5\03-29-2025_12h32m12s\PythonToC.c,PythonToC.c,3221225477,"[[1, 2, 3]]",6,
-C++,./Projects/HumanEvalX/142/ExecutionsExp4Run5\03-29-2025_12h26m28s\PythonToC++.c++,PythonToC++.c++,0,"[[1, 2, 3]]",6,0.0
-JavaScript,./Projects/HumanEvalX/142/ExecutionsExp4Run5\03-29-2025_12h32m12s\JavaToJavascript.js,JavaToJavascript.js,0,"[[1, 2, 3]]",6,

@@ -28,9 +28,6 @@ This repository serves as the online appendix for our paper on code-to-code tran
   - **Retanslation Experiments**  
     Folders with names appended by `_Number` (e.g., `_1`, `_2`, etc.) denote successive iterations performed during the retranslation experiments.
 
-- **Preliminarystudys**  
-  This folder contains early-stage studies based on a subset of problems, and the structure here differs slightly from that of the full dataset. Equivalent CSV files are also available in the `log` subdirectory.
-
   - **ErrorMessagesForRetranslation**: Holds detailed error messages that provide additional context for retranslation experiments.
 
 - **Figures**  
@@ -42,8 +39,6 @@ This repository serves as the online appendix for our paper on code-to-code tran
 
 - **Programms**  
   Contains the programs used in the translation experiments. Sources and explanations for the programs include:
-  - **HelloWorld**: Derived from the resource provided by [GeeksforGeeks: Hello World in 30 Different Languages](https://www.geeksforgeeks.org/hello-world-in-30-different-languages/).
-  - **SampleProgrammsinEveryLanguage**: Sourced from [SamplePrograms.io](https://sampleprograms.io/).
   - **HumanEval-X**: Provided by [HumanEval-X Dataset](https://huggingface.co/datasets/THUDM/humaneval-x), which includes further explanation of the programs.
 
 - **Tables**  
@@ -59,18 +54,11 @@ The experiments are organized by identifier and model combination. Each experime
 - **Experiment 6 = Retranslate GPT**  
   This experiment involves retranslation with GPT4o-mini, where the initial translated code is retranslated iteratively. The goal is to analyze if and how retranslation improves the outcome or reduces error occurrences.
 
-- **Experiment 7 = Explanation GPT**  
-  In Experiment 7, GPT4o-mini is used to generate explanations for the translation results.
-
 - **Experiment 13 = 1Turn Claude**  
   Similar to Experiment 5, this experiment conducts a one-turn translation using the Claude Sonnet 3.7 model. The single-pass translation is analyzed to assess the model’s translation success across language pairs.
 
 - **Experiment 14 = Retranslate Claude**  
   This experiment applies iterative retranslation using the Claude Sonnet 3.7 model. The experiment is designed to compare whether multiple translation iterations with Claude can refine the translation quality and reduce errors.
-
-- **Experiment 15 = Explanation Claude**  
-  In this experiment, the Claude Sonnet 3.7 model generates explanations for the translation outcomes.
-
 
 
 ## How to Use This Repository
