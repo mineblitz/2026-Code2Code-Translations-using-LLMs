@@ -46,7 +46,6 @@ def compile_and_run_files_in_directory(directory_path, logs, flag_object, whiteL
     for file in os.listdir(directory_path):
         if whiteListFileName is not None: 
             if file in whiteList:
-                # when retranslating skip allready valid translations
                 addToDataFrame(execution_status.compilation_matrix, file, 1)
                 continue
         

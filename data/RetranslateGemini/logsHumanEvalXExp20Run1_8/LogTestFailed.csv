@@ -1,0 +1,8 @@
+language,File Path,PythonToPascal.pas,returncode,input,Expected,actualy
+Pascal,./Projects/HumanEvalX\110\ExecutionsExp20Run1\01-12-2026_23h36m42s\PythonToPascal.pas,PythonToPascal.pas,0,"[[1, 2, 3, 4], [1, 5, 3, 4]]",NO,YES
+C,./Projects/HumanEvalX\113\ExecutionsExp20Run1\01-12-2026_23h39m21s\JavascriptToC.c,JavascriptToC.c,0,"[['3', '11111111']]","['the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 8n the str8ng 8 of the 8nput.']",['the number of odd elements 4n the str4ng 4 of the 4nput.']
+Pascal,./Projects/HumanEvalX\113\ExecutionsExp20Run1\01-12-2026_23h39m21s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],"['the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 8n the str8ng 8 of the 8nput.']"
+Java,./Projects/HumanEvalX\113\ExecutionsExp20Run1\01-12-2026_23h39m21s\PythonToJava.java,PythonToJava.java,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],[]
+Pascal,./Projects/HumanEvalX\152\ExecutionsExp20Run1\01-13-2026_05h44m15s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 2, -2]]","[0, 0, 0, 0, 3, 3]","[4, 4, 1, 0, 0, 6]"
+C#,./Projects/HumanEvalX\4\ExecutionsExp20Run1\01-13-2026_11h54m27s\JavascriptToC#.cs,JavascriptToC#.cs,0,"[[1.0, 2.0, 3.0]]",1e-06,0.6666656666666666
+Pascal,./Projects/HumanEvalX\74\ExecutionsExp20Run1\01-13-2026_13h52m19s\PythonToPascal.pas,PythonToPascal.pas,0,"[[], []]",[],"['hi', 'hi']"

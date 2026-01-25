@@ -60,6 +60,18 @@ The experiments are organized by identifier and model combination. Each experime
 - **Experiment 14 = Retranslate Claude**  
   This experiment applies iterative retranslation using the Claude Sonnet 3.7 model. The experiment is designed to compare whether multiple translation iterations with Claude can refine the translation quality and reduce errors.
 
+  - **Experiment 19 = 1Turn Gemini**  
+  Similar to Experiment 5, this experiment conducts a one-turn translation using the Gemini 2.5 pro model. The single-pass translation is analyzed to assess the model’s translation success across language pairs.
+
+  - **Experiment 20 = Retranslate Gemini**  
+  This experiment applies iterative retranslation using the Gemini 2.5 pro model. The experiment is designed to compare whether multiple translation iterations with Gemini can refine the translation quality and reduce errors.
+
+  - **Experiment 22 = 1Turn Codex**  
+  Similar to Experiment 5, this experiment conducts a one-turn translation using the Code 5.1 max model. The single-pass translation is analyzed to assess the model’s translation success across language pairs.
+
+  - **Experiment 23 = Retranslate Codex**  
+  This experiment applies iterative retranslation using the Code 5.1 max model. The experiment is designed to compare whether multiple translation iterations with Codex can refine the translation quality and reduce errors.
+
 
 ## How to Use This Repository
 

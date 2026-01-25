@@ -1,0 +1,81 @@
+language,File Path,JavascriptToJava.java,returncode,input,Expected,actualy
+Java,./Projects/HumanEvalX\101\ExecutionsExp19Run1\01-14-2026_08h15m00s\JavascriptToJava.java,JavascriptToJava.java,0,"['Hi, my name is John']","['Hi', 'my', 'name', 'is', 'John']","[Hi, my, name, is, John]"
+Java,./Projects/HumanEvalX\101\ExecutionsExp19Run1\01-14-2026_08h15m00s\PythonToJava.java,PythonToJava.java,0,"['Hi, my name is John']","['Hi', 'my', 'name', 'is', 'John']","[Hi, my, name, is, John]"
+C++,./Projects/HumanEvalX\105\ExecutionsExp19Run1\01-14-2026_13h49m11s\PythonToC++.c++,PythonToC++.c++,0,"[[2, 1, 1, 4, 5, 8, 2, 3]]","['Eight', 'Five', 'Four', 'Three', 'Two', 'Two', 'One', 'One']",[]
+Java,./Projects/HumanEvalX\105\ExecutionsExp19Run1\01-14-2026_13h49m11s\PythonToJava.java,PythonToJava.java,0,"[[2, 1, 1, 4, 5, 8, 2, 3]]","['Eight', 'Five', 'Four', 'Three', 'Two', 'Two', 'One', 'One']","[Eight, Five, Four, Three, Two, Two, One, One]"
+Pascal,./Projects/HumanEvalX\109\ExecutionsExp19Run1\01-14-2026_14h10m28s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[4, 3, 1, 2]]",False,True
+C++,./Projects/HumanEvalX\113\ExecutionsExp19Run1\01-14-2026_14h10m29s\JavascriptToC++.c++,JavascriptToC++.c++,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],[]
+C,./Projects/HumanEvalX\113\ExecutionsExp19Run1\01-14-2026_14h10m29s\JavascriptToC.c,JavascriptToC.c,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],[]
+Haskell,./Projects/HumanEvalX\113\ExecutionsExp19Run1\01-14-2026_14h10m29s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],Error: Could not parse JSON input.
+JavaScript,./Projects/HumanEvalX\113\ExecutionsExp19Run1\01-14-2026_14h10m29s\PythonToJavascript.js,PythonToJavascript.js,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],"['the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 0n the str0ng 0 of the 0nput.', 'the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 0n the str0ng 0 of the 0nput.', 'the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 0n the str0ng 0 of the 0nput.', 'the number of odd elements 1n the str1ng 1 of the 1nput.']"
+JavaScript,./Projects/HumanEvalX\119\ExecutionsExp19Run1\01-14-2026_14h10m29s\C++ToJavascript.js,C++ToJavascript.js,0,"[['(())))', '(()())((']]",Yes,No
+Python,./Projects/HumanEvalX\119\ExecutionsExp19Run1\01-14-2026_14h10m29s\C++ToPython.py,C++ToPython.py,0,"[[')', ')']]",No,
+C++,./Projects/HumanEvalX\119\ExecutionsExp19Run1\01-14-2026_14h10m29s\JavascriptToC++.c++,JavascriptToC++.c++,0,"[['()(', ')']]",Yes,No
+C,./Projects/HumanEvalX\119\ExecutionsExp19Run1\01-14-2026_14h10m29s\JavascriptToC.c,JavascriptToC.c,1,"[['()(', ')']]",Yes,
+Pascal,./Projects/HumanEvalX\119\ExecutionsExp19Run1\01-14-2026_14h10m29s\PythonToPascal.pas,PythonToPascal.pas,0,"[['()(', ')']]",Yes,
+JavaScript,./Projects/HumanEvalX\121\ExecutionsExp19Run1\01-14-2026_14h10m29s\C++ToJavascript.js,C++ToJavascript.js,0,"[[5, 8, 7, 1]]",12,0
+Pascal,./Projects/HumanEvalX\133\ExecutionsExp19Run1\01-14-2026_14h10m30s\C++ToPascal.pas,C++ToPascal.pas,0,"[[1.0, 2, 3]]",14,13
+Pascal,./Projects/HumanEvalX\133\ExecutionsExp19Run1\01-14-2026_14h10m30s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[1.0, 2, 3]]",14,13
+Pascal,./Projects/HumanEvalX\133\ExecutionsExp19Run1\01-14-2026_14h10m30s\PythonToPascal.pas,PythonToPascal.pas,0,"[[1.0, 2, 3]]",14,13
+Python,./Projects/HumanEvalX\134\ExecutionsExp19Run1\01-14-2026_14h10m30s\C++ToPython.py,C++ToPython.py,0,['apple'],False,"False
+False"
+Java,./Projects/HumanEvalX\14\ExecutionsExp19Run1\01-14-2026_14h10m31s\JavascriptToJava.java,JavascriptToJava.java,0,['asdfgh'],"['a', 'as', 'asd', 'asdf', 'asdfg', 'asdfgh']","[a, as, asd, asdf, asdfg, asdfgh]"
+Java,./Projects/HumanEvalX\14\ExecutionsExp19Run1\01-14-2026_14h10m31s\PythonToJava.java,PythonToJava.java,0,['asdfgh'],"['a', 'as', 'asd', 'asdf', 'asdfg', 'asdfgh']","[a, as, asd, asdf, asdfg, asdfgh]"
+JavaScript,./Projects/HumanEvalX\140\ExecutionsExp19Run1\01-14-2026_14h10m31s\JavaToJavascript.js,JavaToJavascript.js,0,['Example'],Example,
+JavaScript,./Projects/HumanEvalX\142\ExecutionsExp19Run1\01-14-2026_14h10m31s\C++ToJavascript.js,C++ToJavascript.js,0,"[[1, 2, 3]]",6,0
+Haskell,./Projects/HumanEvalX\145\ExecutionsExp19Run1\01-14-2026_14h10m31s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,"[[1, 11, -1, -11, -12]]","[-1, -11, 1, -12, 11]",Error: Invalid JSON input.
+C++,./Projects/HumanEvalX\146\ExecutionsExp19Run1\01-14-2026_14h10m31s\JavascriptToC++.c++,JavascriptToC++.c++,0,"[[15, -73, 14, -15]]",1,0
+Haskell,./Projects/HumanEvalX\146\ExecutionsExp19Run1\01-14-2026_14h10m31s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,"[[15, -73, 14, -15]]",1,0
+Pascal,./Projects/HumanEvalX\146\ExecutionsExp19Run1\01-14-2026_14h10m31s\JavascriptToPascal.pas,JavascriptToPascal.pas,1,"[[5, -2, 1, -5]]",0,
+Pascal,./Projects/HumanEvalX\147\ExecutionsExp19Run1\01-14-2026_14h10m31s\C++ToPascal.pas,C++ToPascal.pas,0,[5],1,0
+JavaScript,./Projects/HumanEvalX\149\ExecutionsExp19Run1\01-14-2026_14h10m31s\C++ToJavascript.js,C++ToJavascript.js,0,"[['AI', 'ai', 'au']]","['AI', 'ai', 'au']","['ai', 'AI', 'au']"
+C++,./Projects/HumanEvalX\149\ExecutionsExp19Run1\01-14-2026_14h10m31s\JavascriptToC++.c++,JavascriptToC++.c++,0,"[['aa', 'a', 'aaa']]",['aa'],[]
+Python,./Projects/HumanEvalX\149\ExecutionsExp19Run1\01-14-2026_14h10m31s\JavascriptToPython.py,JavascriptToPython.py,0,"[['aa', 'a', 'aaa']]",['aa'],[]
+Java,./Projects/HumanEvalX\149\ExecutionsExp19Run1\01-14-2026_14h10m31s\PythonToJava.java,PythonToJava.java,0,"[['school', 'AI', 'asdf', 'b']]","['AI', 'asdf', 'school']","['AI', 'asdf']"
+Haskell,./Projects/HumanEvalX\153\ExecutionsExp19Run1\01-14-2026_14h10m32s\C++ToHaskell.hs,C++ToHaskell.hs,0,"['__HAHA', ['Tab', '123', '781345', '-_-']]",__HAHA.123,__HAHA.-_-
+Haskell,./Projects/HumanEvalX\153\ExecutionsExp19Run1\01-14-2026_14h10m32s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,"['__HAHA', ['Tab', '123', '781345', '-_-']]",__HAHA.123,__HAHA.-_-
+Python,./Projects/HumanEvalX\153\ExecutionsExp19Run1\01-14-2026_14h10m32s\JavascriptToPython.py,JavascriptToPython.py,0,"['__HAHA', ['Tab', '123', '781345', '-_-']]",__HAHA.123,__HAHA.-_-
+C,./Projects/HumanEvalX\153\ExecutionsExp19Run1\01-14-2026_14h10m32s\JavaToC.c,JavaToC.c,0,"['__YESIMHERE', ['t', 'eMptY', 'nothing', 'zeR00', 'NuLl__', '123NoooneB321']]",__YESIMHERE.NuLl__,__YESIMHERE.
+C,./Projects/HumanEvalX\153\ExecutionsExp19Run1\01-14-2026_14h10m32s\PythonToC.c,PythonToC.c,0,"['Watashi', ['tEN', 'niNE', 'eIGHt8OKe']]",Watashi.eIGHt8OKe,"Watashi.['tEN', 'niNE', 'eIGHt8OKe']"
+Haskell,./Projects/HumanEvalX\153\ExecutionsExp19Run1\01-14-2026_14h10m32s\PythonToHaskell.hs,PythonToHaskell.hs,0,"['__HAHA', ['Tab', '123', '781345', '-_-']]",__HAHA.123,__HAHA.-_-
+C,./Projects/HumanEvalX\158\ExecutionsExp19Run1\01-14-2026_14h10m32s\JavascriptToC.c,JavascriptToC.c,0,"[['name', 'of', 'string']]",string,"['name', 'of', 'string']"
+Haskell,./Projects/HumanEvalX\158\ExecutionsExp19Run1\01-14-2026_14h10m32s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,"[['name', 'of', 'string']]",string,
+C#,./Projects/HumanEvalX\2\ExecutionsExp19Run1\01-14-2026_14h10m33s\C++ToC#.cs,C++ToC#.cs,0,[3.5],0.5,0
+C#,./Projects/HumanEvalX\2\ExecutionsExp19Run1\01-14-2026_14h10m33s\JavaToC#.cs,JavaToC#.cs,0,[3.5],0.5,"(0, 5)"
+C,./Projects/HumanEvalX\2\ExecutionsExp19Run1\01-14-2026_14h10m33s\PythonToC.c,PythonToC.c,0,[123.456],1e-05,1.0000000000010001e-05
+Pascal,./Projects/HumanEvalX\20\ExecutionsExp19Run1\01-14-2026_14h10m33s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[1.0, 2.0, 3.9, 4.0, 5.0, 2.2]]","[3.9, 4.0]",[]
+Java,./Projects/HumanEvalX\20\ExecutionsExp19Run1\01-14-2026_14h10m33s\PythonToJava.java,PythonToJava.java,0,"[[1.0, 2.0, 3.9, 4.0, 5.0, 2.2]]","[3.9, 4.0]","[2.0, 2.0]"
+Pascal,./Projects/HumanEvalX\21\ExecutionsExp19Run1\01-14-2026_14h10m33s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[2.0, 49.9]]","[0.0, 1.0]","[0, 0, 1, 0]"
+C++,./Projects/HumanEvalX\26\ExecutionsExp19Run1\01-14-2026_14h10m34s\JavascriptToC++.c++,JavascriptToC++.c++,0,"[[1, 2, 3, 4]]","[1, 2, 3, 4]",[]
+Python,./Projects/HumanEvalX\28\ExecutionsExp19Run1\01-14-2026_14h10m34s\C++ToPython.py,C++ToPython.py,0,"[['x', 'y', 'z']]",xyz,x
+Haskell,./Projects/HumanEvalX\28\ExecutionsExp19Run1\01-14-2026_14h10m34s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[['x', 'y', 'z']]",xyz,
+Pascal,./Projects/HumanEvalX\28\ExecutionsExp19Run1\01-14-2026_14h10m34s\PythonToPascal.pas,PythonToPascal.pas,0,"[['x', 'y', 'z']]",xyz,
+C,./Projects/HumanEvalX\30\ExecutionsExp19Run1\01-14-2026_14h10m34s\JavascriptToC.c,JavascriptToC.c,0,"[[-1, -2, 4, 5, 6]]","[4, 5, 6]",[]
+C#,./Projects/HumanEvalX\4\ExecutionsExp19Run1\01-14-2026_14h10m35s\C++ToC#.cs,C++ToC#.cs,0,"[[1.0, 2.0, 3.0]]",1e-06,"(0, 6666667)"
+C++,./Projects/HumanEvalX\42\ExecutionsExp19Run1\01-14-2026_14h10m35s\PythonToC++.c++,PythonToC++.c++,0,"[[3, 2, 1]]","[4, 3, 2]",[]
+Haskell,./Projects/HumanEvalX\42\ExecutionsExp19Run1\01-14-2026_14h10m35s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[3, 2, 1]]","[4, 3, 2]",Error: Invalid input format
+C#,./Projects/HumanEvalX\45\ExecutionsExp19Run1\01-14-2026_14h10m36s\C++ToC#.cs,C++ToC#.cs,0,"[5, 3]",7.5,"(7, 5)"
+C#,./Projects/HumanEvalX\45\ExecutionsExp19Run1\01-14-2026_14h10m36s\JavascriptToC#.cs,JavascriptToC#.cs,0,"[5, 3]",7.5,"(7, 5)"
+Pascal,./Projects/HumanEvalX\47\ExecutionsExp19Run1\01-14-2026_14h13m38s\C++ToPascal.pas,C++ToPascal.pas,0,"[[6, 5]]",5.5,"(5, 5)"
+C#,./Projects/HumanEvalX\47\ExecutionsExp19Run1\01-14-2026_14h13m38s\JavaToC#.cs,JavaToC#.cs,0,"[[6, 5]]",5.5,"(5, 5)"
+Python,./Projects/HumanEvalX\55\ExecutionsExp19Run1\01-14-2026_14h13m38s\C++ToPython.py,C++ToPython.py,0,[10],55,"55
+55"
+Python,./Projects/HumanEvalX\6\ExecutionsExp19Run1\01-14-2026_14h13m39s\JavascriptToPython.py,JavascriptToPython.py,0,['(()()) ((())) () ((())()())'],"[2, 3, 1, 3]",
+Haskell,./Projects/HumanEvalX\68\ExecutionsExp19Run1\01-14-2026_14h13m40s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,"[[4, 2, 3]]","[2, 1]",[]
+Java,./Projects/HumanEvalX\68\ExecutionsExp19Run1\01-14-2026_14h13m40s\JavascriptToJava.java,JavascriptToJava.java,0,"[[4, 2, 3]]","[2, 1]",[]
+C#,./Projects/HumanEvalX\71\ExecutionsExp19Run1\01-14-2026_14h13m40s\C++ToC#.cs,C++ToC#.cs,0,"[4, 8, 5]",0.01,"(8, 181534)"
+Python,./Projects/HumanEvalX\71\ExecutionsExp19Run1\01-14-2026_14h13m40s\JavascriptToPython.py,JavascriptToPython.py,0,"[2, 2, 2]",0.01,0.010000000000000009
+C#,./Projects/HumanEvalX\71\ExecutionsExp19Run1\01-14-2026_14h13m40s\JavaToC#.cs,JavaToC#.cs,0,"[4, 8, 5]",0.01,"(8, 18)"
+Haskell,./Projects/HumanEvalX\71\ExecutionsExp19Run1\01-14-2026_14h13m40s\JavaToHaskell.hs,JavaToHaskell.hs,0,"[2, 2, 2]",0.01,0.010000000000000009
+C#,./Projects/HumanEvalX\71\ExecutionsExp19Run1\01-14-2026_14h13m40s\PythonToC#.cs,PythonToC#.cs,0,"[4, 8, 5]",0.01,"(8, 18)"
+C++,./Projects/HumanEvalX\71\ExecutionsExp19Run1\01-14-2026_14h13m40s\PythonToC++.c++,PythonToC++.c++,0,"[2, 2, 2]",0.01,0.010000000000000009
+Haskell,./Projects/HumanEvalX\71\ExecutionsExp19Run1\01-14-2026_14h13m40s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[2, 2, 2]",0.01,0.010000000000000009
+JavaScript,./Projects/HumanEvalX\71\ExecutionsExp19Run1\01-14-2026_14h13m40s\PythonToJavascript.js,PythonToJavascript.js,0,"[2, 2, 2]",0.01,0.010000000000000009
+Haskell,./Projects/HumanEvalX\74\ExecutionsExp19Run1\01-14-2026_14h13m40s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,"[['hi', 'admin'], ['hi', 'hi']]","['hi', 'hi']","['hi', ' hi']"
+Java,./Projects/HumanEvalX\74\ExecutionsExp19Run1\01-14-2026_14h13m40s\PythonToJava.java,PythonToJava.java,0,"[['hi', 'admin'], ['hi', 'hi']]","['hi', 'hi']","[hi, hi]"
+C++,./Projects/HumanEvalX\81\ExecutionsExp19Run1\01-14-2026_14h13m41s\PythonToC++.c++,PythonToC++.c++,0,"[[4.0, 3, 1.7, 2, 3.5]]","['A+', 'B', 'C-', 'C', 'A-']",[]
+Java,./Projects/HumanEvalX\81\ExecutionsExp19Run1\01-14-2026_14h13m41s\PythonToJava.java,PythonToJava.java,0,"[[4.0, 3, 1.7, 2, 3.5]]","['A+', 'B', 'C-', 'C', 'A-']","['E', 'B', 'C-', 'C', 'B']"
+Pascal,./Projects/HumanEvalX\81\ExecutionsExp19Run1\01-14-2026_14h13m41s\PythonToPascal.pas,PythonToPascal.pas,0,"[[4.0, 3, 1.7, 2, 3.5]]","['A+', 'B', 'C-', 'C', 'A-']",[]
+Java,./Projects/HumanEvalX\85\ExecutionsExp19Run1\01-14-2026_14h13m41s\JavascriptToJava.java,JavascriptToJava.java,0,"[[4, 88]]",88,0
+Pascal,./Projects/HumanEvalX\86\ExecutionsExp19Run1\01-14-2026_14h13m41s\PythonToPascal.pas,PythonToPascal.pas,0,['Hi'],Hi, H
+C#,./Projects/HumanEvalX\99\ExecutionsExp19Run1\01-14-2026_14h13m42s\JavascriptToC#.cs,JavascriptToC#.cs,0,['14.5'],15,145

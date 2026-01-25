@@ -110,23 +110,10 @@ def visualize_from_file(dirPath, log):
     totalRuns = len(compilation_matrix_array)
 
     compilation_matrix_avg = calc_compilation_matrix_avg(dirPath, log, compilation_matrix_array, totalRuns)
-    compilation_matrix_std_deviation = calc_compilation_matrix_std_deviation(dirPath, log, compilation_matrix_array, totalRuns, compilation_matrix_avg)
-
+    
     totalavg = compilation_matrix_avg.sum().sum()
 
-    gesamt_std_deviation = np.std([matrix.sum().sum() for matrix in compilation_matrix_array])
-    # gesamt_std_deviation = df.stack().std()
-    # for matrix in compilation_matrix_array:
-    #     matrix.stack().var()
-
-    spalten_std_deviation = np.std([matrix.sum(axis=0) for matrix in compilation_matrix_array], axis=0) 
-    zeilen_std_deviation = np.std([matrix.sum(axis=1) for matrix in compilation_matrix_array], axis=0) 
-
-    # print("Gesamtstandardabweichung:", gesamt_std_deviation)
-    # print("Standardabweichung für jede Spalte:\n", spalten_std_deviation)
-    # print("Standardabweichung für jede Zeile:\n", zeilen_std_deviation)
-
-    deleted_rows = visulation_as_heatmap(compilation_matrix_avg,compilation_matrix_std_deviation,totalavg,gesamt_std_deviation,spalten_std_deviation,zeilen_std_deviation)
+    deleted_rows = visulation_as_heatmap(compilation_matrix_avg, totalavg)
     return deleted_rows
 
 def visualize_from_file_CompilationError(dirPath, log, showErrosFlag, deleted_rows):
@@ -324,8 +311,6 @@ def compile_all_Quant(flag_object, showVisual, experiment, run, ExecutionDir = N
             sortLogTest(log_file_pathCompilation,"language", ['language', 'filename'])
    
     if(showVisual):
-        print(path)
-        print(logPath)
         deleted_rows = visualize_from_file(path, logPath)
         visualize_from_file_CompilationError(path, logPath, True, deleted_rows)
 
@@ -342,10 +327,10 @@ def compile_all(flag_object, showVisual):
     # path = './Projects/HumanEvalX/142/ExecutionsExp6Run0_4'
     # path = './Projects/HumanEvalX/142/ExecutionsExp7Run3'
     # path = './Projects/HumanEvalX/142/ExecutionsExp9Run8'
-    path = './Projects/HumanEvalX/142/ExecutionsExp4Run5'
+    path = './Projects/HumanEvalX/142/Executions1'
     # path = './Projects/HumanEvalX/23/Executions4'
 
-    logPath =  "logsTestClaude"
+    logPath =  "logs1"
 
     log_file_pathCompilation = os.path.join(path, '..', logPath , './LogCompilationFailed.csv')
     log_file_pathTest = os.path.join(path, '..', logPath, './LogTestFailed.csv')
@@ -389,9 +374,9 @@ class FlagObject:
 if __name__ == "__main__":
     flagObject = FlagObject()
     # compile_all(flagObject, True)
-    compile_all_Quant(flagObject, True, 14,1, "ExecutionsExp14Run1_18", "../../logsHumanEvalXExp14Run1_18")
+    # compile_all_Quant(flagObject, True, 12,1, "ExecutionsExp12Run1_44", "../../logsHumanEvalXExp12Run1_44")
     # compile_all_Quant(flagObject, True, 12,1, "ExecutionsExp5Run1", "../../logsHumanEvalXQuant1")
-
+    compile_all_Quant(flagObject, True, 22, 1, "ExecutionsExp22Run1", "../../logsHumanEvalXExp22Run1", PrevlogPath=None)
       
     
     # logs = [

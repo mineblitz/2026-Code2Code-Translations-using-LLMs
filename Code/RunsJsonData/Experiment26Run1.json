@@ -1,0 +1,17 @@
+{
+    "Name": "codestral-22b Retranslate",
+    "modelName": "codestral-22b",
+    "currentProjectDir": "Projects/HumanEvalX",
+    "WithTestsFlag": true,
+    "numberOfRuns": 1,
+    "HaskellAddImportsFlag": true,
+    "PascallAddCompileOptionFlag": true,
+    "JavascriptNodeJS": true,
+    "removeAfterBackTicks": true,
+    "reTranslate": true,
+    "reTranslateFrom": "ExecutionsExp22Run1",
+    "Message": "{SOURCE_CODE}\nTranslate the above {TEXT_SOURCE_LANG} code to {TEXT_TARGET_LANG}.\nProvide the complete program, including any necessary class definitions and main method or equivalent, ensuring that it works correctly with the provided input arguments.\nBe aware of the properties of the data types in {TEXT_SOURCE_LANG} and accurately translate the functionality into {TEXT_TARGET_LANG}.\nThe translated code must be able to handle the following test values without modification:\n{test_cases_string}\nEnsure that the code is compilable, syntactically correct, and does not use example or placeholder values in the main function or elsewhere.\nInput values should be passed directly from the function arguments, not hard-coded.\nDo not include any extra function calls or print statements beyond what is required to correctly implement the code in {TEXT_TARGET_LANG}.\nEnsure that variables are defined before use, and methods are defined before being invoked.\nAvoid naming conflicts by ensuring unique names for variables and methods.\nPrint only the {TEXT_TARGET_LANG} code.\n",
+    "SystemRole": "You will be provided with a piece of code, and your task is to translate it into a given programming language so that it is compilable.",
+    "reTranslateTestFailed": "\nYou were asked to translate the following {SOURCE_LANG} code to {TARGET_LANG}:\n{SOURCE_CODE}\n\nYour response was the following {TARGET_LANG} code:\n{TRANSLATED_CODE}\n\nExecuting your generated code gives the following output:\n{GENERATED_OUTPUT}\n\ninstead of the following expected output:\n{EXPECTED_OUTPUT}\n\nCan you re-generate your response and translate the above {SOURCE_LANG} code to {TARGET_LANG}. Print only the {TARGET_LANG} code and do not add any other natural language description in your output. Make sure your generated code is syntactically correct. Your generated {TARGET_LANG} code should take the following input and generate the expected output:\n\nInput:\n{TEST_INPUT}\n\nExpected Output:\n{EXPECTED_OUTPUT} \n",
+    "reTranslateError": "\nYou were asked to translate the following {SOURCE_LANG} code to {TARGET_LANG}:\n{SOURCE_CODE}\n\nYour response was the following {TARGET_LANG} code:\n{TRANSLATED_CODE}\n\nExecuting your generated code gives the following error because it is syntactically incorrect:\n{STDERR}\n\nCan you re-generate your response and translate the above {SOURCE_LANG} code to {TARGET_LANG}. Print only the {TARGET_LANG} code and do not add any other natural language description in your output, and do not change the method signature from incorrect translation. Make sure your generated code is syntactically correct.\n"
+}

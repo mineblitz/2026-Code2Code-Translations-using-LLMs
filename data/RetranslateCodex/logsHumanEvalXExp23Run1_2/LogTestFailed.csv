@@ -1,0 +1,5 @@
+language,File Path,JavascriptToHaskell.hs,returncode,input,Expected,actualy
+Haskell,./Projects/HumanEvalX\126\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToHaskell.hs,JavascriptToHaskell.hs,0,[[5]],True,
+Java,./Projects/HumanEvalX\29\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToJava.java,JavascriptToJava.java,0,"[['xxx', 'asd', 'xxy', 'john doe', 'xxxAAA', 'xxx'], 'xxx']","['xxx', 'xxxAAA', 'xxx']",[]
+Pascal,./Projects/HumanEvalX\29\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[], 'john']",[],
+C#,./Projects/HumanEvalX\71\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavaToC#.cs,JavaToC#.cs,0,"[4, 8, 5]",0.01,"(8, 18)"

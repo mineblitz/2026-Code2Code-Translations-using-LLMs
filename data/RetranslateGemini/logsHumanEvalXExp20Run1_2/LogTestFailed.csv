@@ -1,0 +1,34 @@
+language,File Path,JavascriptToJava.java,returncode,input,Expected,actualy
+Java,./Projects/HumanEvalX\105\ExecutionsExp20Run1\01-12-2026_23h22m33s\JavascriptToJava.java,JavascriptToJava.java,0,"[[2, 1, 1, 4, 5, 8, 2, 3]]","['Eight', 'Five', 'Four', 'Three', 'Two', 'Two', 'One', 'One']","[Eight, Five, Four, Three, Two, Two, One, One]"
+Pascal,./Projects/HumanEvalX\110\ExecutionsExp20Run1\01-12-2026_23h36m42s\PythonToPascal.pas,PythonToPascal.pas,0,"[[1, 2, 3, 4], [1, 5, 3, 4]]",NO,YES
+C#,./Projects/HumanEvalX\113\ExecutionsExp20Run1\01-12-2026_23h39m21s\JavascriptToC#.cs,JavascriptToC#.cs,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],the number of odd elements 4n the str4ng 4 of the 4nput.
+C,./Projects/HumanEvalX\113\ExecutionsExp20Run1\01-12-2026_23h39m21s\JavascriptToC.c,JavascriptToC.c,0,"[['3', '11111111']]","['the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 8n the str8ng 8 of the 8nput.']",['the number of odd elements 4n the str4ng 4 of the 4nput.']
+Pascal,./Projects/HumanEvalX\113\ExecutionsExp20Run1\01-12-2026_23h39m21s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],"['the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 8n the str8ng 8 of the 8nput.']"
+JavaScript,./Projects/HumanEvalX\113\ExecutionsExp20Run1\01-12-2026_23h39m21s\JavaToJavascript.js,JavaToJavascript.js,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],"['the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 0n the str0ng 0 of the 0nput.', 'the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 0n the str0ng 0 of the 0nput.', 'the number of odd elements 1n the str1ng 1 of the 1nput.', 'the number of odd elements 0n the str0ng 0 of the 0nput.', 'the number of odd elements 1n the str1ng 1 of the 1nput.']"
+C#,./Projects/HumanEvalX\113\ExecutionsExp20Run1\01-12-2026_23h39m21s\PythonToC#.cs,PythonToC#.cs,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],[]
+Java,./Projects/HumanEvalX\113\ExecutionsExp20Run1\01-12-2026_23h39m21s\PythonToJava.java,PythonToJava.java,0,[['1234567']],['the number of odd elements 4n the str4ng 4 of the 4nput.'],[]
+C#,./Projects/HumanEvalX\116\ExecutionsExp20Run1\01-12-2026_23h42m59s\JavascriptToC#.cs,JavascriptToC#.cs,0,"[[-2, -3, -4, -5, -6]]","[-4, -2, -6, -5, -3]","[-6, -4, -5, -3, -2]"
+C#,./Projects/HumanEvalX\116\ExecutionsExp20Run1\01-12-2026_23h42m59s\PythonToC#.cs,PythonToC#.cs,0,"[[-2, -3, -4, -5, -6]]","[-4, -2, -6, -5, -3]","[-6, -4, -5, -3, -2]"
+Haskell,./Projects/HumanEvalX\116\ExecutionsExp20Run1\01-12-2026_23h42m59s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[[-2, -3, -4, -5, -6]]","[-4, -2, -6, -5, -3]","[-6, -5, -4, -3, -2]"
+Pascal,./Projects/HumanEvalX\119\ExecutionsExp20Run1\01-12-2026_23h48m11s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[['()(', ')']]",Yes,No
+Haskell,./Projects/HumanEvalX\119\ExecutionsExp20Run1\01-12-2026_23h48m11s\PythonToHaskell.hs,PythonToHaskell.hs,0,"[['()(', ')']]",Yes,No
+Pascal,./Projects/HumanEvalX\132\ExecutionsExp20Run1\01-13-2026_00h16m59s\JavaToPascal.pas,JavaToPascal.pas,0,['[[]]'],True,-1
+Pascal,./Projects/HumanEvalX\14\ExecutionsExp20Run1\01-13-2026_00h29m11s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,['asdfgh'],"['a', 'as', 'asd', 'asdf', 'asdfg', 'asdfgh']","a
+as
+asd
+asdf
+asdfg
+asdfgh"
+Pascal,./Projects/HumanEvalX\152\ExecutionsExp20Run1\01-13-2026_05h44m15s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 2, -2]]","[0, 0, 0, 0, 3, 3]","[4, 4, 1, 0, 0, 6]"
+C++,./Projects/HumanEvalX\153\ExecutionsExp20Run1\01-13-2026_05h46m39s\JavascriptToC++.c++,JavascriptToC++.c++,0,"['Watashi', ['tEN', 'niNE', 'eIGHt8OKe']]",Watashi.eIGHt8OKe,Watashi. 'eIGHt8OKe'
+Pascal,./Projects/HumanEvalX\153\ExecutionsExp20Run1\01-13-2026_05h46m39s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"['Watashi', ['tEN', 'niNE', 'eIGHt8OKe']]",Watashi.eIGHt8OKe,Boku123.YEs.WeCaNe
+C#,./Projects/HumanEvalX\21\ExecutionsExp20Run1\01-13-2026_11h21m24s\JavascriptToC#.cs,JavascriptToC#.cs,0,"[[2.0, 49.9]]","[0.0, 1.0]","(0.0, 1.0)"
+C++,./Projects/HumanEvalX\21\ExecutionsExp20Run1\01-13-2026_11h21m24s\JavascriptToC++.c++,JavascriptToC++.c++,0,"[[1.0, 2.0, 3.0, 4.0, 5.0]]","[0.0, 0.25, 0.5, 0.75, 1.0]","[0.0, 0.2, 0.5, 0.8, 1.0]"
+Pascal,./Projects/HumanEvalX\21\ExecutionsExp20Run1\01-13-2026_11h21m24s\PythonToPascal.pas,PythonToPascal.pas,1,"[[2.0, 49.9]]","[0.0, 1.0]",Error converting string to float: 2.0
+C#,./Projects/HumanEvalX\4\ExecutionsExp20Run1\01-13-2026_11h54m27s\C++ToC#.cs,C++ToC#.cs,0,"[[1.0, 2.0, 3.0]]",1e-06,0.6666656666666666
+C,./Projects/HumanEvalX\4\ExecutionsExp20Run1\01-13-2026_11h54m27s\JavascriptToC.c,JavascriptToC.c,0,"[[1.0, 2.0, 3.0]]",1e-06,0.6666656666666666
+C#,./Projects/HumanEvalX\47\ExecutionsExp20Run1\01-13-2026_12h09m49s\JavascriptToC#.cs,JavascriptToC#.cs,0,"[[6, 5]]",5.5,"(5, 5)"
+Pascal,./Projects/HumanEvalX\71\ExecutionsExp20Run1\01-13-2026_13h47m20s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[4, 8, 5]",0.01,0.019999999999999574
+Pascal,./Projects/HumanEvalX\74\ExecutionsExp20Run1\01-13-2026_13h52m19s\PythonToPascal.pas,PythonToPascal.pas,0,"[[], []]",[],"['hi', 'hi']"
+Pascal,./Projects/HumanEvalX\80\ExecutionsExp20Run1\01-13-2026_14h04m54s\JavaToPascal.pas,JavaToPascal.pas,0,['abcd'],True,-1
+Pascal,./Projects/HumanEvalX\99\ExecutionsExp20Run1\01-13-2026_14h45m02s\C++ToPascal.pas,C++ToPascal.pas,0,['14.5'],15,14

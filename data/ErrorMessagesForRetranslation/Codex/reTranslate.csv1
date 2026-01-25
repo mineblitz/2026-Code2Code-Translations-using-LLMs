@@ -1,0 +1,23 @@
+ErrorType,dirPath,StackTrace,Output,stdErr,TestInput,TestOutput,GeneratedOutput
+TestFailed,./Projects/HumanEvalX\116\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToHaskell.hs,,,,"[[-2, -3, -4, -5, -6]]","[-4, -2, -6, -5, -3]","[-6, -4, -5, -3, -2]"
+TestFailed,./Projects/HumanEvalX\126\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToHaskell.hs,,,,[[5]],True,
+TestFailed,./Projects/HumanEvalX\133\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToC.c,,,,"[[1, 2, 3]]",14,0
+TestFailed,./Projects/HumanEvalX\133\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavaToC#.cs,,,,"[[1.0, 2, 3]]",14,113
+RuntimeFailed,./Projects/HumanEvalX\145\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToHaskell.hs,b'outputHS: Prelude.read: no parse\r\n\r\n',,,,,
+TestFailed,./Projects/HumanEvalX\20\ExecutionsExp23Run1\01-14-2026_14h34m36s\C++ToJava.java,,,,"[[1.0, 2.0, 3.9, 4.0, 5.0, 2.2]]","[3.9, 4.0]",[]
+CompilationFailed,./Projects/HumanEvalX\26\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavaToHaskell.hs,,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\26\\ExecutionsExp23Run1\\01-14-2026_14h34m36s\\JavaToHaskell.hs, Projects\\HumanEvalX\\26\\ExecutionsExp23Run1\\01-14-2026_14h34m36s\\JavaToHaskell.o )\r\n'",b'Projects\\HumanEvalX\\26\\ExecutionsExp23Run1\\01-14-2026_14h34m36s\\JavaToHaskell.hs:32:1: error: [GHC-58481]\r\n    parse error (possibly incorrect indentation or mismatched brackets)\r\n   |\n32 | main :: IO ()\r\r\n   | ^\r\n\r\n',,,
+TestFailed,./Projects/HumanEvalX\29\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToJava.java,,,,"[[], 'john']",[],
+TestFailed,./Projects/HumanEvalX\29\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToPascal.pas,,,,"[[], 'john']",[],
+TestFailed,./Projects/HumanEvalX\4\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToC#.cs,,,,"[[1.0, 2.0, 3.0]]",1e-06,"(6, 66666666666667)"
+TestFailed,./Projects/HumanEvalX\4\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToPascal.pas,,,,"[[1.0, 2.0, 3.0]]",1e-06,"(0, 666666666666667)"
+TestFailed,./Projects/HumanEvalX\45\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavaToC#.cs,,,,"[5, 3]",7.5,"(7, 5)"
+RuntimeFailed,./Projects/HumanEvalX\62\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToHaskell.hs,b'outputHS: Prelude.read: no parse\r\n\r\n',,,,,
+CompilationFailed,./Projects/HumanEvalX\69\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToHaskell.hs,,"b'Loaded package environment from C:\\Users\\mager\\AppData\\Roaming\\ghc\\x86_64-mingw32-9.10.1\\environments\\default\r\n[1 of 2] Compiling Main             ( Projects\\HumanEvalX\\69\\ExecutionsExp23Run1\\01-14-2026_14h34m36s\\JavascriptToHaskell.hs, Projects\\HumanEvalX\\69\\ExecutionsExp23Run1\\01-14-2026_14h34m36s\\JavascriptToHaskell.o )\r\n'","b""Projects\\HumanEvalX\\69\\ExecutionsExp23Run1\\01-14-2026_14h34m36s\\JavascriptToHaskell.hs:3:1: error: [GHC-87110]\r\n    Could not load module `Data.Array'.\r\n    It is a member of the hidden package `array-0.5.7.0'.\r\n    Use -v to see a list of the files searched for.\r\n  |\n3 | import Data.Array (Array, accumArray, (!))\r\r\n  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n\r\n""",,,
+TestFailed,./Projects/HumanEvalX\71\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToC#.cs,,,,"[4, 8, 5]",0.01,0.019999999999999574
+TestFailed,./Projects/HumanEvalX\71\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToPascal.pas,,,,"[4, 8, 5]",0.01,0.019999999999999574
+TestFailed,./Projects/HumanEvalX\71\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavaToC#.cs,,,,"[4, 8, 5]",0.01,"(8, 18)"
+TestFailed,./Projects/HumanEvalX\74\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToC++.c++,,,,"[['hi', 'admin'], ['hi', 'hi']]","['hi', 'hi']","['hi', ', ', 'hi', ']']"
+TestFailed,./Projects/HumanEvalX\8\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToC#.cs,,,,[[]],"[0, 1]",
+RuntimeFailed,./Projects/HumanEvalX\81\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToHaskell.hs,b'outputHS: Prelude.read: no parse\r\n\r\n',,,,,
+TestFailed,./Projects/HumanEvalX\99\ExecutionsExp23Run1\01-14-2026_14h34m37s\C++ToPascal.pas,,,,['14.5'],15,14
+RuntimeFailed,./Projects/HumanEvalX\99\ExecutionsExp23Run1\01-14-2026_14h34m37s\JavascriptToHaskell.hs,b'outputHS: Prelude.read: no parse\r\n\r\n',,,,,

@@ -4,14 +4,14 @@ import json
 import re
 import shutil
 from openai import OpenAI
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from datetime import datetime
 import os
 
 import pandas as pd
 
 from CompileAllTranslation import compile_all, compile_all_Quant
-from PostProcessingAfterSplit import addProgrammStructure, removeBackticks
+# from PostProcessingAfterSplit import addProgrammStructure, removeBackticks
 
 languageDict = {}
 languageDict['c'] = 'C'
@@ -27,11 +27,10 @@ languageDict['hs'] = 'Haskell'
 def translateInititialy(flag_object, experiment, run):
 
     ExecutionsDirName = f'ExecutionsExp{experiment}Run{run}'
-    load_dotenv()
+    # load_dotenv()
 
     client = OpenAI(
         api_key=os.environ['OPENAI_API_KEY'],
-        base_url="https://api.anthropic.com/v1/",
     )
     for x in range(flag_object.numberOfRuns):
         timeStamp = datetime.now().strftime("%m-%d-%Y_%Hh%Mm%Ss")
@@ -57,7 +56,7 @@ def translateInititialy(flag_object, experiment, run):
             SOURCE_LANG = languageDict[fileEnding]
 
             for language in languageDict.items():
-                if fileEnding == language[0]: # skip translation if it is the same language
+                if fileEnding == language[0]:
                     continue
                 
                 TARGET_LANG = language[1]
@@ -117,8 +116,7 @@ def translateInititialy(flag_object, experiment, run):
                     TEXT_TARGET_LANG=TEXT_TARGET_LANG)
                             
                 completion = client.chat.completions.create(
-                # model="gpt-4o-mini",
-                model="claude-3-7-sonnet-20250219",
+                model="gpt-4o-mini",
                 messages=[
                       {"role": "system", "content": SystemRole},
                     {"role": "user", "content": userContentMessage}
@@ -152,8 +150,7 @@ def getexplanationForFunctions(client, flag_object, functions, SOURCE_CODE, TEXT
         TEXT_SOURCE_LANG=TEXT_SOURCE_LANG)
 
         completion = client.chat.completions.create(
-        # model="gpt-4o-mini",
-                model="claude-3-7-sonnet-20250219",
+        model="gpt-4o-mini",
         messages=[
                 {"role": "system", "content": SystemRole},
             {"role": "user", "content": userContentMessage}
@@ -183,14 +180,14 @@ def getCodeExplanation(client, flag_object, SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_
     TEXT_SOURCE_LANG=TEXT_SOURCE_LANG)
 
     completion = client.chat.completions.create(
-    # model="gpt-4o-mini",
-                model="claude-3-7-sonnet-20250219",
+    model=flag_object.modelName,
     messages=[
             {"role": "system", "content": SystemRole},
         {"role": "user", "content": userContentMessage}
     ]
     )
 
+    # responseMessage = 
     responseMessage = completion.choices[0].message.content
 
     try:
@@ -211,11 +208,10 @@ def evaluate_string(s):
         return s
         
 def reTranslate(flag_object, ExecutionsDir, safeToDir):
-    load_dotenv()
+    # load_dotenv()
 
     client = OpenAI(
         api_key=os.environ['OPENAI_API_KEY'],
-        base_url="https://api.anthropic.com/v1/",
     )
 
 
@@ -227,10 +223,14 @@ def reTranslate(flag_object, ExecutionsDir, safeToDir):
     # print(failedTranslations.columns)
     counter = 0
     for index, row in failedTranslations.iterrows():        
-        print(counter)
+        # print(counter)
         counter += 1
 
-        file_path = row['dirPath']    
+        file_path = row['dirPath']   
+
+        if os.path.exists(file_path):
+            continue
+    
         file_name = os.path.basename(file_path)
         file_name = os.path.splitext(file_name)[0]
         parts = file_name.split("To")    
@@ -282,8 +282,7 @@ def reTranslate(flag_object, ExecutionsDir, safeToDir):
             GENERATED_OUTPUT=GENERATED_OUTPUT)
 
         completion = client.chat.completions.create(
-        # model="gpt-4o-mini",
-                model="claude-3-7-sonnet-20250219",
+        model= flag_object.modelName,
         messages=[
             {"role": "system", "content": "You will be provided with a piece of code, and your task is to translate it into a given programming language so that it is compilable."},
             {"role": "user", "content": userContentMessage}
@@ -312,28 +311,46 @@ def getFilePathSourceCode(getFilePathSourceCode, SourceLang):
             return full_path
 
 def translateInititialyQuant(flag_object, experiment, run):
-    load_dotenv()
+    # load_dotenv()
 
-    client = OpenAI(
-        api_key=os.environ['OPENAI_API_KEY'],
-        base_url="https://api.anthropic.com/v1/",
-    )
+    match flag_object.modelName:
+        case "google/gemini-2.5-pro":            
+            client = OpenAI(
+                api_key=os.environ["OPENROUTER_API_KEY"],
+                base_url="https://openrouter.ai/api/v1"
+            )
+        case "gpt-5.1-codex-max":            
+            client = OpenAI(
+                api_key=os.environ['OPENAI_API_KEY'],
+            )
+            
     counter = 0
     startAt = 0
     for x in range(flag_object.numberOfRuns):
         Projects = os.listdir(flag_object.currentProjectDir)
         for entry in Projects:
-            timeStamp = datetime.now().strftime("%m-%d-%Y_%Hh%Mm%Ss")
 
             projectDir = os.path.join(flag_object.currentProjectDir, entry)
             dirname = os.path.dirname(__file__)
             fullProjectDir = os.path.join(dirname, projectDir)
             codesnipetDir = os.path.join(fullProjectDir,'Code_Input')
             executionDir = os.path.join(fullProjectDir, f'ExecutionsExp{experiment}Run{run}')
-            currentExecutionDir = os.path.join(executionDir, timeStamp)
-            filenames = os.listdir(codesnipetDir)
 
-            os.makedirs(currentExecutionDir, exist_ok=True)
+            os.makedirs(executionDir, exist_ok=True)
+
+            existing_runs = [
+                d for d in os.listdir(executionDir)
+                if os.path.isdir(os.path.join(executionDir, d))
+            ]
+            if existing_runs:
+                latest_timestamp = sorted(existing_runs)[-1]
+                currentExecutionDir = os.path.join(executionDir, latest_timestamp)
+            else:
+                timeStamp = datetime.now().strftime("%m-%d-%Y_%Hh%Mm%Ss")
+                currentExecutionDir = os.path.join(executionDir, timeStamp)
+                os.makedirs(currentExecutionDir)
+
+            filenames = os.listdir(codesnipetDir)
 
             for languageFile in filenames:
                 print(counter)                
@@ -351,11 +368,17 @@ def translateInititialyQuant(flag_object, experiment, run):
                 SOURCE_LANG = languageDict[fileEnding]
 
                 for language in languageDict.items():
+                    # 0 = file ending 1 = language name
                     if fileEnding == language[0]:
-                        continue
-                    
-                    TARGET_LANG = language[1]
+                        continue    
+                    TARGET_LANG = language[1]                    
                     TEXT_TARGET_LANG = language[1]
+                    
+                    fileStringWithEnding = SOURCE_LANG + 'To' + TARGET_LANG + '.' + language[0]
+                    newSaveFile = currentExecutionDir + "/" + fileStringWithEnding
+                    if(os.path.exists(newSaveFile)):
+                        continue
+
                     if flag_object.JavascriptNodeJS:
                         if TEXT_TARGET_LANG == "Javascript":
                             TEXT_TARGET_LANG = "Javascript Node.js"
@@ -409,165 +432,46 @@ def translateInititialyQuant(flag_object, experiment, run):
                         TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
                         TEXT_TARGET_LANG=TEXT_TARGET_LANG)
                     
-                    completion = client.chat.completions.create(
-                    # model="gpt-4o-mini",
-                model="claude-3-7-sonnet-20250219",
-                    messages=[
-                        {"role": "system", "content": SystemRole},
-                        {"role": "user", "content": userContentMessage}
-                    ]
-                    )
 
-                    responseMessage = completion.choices[0].message.content
+                    match flag_object.modelName:
+                        case "google/gemini-2.5-pro":
+                            completion = client.chat.completions.create(
+                            # completion = client.responses.create(
+                            model = flag_object.modelName,
+                            messages=[
+                                {"role": "system", "content": SystemRole},
+                                {"role": "user", "content": userContentMessage}
+                            ]
+                            )           
+                            responseMessage = completion.choices[0].message.content                 
+                        case "gpt-5.1-codex-max":                            
+                                prompt = (
+                                    f"You must follow the system instructions strictly.\n\n"
+                                    f"System:\n{SystemRole}\n\n"
+                                    f"User:\n{userContentMessage}\n\n"
+                                    f"Assistant:\n"
+                                )
+
+                                completion = client.responses.create(
+                                model = flag_object.modelName,
+                                input=prompt,
+                                )
+
+                                responseMessage = completion.output_text
+                    
+                    # responseMessage = completion
 
                     try:
                         logString = datetime.now().strftime("%d/%m/%Y %H:%M:%S") + "\n----------\n" + userContentMessage + "\n----------\n" + responseMessage + "\n" + "################\n"
                         with open("Log.txt", "a") as text_file:
                             text_file.write(logString)
+
+                        with open(newSaveFile, "w") as lang_file:
+                            lang_file.write(responseMessage)
+
                     except UnicodeEncodeError as e:
                         print(f"Unicode encoding error: {e}")
 
-                    fileStringWithEnding = SOURCE_LANG + 'To' + TARGET_LANG + '.' + language[0]
-                    with open(currentExecutionDir + "/" + fileStringWithEnding, "w") as lang_file:
-                        lang_file.write(responseMessage)
-
-
-def TranslateBySplitQuant(flag_object, experiment, run):
-    load_dotenv()
-
-    client = OpenAI(
-        api_key=os.environ['OPENAI_API_KEY'],
-        base_url="https://api.anthropic.com/v1/",
-    )
-    counter = 0
-    startAt = 0
-    for x in range(flag_object.numberOfRuns):
-        Projects = os.listdir(flag_object.currentProjectDir)
-        for entry in Projects:
-            timeStamp = datetime.now().strftime("%m-%d-%Y_%Hh%Mm%Ss")
-
-            projectDir = os.path.join(flag_object.currentProjectDir, entry)
-            dirname = os.path.dirname(__file__)
-            fullProjectDir = os.path.join(dirname, projectDir)
-            codesnipetDir = os.path.join(fullProjectDir,'Code_Input')
-            executionDir = os.path.join(fullProjectDir, f'ExecutionsExp{experiment}Run{run}')
-            currentExecutionDir = os.path.join(executionDir, timeStamp)
-            filenames = os.listdir(codesnipetDir)
-
-            if not(int(counter/28) < int(startAt/28-1)): 
-                os.makedirs(currentExecutionDir, exist_ok=True)
-
-            for languageFile in filenames:
-                fullFileName = languageFile.split('/')[-1]
-                fileEnding = fullFileName.split('.')[1]
-                fileCodeName = fullFileName.split('.')[0]
-
-                SOURCE_CODE = ""
-                with open(codesnipetDir + "/" + languageFile) as f:
-                    SOURCE_CODE = f.read()
-
-                SOURCE_LANG = languageDict[fileEnding]
-
-                for language in languageDict.items():
-                    print(counter)                
-                    counter += 1
-                    if(counter < startAt): continue
-
-                    if fileEnding == language[0]:
-                        continue
-                    
-                    TARGET_LANG = language[1]
-                    TEXT_TARGET_LANG = language[1]
-                    if flag_object.JavascriptNodeJS:
-                        if TEXT_TARGET_LANG == "Javascript":
-                            TEXT_TARGET_LANG = "Javascript Node.js"
-                        TEXT_SOURCE_LANG = SOURCE_LANG
-                        if TEXT_SOURCE_LANG == "Javascript":
-                            TEXT_SOURCE_LANG = "Javascript Node.js"
-
-                    functionPath = os.path.join(fullProjectDir,'Code_InputFunctions')
-                    functionsOriginal = loadFunctionsFromFile(flag_object, functionPath, SOURCE_LANG, entry)
-                    explanationFunctions = []
-                    functionsTranslated = translateEachFunction(client, flag_object, functionsOriginal,SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_TARGET_LANG, explanationFunctions)
-
-                    if flag_object.reTranslateFunctionWithSourceCode:
-                        functionsTranslated = translateEachFunctionAgain(client, flag_object, functionsTranslated,SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_TARGET_LANG)
-
-                    labeled_Functions = ["Function {}: {}".format(i + 1, value) for i, value in enumerate(functionsTranslated)]
-                    joinedFunctions = """
-""".join(labeled_Functions)
-
-
-                    userContentMessage = ""
-                    if not flag_object.WithTestsFlag:  
-                        userContentMessage = flag_object.Message.format(
-                            SOURCE_CODE=SOURCE_CODE,
-                            TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-                            TEXT_TARGET_LANG=TEXT_TARGET_LANG
-                            )
-                    else:
-                        with open(os.path.join(projectDir, "TestData.json"), 'r') as file:
-                            test_cases = json.load(file)                        
-
-                        test_cases_string = ""
-                        for case in test_cases:
-                            if not case['postProcessingValue'] == "":  
-                                if isinstance(case['postProcessingValue'], str):
-                                    if "/" in case['postProcessingValue']:
-                                        part1 = evaluate_string(case['postProcessingValue'].split("/")[0])
-                                        part2 = evaluate_string(case['postProcessingValue'].split("/")[1])
-                                        case['postProcessingValue'] = part1 / part2
-                                if case['postProcessingOperator'] == "-":       
-                                    case["expected"] = abs(case["expected"] - case['postProcessingValue'])
-                                if case['postProcessingOperator'] == "+":
-                                    case["expected"] = abs(case["expected"] + case['postProcessingValue'])
-                            input_value = case["input"]
-                            expected_output = case["expected"]
-                            test_cases_string += f"Input: {input_value}, expected output: {expected_output}\n"
-                        
-                    if flag_object.WithExplanation:
-                        EXPLANATION = getCodeExplanation(client, flag_object, SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_TARGET_LANG)
-                        userContentMessage = flag_object.Message.format(
-                            SOURCE_CODE=SOURCE_CODE,
-                            TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-                            TEXT_TARGET_LANG=TEXT_TARGET_LANG,
-                            EXPLANATION=EXPLANATION,
-                            test_cases_string=test_cases_string,
-                            FUNCTIONS = joinedFunctions
-                            )
-                    else:
-                        userContentMessage = flag_object.Message.format(
-                            FUNCTIONS=joinedFunctions,
-                            SOURCE_CODE=SOURCE_CODE,
-                            TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-                            TEXT_TARGET_LANG=TEXT_TARGET_LANG,
-                            test_cases_string=test_cases_string
-                            )
-                    SystemRole = flag_object.SystemRole.format(
-                        TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-                        TEXT_TARGET_LANG=TEXT_TARGET_LANG)
-                    
-                    completion = client.chat.completions.create(
-                    # model="gpt-4o-mini",
-                model="claude-3-7-sonnet-20250219",
-                    messages=[
-                        {"role": "system", "content": SystemRole},
-                        {"role": "user", "content": userContentMessage}
-                    ]
-                    )
-
-                    responseMessage = completion.choices[0].message.content
-
-                    try:
-                        logString = datetime.now().strftime("%d/%m/%Y %H:%M:%S") + "\n----------\n" + userContentMessage + "\n----------\n" + responseMessage + "\n" + "################\n"
-                        with open("Log.txt", "a") as text_file:
-                            text_file.write(logString)
-                    except UnicodeEncodeError as e:
-                        print(f"Unicode encoding error: {e}")
-
-                    fileStringWithEnding = SOURCE_LANG + 'To' + TARGET_LANG + '.' + language[0]
-                    with open(currentExecutionDir + "/" + fileStringWithEnding, "w") as lang_file:
-                        lang_file.write(responseMessage)
 
 def reTranslateRun(flag_object, experiment, run):
 
@@ -622,6 +526,7 @@ def reTranslateRun(flag_object, experiment, run):
 def reTranslateRunQuant(flag_object, experiment, run):
 
     pathOverall = flag_object.currentProjectDir
+    threshold = 0.05
     initialDir = f"ExecutionsExp{experiment}Run{run}"
     initialDirLogs = f"../../logsHumanEvalXExp{experiment}Run{run}_0"
     ExecutionsDirName = f'ExecutionsExp{experiment}Run{run}_'
@@ -639,12 +544,12 @@ def reTranslateRunQuant(flag_object, experiment, run):
     # kopiert firstTranslation auf welche retranslate angewandt weden soll
     for entry in Projects:           
         basePath = os.path.join(pathOverall, entry)   
-        initialDir_Dir = os.path.join(pathOverall, entry, initialDir)  
+        initialDir_Dir = os.path.join(pathOverall, entry, initialDir)   
         if not os.path.exists(initialDir_Dir): 
             copyToNewDirQuant(initialDir,basePath, flag_object)
     # initiales kompilieren um retranslate.csv zu füllen
     if not os.path.exists(source_dirLogs):
-        compile_all_Quant(flag_object, False, experiment, run, initialDir, initialDirLogs)
+        compile_all_Quant(flag_object, False, experiment, run,initialDir, initialDirLogs)
 
     while True:
         # Kopieren der bereits kompilierten Programme in name_counter für dokumentations zwecke
@@ -672,9 +577,7 @@ def reTranslateRunQuant(flag_object, experiment, run):
             if counter >= ReturnCounter: 
                 reTranslate(flag_object, initialDir, ExecutionsDirNameCurrent)
                 # vorheriger log pfad um erfolgreiche übersetzungen nicht erneut zu kompilieren
-            PrevlogPath = LogsDirName+str(counter)
-            if os.path.isfile('./reTranslate.csv'):
-                os.remove("./reTranslate.csv")
+            PrevlogPath = LogsDirName+str(counter)  
             compile_all_Quant(flag_object, False, experiment, run,initialDir, LogsDirNameCurrent,PrevlogPath)       
             FailedAfter = getNumberOfFails() 
         print("FailedBefore: " + str(FailedBefore))  
@@ -771,416 +674,39 @@ Can you re-generate your response and translate the above {SOURCE_LANG} code to 
     
     # Write the dictionary to a JSON file
     with open(experimentDataJsonFile, 'w') as json_file:
-        json.dump(jsonData, json_file, indent=4)
+        json.dump(jsonData, json_file, indent=4)  
 
-def TranslateBySplit(flag_object, exp, run):
-    ExecutionsDirName = f"ExecutionsExp{exp}Run{run}"
-    load_dotenv()
+def count_generated_files(flag_object, experiment, run):
+    total_files = 0
 
-    client = OpenAI(
-        api_key=os.environ['OPENAI_API_KEY'],
-        base_url="https://api.anthropic.com/v1/",
-    )
-    for x in range(flag_object.numberOfRuns):
-        timeStamp = datetime.now().strftime("%m-%d-%Y_%Hh%Mm%Ss")
+    projects = os.listdir(flag_object.currentProjectDir)
 
+    for entry in projects:
+        projectDir = os.path.join(flag_object.currentProjectDir, entry)
         dirname = os.path.dirname(__file__)
-        fullProjectDir = os.path.join(dirname, flag_object.currentProjectDir)
-        codesnipetDir = os.path.join(fullProjectDir,'Code_Input')
-        executionDir = os.path.join(fullProjectDir, ExecutionsDirName)
-        currentExecutionDir = os.path.join(executionDir, timeStamp)
-        filenames = os.listdir(codesnipetDir)
+        fullProjectDir = os.path.join(dirname, projectDir)
 
-        os.makedirs(currentExecutionDir, exist_ok=True)
-
-        for languageFile in filenames:
-            fullFileName = languageFile.split('/')[-1]
-            fileEnding = fullFileName.split('.')[1]
-            fileCodeName = fullFileName.split('.')[0]
-
-            SOURCE_CODE = ""
-            with open(codesnipetDir + "/" + languageFile) as f:
-                SOURCE_CODE = f.read()
-
-            SOURCE_LANG = languageDict[fileEnding]
-
-            for language in languageDict.items():
-                if fileEnding == language[0]:
-                    continue
-                
-                TARGET_LANG = language[1]
-                TEXT_TARGET_LANG = language[1]
-                if flag_object.JavascriptNodeJS:
-                    if TEXT_TARGET_LANG == "Javascript":
-                        TEXT_TARGET_LANG = "Javascript Node.js"
-                    TEXT_SOURCE_LANG = SOURCE_LANG
-                    if TEXT_SOURCE_LANG == "Javascript":
-                        TEXT_SOURCE_LANG = "Javascript Node.js"
-
-                functionPath = os.path.join(fullProjectDir,'Code_InputFunctions')
-                last_dir = os.path.basename(flag_object.currentProjectDir)
-
-                functionsOriginal = loadFunctionsFromFile(flag_object, functionPath, SOURCE_LANG, last_dir)
-                # functionsOriginal = splitIntoFunctions(flag_object, SOURCE_CODE, SOURCE_LANG)
-                
-                explanationFunctions = []
-                if flag_object.WithExplanationFunctions:
-                    explanationFunctions = getexplanationForFunctions(client, flag_object, functionsOriginal, SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_TARGET_LANG)
-                functionsTranslated = translateEachFunction(client, flag_object, functionsOriginal,SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_TARGET_LANG, explanationFunctions)
-
-                if flag_object.reTranslateFunctionWithSourceCode:
-                    functionsTranslated = translateEachFunctionAgain(client, flag_object, functionsTranslated,SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_TARGET_LANG)
-
-                if flag_object.buildProgramManuly:
-                    responseMessage = addProgrammStructure(functionsTranslated, TARGET_LANG)
-                else:
-                    labeled_Functions = ["Function {}: {}".format(i + 1, value) for i, value in enumerate(functionsTranslated)]
-                    joinedFunctions = """
-    """.join(labeled_Functions)
-                    userContentMessage = ""
-                    if not flag_object.WithTestsFlag:  
-                            userContentMessage = flag_object.Message.format(
-                            SOURCE_CODE=SOURCE_CODE,
-                            TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-                            TEXT_TARGET_LANG=TEXT_TARGET_LANG,
-                            )
-                    else:
-                        with open(os.path.join(flag_object.currentProjectDir, "TestData.json"), 'r') as file:
-                            test_cases = json.load(file)                    
-
-                        test_cases_string = ""
-                        for case in test_cases:
-                            if not case['postProcessingValue'] == "":  
-                                if isinstance(case['postProcessingValue'], str):
-                                    if "/" in case['postProcessingValue']:
-                                        part1 = evaluate_string(case['postProcessingValue'].split("/")[0])
-                                        part2 = evaluate_string(case['postProcessingValue'].split("/")[1])
-                                        case['postProcessingValue'] = part1 / part2
-                                if case['postProcessingOperator'] == "-":       
-                                    case["expected"] = abs(case["expected"] - case['postProcessingValue'])
-                                if case['postProcessingOperator'] == "+":
-                                    case["expected"] = abs(case["expected"] + case['postProcessingValue'])
-                            input_value = case["input"]
-                            expected_output = case["expected"]
-                            test_cases_string += f"Input: {input_value}, expected output: {expected_output}\n"
-                        
-                        if flag_object.WithExplanation:
-                            EXPLANATION = getCodeExplanation(client, flag_object, SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_TARGET_LANG)
-
-                            userContentMessage = flag_object.Message.format(
-                                FUNCTIONS=joinedFunctions,
-                                SOURCE_CODE=SOURCE_CODE,
-                                TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-                                TEXT_TARGET_LANG=TEXT_TARGET_LANG,
-                                test_cases_string=test_cases_string,
-                                EXPLANATION=EXPLANATION,
-                                )
-                        else:
-                            userContentMessage = flag_object.Message.format(
-                                FUNCTIONS=joinedFunctions,
-                                SOURCE_CODE=SOURCE_CODE,
-                                TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-                                TEXT_TARGET_LANG=TEXT_TARGET_LANG,
-                                test_cases_string=test_cases_string,
-                                )
-                    SystemRole = flag_object.SystemRole.format(
-                        TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-                        TEXT_TARGET_LANG=TEXT_TARGET_LANG)
-                    completion = client.chat.completions.create(
-                    # model="gpt-4o-mini",
-                model="claude-3-7-sonnet-20250219",
-                    messages=[
-                        {"role": "system", "content": SystemRole},
-                        {"role": "user", "content": userContentMessage}
-                    ]
-                    )
-
-                    responseMessage = completion.choices[0].message.content
-
-                    try:
-                        logString = datetime.now().strftime("%d/%m/%Y %H:%M:%S") + "\n----------\n" + userContentMessage + "\n----------\n" + responseMessage + "\n" + "################\n"
-                        with open("Log.txt", "a") as text_file:
-                            text_file.write(logString)
-                    except UnicodeEncodeError as e:
-                        print(f"Unicode encoding error: {e}")
-
-                fileStringWithEnding = SOURCE_LANG + 'To' + TARGET_LANG + '.' + language[0]
-                with open(currentExecutionDir + "/" + fileStringWithEnding, "w") as lang_file:
-                    lang_file.write(responseMessage)
-                    
-
-def translateEachFunctionAgain(client, flag_object, functions, SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_TARGET_LANG):
-    translatedFunctions = []
-
-    for FUNCTION in functions:
-        userContentMessage = flag_object.MessageFunctionAgain.format(
-        SOURCE_CODE=SOURCE_CODE,
-        FUNCTION=FUNCTION,
-        TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-        TEXT_TARGET_LANG=TEXT_TARGET_LANG,
-        )
-        SystemRole = flag_object.SystemRoleFunctionTranslateAgain.format(
-            TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-            TEXT_TARGET_LANG=TEXT_TARGET_LANG)
-
-        completion = client.chat.completions.create(
-        # model="gpt-4o-mini",
-                model="claude-3-7-sonnet-20250219",
-        messages=[
-                {"role": "system", "content": SystemRole},
-            {"role": "user", "content": userContentMessage}
-        ]
+        executionDir = os.path.join(
+            fullProjectDir,
+            f'ExecutionsExp{experiment}Run{run}'
         )
 
-        
-        responseMessage = completion.choices[0].message.content
+        if not os.path.exists(executionDir):
+            continue
 
-        try:
-            logString = datetime.now().strftime("%d/%m/%Y %H:%M:%S") + "\n----------\n" + userContentMessage + "\n----------\n" + responseMessage + "\n" + "################\n"
-            with open("Log.txt", "a") as text_file:
-                text_file.write(logString)
-        except UnicodeEncodeError as e:
-            print(f"Unicode encoding error: {e}")
+        # count files across all timestamps
+        for timestamp_dir in os.listdir(executionDir):
+            full_timestamp_dir = os.path.join(executionDir, timestamp_dir)
 
-        # cleanup responseMessage
-        responseMessageClean = responseMessage
+            if not os.path.isdir(full_timestamp_dir):
+                continue
 
-        translatedFunctions.append(responseMessageClean)
+            for f in os.listdir(full_timestamp_dir):
+                full_file = os.path.join(full_timestamp_dir, f)
+                if os.path.isfile(full_file):
+                    total_files += 1
 
-    return translatedFunctions
-
-def translateEachFunction(client, flag_object, functions, SOURCE_CODE, TEXT_SOURCE_LANG, TEXT_TARGET_LANG, explanationFunctions):
-    translatedFunctions = []
-
-    counter = 0
-    for FUNCTION in functions:
-        # explanation = explanationFunctions[counter]
-        if flag_object.WithExplanationFunctions:
-            userContentMessage = flag_object.MessageFunctionTranslate.format(
-            SOURCE_CODE=SOURCE_CODE,
-            FUNCTION=FUNCTION,
-            TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-            TEXT_TARGET_LANG=TEXT_TARGET_LANG,
-            # EXPLANATION=explanation
-            )
-        else:
-            userContentMessage = flag_object.MessageFunctionTranslate.format(
-            SOURCE_CODE=SOURCE_CODE,
-            FUNCTION=FUNCTION,
-            TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-            TEXT_TARGET_LANG=TEXT_TARGET_LANG,
-            )
-        SystemRole = flag_object.SystemRoleFunctionTranslate.format(
-            TEXT_SOURCE_LANG=TEXT_SOURCE_LANG,
-            TEXT_TARGET_LANG=TEXT_TARGET_LANG)
-
-        completion = client.chat.completions.create(
-        # model="gpt-4o-mini",
-                model="claude-3-7-sonnet-20250219",
-        messages=[
-                {"role": "system", "content": SystemRole},
-            {"role": "user", "content": userContentMessage}
-        ]
-        )
-        responseMessage = completion.choices[0].message.content
-
-        try:
-            logString = datetime.now().strftime("%d/%m/%Y %H:%M:%S") + "\n----------\n" + userContentMessage + "\n----------\n" + responseMessage + "\n" + "################\n"
-            with open("Log.txt", "a") as text_file:
-                text_file.write(logString)
-        except UnicodeEncodeError as e:
-            print(f"Unicode encoding error: {e}")
-
-        # responseMessageClean = removeBackticks(responseMessage)
-        responseMessageClean = responseMessage
-        translatedFunctions.append(responseMessageClean)
-
-        counter += 1
-
-    return translatedFunctions
-
-def loadFunctionsFromFile(FlagObject, FunctionCOdeInputPath, Language, id):
-    functionErrorsArray = []
-
-    if id == "10":
-        if Language == "C++":
-            functionErrorsArray.append("""bool is_palindrome(string str){
-    string s(str.rbegin(),str.rend());
-    return s==str;
-}""")
-            functionErrorsArray.append("""string make_palindrome(string str){
-   int i;
-   for (i=0;i<str.length();i++)
-   {
-        string rstr=str.substr(i);
-        if (is_palindrome(rstr))
-        {
-            string nstr;
-            nstr=str.substr(0,i);
-            string n2str(nstr.rbegin(),nstr.rend());
-            return str+n2str;
-        }
-   }
-   string n2str(str.rbegin(),str.rend());
-   return str+n2str;
-}""")
-            functionErrorsArray.append("""    int main(int argc, char *argv[]) {
-    string n = argv[1];
-    string result = make_palindrome(n);
-    std::cout << result << std::endl;
-}""")
-        if Language == "Java":
-            functionErrorsArray.append("""    public boolean isPalindrome(String string) {
-        int i = 0;
-        int j = string.length() - 1;
-        while (i < j) {
-            if (string.charAt(i)!= string.charAt(j)) {
-                return false;
-            }
-            i++;
-            j--;
-        }
-        return true;
-    }""")
-            functionErrorsArray.append("""    public String makePalindrome(String string) {
-        if (string.length() == 0) {
-            return "";
-        }
-
-        int beginning_of_suffix = 0;
-
-        while (!isPalindrome(string.substring(beginning_of_suffix))) {
-            beginning_of_suffix++;
-        }
-
-        return string + new StringBuffer(string.substring(0, beginning_of_suffix)).reverse().toString();
-    }""")
-            functionErrorsArray.append("""    public static void main(String[] args) {
-    Solution solution = new Solution();
-            String n = args[0];
-    String result = solution.makePalindrome(n);
-    System.out.println(result);
-    }""")
-
-        if Language == "Javascript":
-            functionErrorsArray.append("""const isPalindrome = (string) => {
-  return string == string.split('').reverse().join('');
-}
-""")
-            functionErrorsArray.append("""const makePalindrome = (string) => {
-  if (string == '')
-    return '';
-  var beginning_of_suffix = 0;
-  while (!isPalindrome(string.slice(beginning_of_suffix)))
-    beginning_of_suffix += 1;
-  return string + string.slice(0, beginning_of_suffix).split('').reverse().join('');
-}""")
-            functionErrorsArray.append("""// Get the command-line arguments
-const args = process.argv.slice(2);
-// Call the function and print the result
-const result = makePalindrome(...args);
-console.log(result);""")
-
-        if Language == "Python":
-            functionErrorsArray.append("""def is_palindrome(string: str) -> bool:
-    \"\"\" Test if given string is a palindrome \"\"\"
-    return string == string[::-1]""")
-            functionErrorsArray.append("""def make_palindrome(string: str) -> str:
-    if not string:
-        return ''
-
-    beginning_of_suffix = 0
-
-    while not is_palindrome(string[beginning_of_suffix:]):
-        beginning_of_suffix += 1
-
-    return string + string[:beginning_of_suffix][::-1]""")
-            functionErrorsArray.append("""if __name__ == "__main__":
-    n = sys.argv[1]
-    result = make_palindrome(n)
-    print(result)""")
-            
-        return functionErrorsArray
-    
-    languagePathAddOn = ""
-    if Language == "C++": 
-        languagePathAddOn = "CPP"
-        FunctionCOdeInputPath1 = os.path.join(FunctionCOdeInputPath, languagePathAddOn+"1")
-        FunctionCOdeInputPath2 = os.path.join(FunctionCOdeInputPath, languagePathAddOn+"2")
-    else:
-        FunctionCOdeInputPath1 = os.path.join(FunctionCOdeInputPath, Language+"1")
-        FunctionCOdeInputPath2 = os.path.join(FunctionCOdeInputPath, Language+"2")
-
-    with open(FunctionCOdeInputPath1, 'r') as file:
-        file_content = file.read()
-        functionErrorsArray.append(file_content)
-
-    with open(FunctionCOdeInputPath2, 'r') as file:
-        file_content = file.read()
-        functionErrorsArray.append(file_content)
-
-    return functionErrorsArray
-
-def splitIntoFunctions(FlagObject, SourceCode, sourceLang):
-    functionErrorsArray = []
-    if sourceLang == "Java":
-        pattern = r'(?:public|protected|private|static|final|native|synchronized|abstract|transient|volatile|\s)+[\w<>\[\]]+\s+\w+\s*\([^)]*\)\s*\{(?:[^{}]*|\{(?:[^{}]*|\{[^{}]*\})*\})*\}'
-    elif sourceLang == "C++":
-        pattern = r'(?:\b(?:inline|static|virtual|constexpr|friend|explicit|export)\b\s*)*(?:\blong\s+long\b|\b[\w:&\*<>\[\]]+\b\s+)+\w+(?:::\w+)?\s*\([^)]*\)\s*\{(?:[^{}]*|\{(?:[^{}]*|\{[^{}]*\})*\})*\}'
-    elif sourceLang == "Javascript":
-        pattern = r'function\s+\w+\s*\([^)]*\)\s*\{(?:[^{}]*|\{(?:[^{}]*|\{[^{}]*\})*\})*\}|const\s+\w+\s*=\s*\([^)]*\)\s*=>\s*\{(?:[^{}]*|\{(?:[^{}]*|\{[^{}]*\})*\})*\}'
-        # pattern = r'const\s+\w+\s*=\s*\(.*?\)\s*=>\s*\{[\s\S]*?\}'
-    elif sourceLang == "Python":
-        pattern = r'def\s+\w+\s*\(.*?\):\s*((?:\n\s+.*)+)'
-
-    functionErrorsArray = re.findall(pattern, SourceCode, re.DOTALL)
-
-    if sourceLang == "Javascript": 
-        pattern = r"// Get the command-line arguments.*"
-        matches = re.findall(pattern, SourceCode, re.DOTALL)
-        if matches:
-            functionErrorsArray.append(matches[0])
-    elif sourceLang == "Python":
-        # splitat = 'if __name__ == "__main__":'
-        pattern = r'if __name__ == "__main__":\s*(.*(?:\n\s+.*)*)'
-        
-        # match = re.split(r'(?=if __name__ == "__main__":)', SourceCode)
-        match = re.search(pattern, SourceCode, re.MULTILINE | re.DOTALL)
-        if match:
-            # functionErrorsArray.append(match)
-            functionErrorsArray.append(match.group(0))
-
-    if(len(functionErrorsArray) <2):
-        print("length to short")
-        # if sourceLang == "C++":
-        #     # Define the regex patterns for function start and end
-        #     function_pattern = re.compile(r'\b(?:vector|string|long\s+long|int)\s+\w+\s*\(.*?\)\s*{', re.DOTALL)
-        #     end_pattern = re.compile(r'int\s+main\s*\(\s*int\s+argc\s*,\s*char\s*\*\s*argv\s*\[\s*\]\s*\)\s*{', re.DOTALL)
-        #     main_end_pattern = re.compile(r'\}\s*$', re.DOTALL)
-            
-        #     # Find the start of the function
-        #     function_match = function_pattern.search(SourceCode)
-        #     start_index = function_match.start()
-            
-        #     # Find the end of the 'int main' function
-        #     end_match = end_pattern.search(SourceCode, start_index)
-        #     end_index = end_match.start()
-            
-        #     # Extract the substring from the start of the function to the end of the string
-        #     function_to_end = SourceCode[start_index:].strip()
-        #     functionErrorsArray.append(function_to_end)
-        #     # Find the end of the main method
-        #     main_end_match = main_end_pattern.search(SourceCode, end_index)
-        #     main_end_index = main_end_match.start()
-            
-        #     # Extract the 'int main' method including its closing brace
-        #     main_method = SourceCode[end_index:main_end_index].strip()
-        #     functionErrorsArray.append(main_method)
-    if(len(functionErrorsArray) <2) and not sourceLang == "C++": print(SourceCode)
-
-    return functionErrorsArray
-        
-
+    return total_files
 class FlagObject:
     def __init__(self, data):
         self.currentProjectDir = data.get("currentProjectDir")
@@ -1212,16 +738,18 @@ class FlagObject:
         self.notRemoveBackTicks = data.get("notRemoveBackTicks")
         self.NotCScharfAenderung = data.get("NotCScharfAenderung")
         self.notRmeoveCRTlib = data.get("notRmeoveCRTlib")
+        self.modelName = data.get("modelName")
+        self.reTranslate = data.get("reTranslate")
         
 
         
 if __name__ == "__main__":  
     # Index der Experimente startet bei 0 
-    experiment = 15
+    experiment = 23
     run = 1
     experimentDataJsonFile = f"./RunsJsonData/Experiment{experiment}Run{run}.json"
 
-    # ein kommentieren wenn du es zum ersetn mal runst damit es gespeichert wird
+    # ein kommentieren wenn du es zum ersetzen mal runst damit es gespeichert wird
     # nicht vergessen den File zu Ändern
     # saveJsonVariables(experimentDataJsonFile)
 
@@ -1229,27 +757,31 @@ if __name__ == "__main__":
         jsonData = json.load(file)
         
     flag_object = FlagObject(jsonData)
-
     
-    # translateInititialy(flag_object, experiment=experiment, run=run )
-    translateInititialyQuant(flag_object, experiment=experiment, run=run)
-    compile_all_Quant(flag_object, True, 15 , 1, "ExecutionsExp15Run1", "../../logsHumanEvalXExp15Run1")
+    
+    # file_count = count_generated_files(flag_object, experiment, run)
+
+    # while file_count < 3500:        
+    #     file_count = count_generated_files(flag_object, experiment, run)
+    #     translateInititialyQuant(flag_object, experiment=experiment, run=run)
+    #     print(f"Current generated files: {file_count}")
+
+    # compile_all_Quant(flag_object, True, experiment,run, f'ExecutionsExp{experiment}Run{run}', f'../../logsHumanEvalXExp{experiment}Run{run}')
+       
+   
+    # translateInititialy(flag_object)
+    # compile_all_Quant(flag_object)
     # compile_all(flag_object)
 
     # if flag_object.reTranslate: 
     #     reTranslate()
-    #     compile_all(flag_object)no
+    #     compile_all(flag_object)
 
 
     # reTranslateRun(flag_object, experiment, run)
-    # reTranslateRunQuant(flag_object, experiment, run)
+    reTranslateRunQuant(flag_object, experiment, run)
 
-    # TranslateBySplit(flag_object, experiment, run)
     # compile_all(flag_object, True)
 
-    # TranslateBySplitQuant(flag_object, experiment, run)
     # compile_all_Quant(flag_object, True, 9,14, "ExecutionsExp9Run14", "../../logsHumanEvalXExp9Run14")
 
-    # translateInititialy(flag_object, experiment, run)
-
-    # translateInititialyQuant(flag_object, experiment=experiment, run=run)

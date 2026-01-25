@@ -1,0 +1,4 @@
+language,File Path,JavascriptToJava.java,returncode,input,Expected,actualy
+Java,./Projects/HumanEvalX\29\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToJava.java,JavascriptToJava.java,0,"[[], 'john']",[],['[] john']
+Pascal,./Projects/HumanEvalX\29\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavascriptToPascal.pas,JavascriptToPascal.pas,0,"[[], 'john']",[],
+C#,./Projects/HumanEvalX\71\ExecutionsExp23Run1\01-14-2026_14h34m36s\JavaToC#.cs,JavaToC#.cs,0,"[4, 8, 5]",0.01,"(8, 18)"
