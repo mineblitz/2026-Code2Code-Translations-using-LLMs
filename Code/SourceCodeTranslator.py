@@ -541,18 +541,15 @@ def reTranslateRunQuant(flag_object, experiment, run):
 
     ExecutionsDirNameCurrent = ExecutionsDirName+str(0)
     Projects = os.listdir(pathOverall)
-    # kopiert firstTranslation auf welche retranslate angewandt weden soll
     for entry in Projects:           
         basePath = os.path.join(pathOverall, entry)   
         initialDir_Dir = os.path.join(pathOverall, entry, initialDir)   
         if not os.path.exists(initialDir_Dir): 
             copyToNewDirQuant(initialDir,basePath, flag_object)
-    # initiales kompilieren um retranslate.csv zu füllen
     if not os.path.exists(source_dirLogs):
         compile_all_Quant(flag_object, False, experiment, run,initialDir, initialDirLogs)
 
     while True:
-        # Kopieren der bereits kompilierten Programme in name_counter für dokumentations zwecke
         ExecutionsDirNameCurrent = ExecutionsDirName+str(counter)
         Projects = os.listdir(pathOverall)
         for entry in Projects:           
@@ -564,16 +561,12 @@ def reTranslateRunQuant(flag_object, experiment, run):
         LogsDirNameCurrent = LogsDirName+str(counter+1)
         Logsdestination_dir = os.path.join(pathOverall, "0", LogsDirNameCurrent)    
 
-        # wird auf 1 initialisiert damit es beim vergleich nicht abbricht, wenn schon einige schritte durhcgeführt wurden und dahin gesprungen werdne soll
-        FailedBefore=1 #initialise
-        FailedAfter=0
+        FailedBefore = 1 # initialise
+        FailedAfter = 0
 
-        # wenn noch kein logs dir vorhanden ist wird es ausgeführt
         if os.path.exists(source_dir) and not os.path.exists(Logsdestination_dir):
             FailedBefore = getNumberOfFails()
-            # kopieren der reTranslate für dokuzwecke 
             shutil.copy('./reTranslate.csv', './reTranslate.csv'+str(counter))  
-            # überspringen bis dahin falls abgebrochen wurde während durchlauf
             if counter >= ReturnCounter: 
                 reTranslate(flag_object, initialDir, ExecutionsDirNameCurrent)
                 # vorheriger log pfad um erfolgreiche übersetzungen nicht erneut zu kompilieren
@@ -595,7 +588,6 @@ def reTranslateRunQuant(flag_object, experiment, run):
             print(diffFailed/FailedBefore)
             break 
 
-        # finale kopie
     Projects = os.listdir(pathOverall)
     ExecutionsDirNameCurrent = ExecutionsDirName+str(counter)
     for entry in Projects:          
@@ -744,14 +736,9 @@ class FlagObject:
 
         
 if __name__ == "__main__":  
-    # Index der Experimente startet bei 0 
     experiment = 23
     run = 1
     experimentDataJsonFile = f"./RunsJsonData/Experiment{experiment}Run{run}.json"
-
-    # ein kommentieren wenn du es zum ersetzen mal runst damit es gespeichert wird
-    # nicht vergessen den File zu Ändern
-    # saveJsonVariables(experimentDataJsonFile)
 
     with open(experimentDataJsonFile, 'r') as file:
         jsonData = json.load(file)

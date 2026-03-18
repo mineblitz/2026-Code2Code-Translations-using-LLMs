@@ -94,7 +94,6 @@ def getCodeExplanationAsync(client, flag_object, SOURCE_CODE, TEXT_SOURCE_LANG, 
             responseMessage = completion.output_text
         
         case _:
-            # Default für andere Modelle - nutze chat completions
             completion = client.chat.completions.create(
                 model=flag_object.modelName,
                 messages=[
@@ -798,7 +797,6 @@ def reTranslateRunQuant(flag_object, experiment, run):
 
     ExecutionsDirNameCurrent = ExecutionsDirName+str(0)
     Projects = os.listdir(pathOverall)
-    # kopiert firstTranslation auf welche retranslate angewandt weden soll
     for entry in Projects:           
         basePath = os.path.join(pathOverall, entry)   
         initialDir_Dir = os.path.join(pathOverall, entry, initialDir)   
@@ -806,7 +804,6 @@ def reTranslateRunQuant(flag_object, experiment, run):
             copyToNewDirQuant(initialDir,basePath, flag_object)
 
     while True:
-        # Kopieren der bereits kompilierten Programme in name_counter für dokumentations zwecke
         ExecutionsDirNameCurrent = ExecutionsDirName+str(counter)
         Projects = os.listdir(pathOverall)
         for entry in Projects:           
@@ -816,19 +813,15 @@ def reTranslateRunQuant(flag_object, experiment, run):
         LogsDirNameCurrent = LogsDirName+str(counter+1)
         Logsdestination_dir = os.path.join(pathOverall, "0", LogsDirNameCurrent)    
 
-        # wird auf 1 initialisiert damit es beim vergleich nicht abbricht, wenn schon einige schritte durhcgeführt wurden und dahin gesprungen werdne soll
         FailedBefore=1 #initialise
         FailedAfter=0
-
-        # wenn noch kein logs dir vorhanden ist wird es ausgeführt
 
         print("Compiling all translations..." + Logsdestination_dir)
         FailedBefore = getNumberOfFails()
         inputTokens, outPuttokens = reTranslate(flag_object, initialDir, ExecutionsDirNameCurrent)
 
-                # vorheriger log pfad um erfolgreiche übersetzungen nicht erneut zu kompilieren
         PrevlogPath = LogsDirName+str(counter) 
-        print("Tokens für alle RUns: " + str((inputTokens, outPuttokens)))     
+        print("Tokens for all runs: " + str((inputTokens, outPuttokens)))     
         break 
 
 def getNumberOfFails():
@@ -983,10 +976,6 @@ if __name__ == "__main__":
     run = 2
 
     experimentDataJsonFile = f"./RunsJsonData/Experiment{experiment}Run{run}.json"
-
-    # ein kommentieren wenn du es zum ersetzen mal runst damit es gespeichert wird
-    # nicht vergessen den File zu Ändern
-    # saveJsonVariables(experimentDataJsonFile)
 
     with open(experimentDataJsonFile, 'r') as file:
         jsonData = json.load(file)

@@ -856,7 +856,6 @@ def addPythonStructure(functions):
     functionsString = "\n".join(functions)
     imports = "\n".join(IMPORT_HELPER["python"]) + "\n"
     code = imports + functionsString
-# eventuell noch aufruf für main funktion hinzufügen
     return code
 
 def addJavascriptStructure(functions):
@@ -869,7 +868,6 @@ def addCPPStructure(functions):
     functionsString = "\n".join(functions)
     imports = "\n".join(IMPORT_HELPER["C++"]) + "\n"
     code = imports + functionsString
-# eventuell noch KLassenstruktur
     return code
 
 

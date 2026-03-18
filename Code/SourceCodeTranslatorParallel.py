@@ -94,7 +94,6 @@ def getCodeExplanationAsync(client, flag_object, SOURCE_CODE, TEXT_SOURCE_LANG, 
             responseMessage = completion.output_text
         
         case _:
-            # Default für andere Modelle - nutze chat completions
             completion = client.chat.completions.create(
                 model=flag_object.modelName,
                 messages=[
@@ -780,46 +779,36 @@ def reTranslateRunQuant(flag_object, experiment, run):
 
     ExecutionsDirNameCurrent = ExecutionsDirName+str(0)
     Projects = os.listdir(pathOverall)
-    # kopiert firstTranslation auf welche retranslate angewandt weden soll
     for entry in Projects:           
         basePath = os.path.join(pathOverall, entry)   
         initialDir_Dir = os.path.join(pathOverall, entry, initialDir)   
         if not os.path.exists(initialDir_Dir): 
             copyToNewDirQuant(initialDir,basePath, flag_object)
-    # initiales kompilieren um retranslate.csv zu füllen
     if not os.path.exists(source_dirLogs):
         compile_all_Quant(flag_object, False, experiment, run,initialDir, initialDirLogs)
 
     while True:
-        # Kopieren der bereits kompilierten Programme in name_counter für dokumentations zwecke
         ExecutionsDirNameCurrent = ExecutionsDirName+str(counter)
         Projects = os.listdir(pathOverall)
         for entry in Projects:           
             destination_dir = os.path.join(pathOverall, entry, ExecutionsDirNameCurrent)   
             initialDir_Dir = os.path.join(pathOverall, entry, initialDir)   
             if not os.path.exists(destination_dir): 
-                # Dateien in expXRunY müssen nicht gelöscht werden da sie überschrieben werden
-                # print(f"Kopiere {initialDir_Dir} nach {destination_dir}")
                 shutil.copytree(initialDir_Dir, destination_dir)
 
         LogsDirNameCurrent = LogsDirName+str(counter+1)
         Logsdestination_dir = os.path.join(pathOverall, "0", LogsDirNameCurrent)    
 
-        # wird auf 1 initialisiert damit es beim vergleich nicht abbricht, wenn schon einige schritte durhcgeführt wurden und dahin gesprungen werdne soll
         FailedBefore=1 #initialise
         FailedAfter=0
 
-        # wenn noch kein logs dir vorhanden ist wird es ausgeführt
         if os.path.exists(source_dir) and not os.path.exists(Logsdestination_dir):
             print("Compiling all translations..." + Logsdestination_dir)
             FailedBefore = getNumberOfFails()
-            # kopieren der reTranslate für dokuzwecke 
             shutil.copy('./reTranslate.csv', './reTranslate.csv'+str(counter))  
-            # überspringen bis dahin falls abgebrochen wurde während durchlauf
             if counter >= ReturnCounter: 
                 reTranslate(flag_object, initialDir, ExecutionsDirNameCurrent)
                 os.remove('./reTranslate.csv')
-                # vorheriger log pfad um erfolgreiche übersetzungen nicht erneut zu kompilieren
             PrevlogPath = LogsDirName+str(counter) 
             print("Compiling all translations...") 
             compile_all_Quant(flag_object, False, experiment, run,initialDir, LogsDirNameCurrent,PrevlogPath)       
@@ -829,7 +818,6 @@ def reTranslateRunQuant(flag_object, experiment, run):
         
         diffFailed = FailedBefore - FailedAfter
         print("Percentage Improvement: " + str(diffFailed/FailedBefore))
-        # Numbers only work for HumanEvalX
         successfulTranslation = ((3500 - FailedAfter) / 3500) * 100
         print("Erfolgreiche Übersetzungen: " + str(successfulTranslation) + "%")
 
@@ -1005,10 +993,6 @@ if __name__ == "__main__":
     run = 1
 
     experimentDataJsonFile = f"./RunsJsonData/Experiment{experiment}Run{run}.json"
-
-    # ein kommentieren wenn du es zum ersetzen mal runst damit es gespeichert wird
-    # nicht vergessen den File zu Ändern
-    # saveJsonVariables(experimentDataJsonFile)
 
     with open(experimentDataJsonFile, 'r') as file:
         jsonData = json.load(file)

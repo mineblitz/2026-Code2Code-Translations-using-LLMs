@@ -25,16 +25,8 @@ avgTokenCodexIn = 891.1428571
 avgTokenCodexOut = 2836
 results = []
 
-# vorherige summe - jetzige summe = diff
-# wenn diff zu klein abbreichen als parameter mitgeben
-# cost tracken was schon ausgeführt wird
-
 
 def get_QualityToCode_DataGPT(experiment, run, threshold):
-    # lädt erstes Dataset von retranslate gpt
-    # wenn diff/prev_diff < threshold abbruch 
-    # rückgabe von liste mit allen Matrizen für jedes program
-    # 
     dirname = os.path.dirname(__file__)
     fullProjectDir = os.path.join(dirname, 'Projects')
 
@@ -82,7 +74,6 @@ def get_QualityToCode_DataGPT(experiment, run, threshold):
 
 def get_all_dataframes(executionDir):
     allDataframes = []
-    # alle Dateien im Verzeichnis durchgehen
     for fname in os.listdir(executionDir):
         # nur compilation_matrixXXX mit XXX = Zahl
         if not fname.startswith("compilation_matrix"):
@@ -102,10 +93,6 @@ def get_all_dataframes(executionDir):
     return allDataframes
 
 def fix_with_other_model(experiment, run, gptDataFrames):
-    # äußere schleife anzahl der durchgeführten iteration für retranslate
-    # iteriert über alle dataframes
-    # pro matrix wird geschaut ob fehler da ist wenn nein counter 1 hoch
-    # und wert in matrix erstetzen
     dirname = os.path.dirname(__file__)
     fullProjectDir = os.path.join(dirname, 'Projects')
 
